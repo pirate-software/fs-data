@@ -92,7 +92,7 @@ jobs:
 
       - name: Restore latest assets
         if: ${{ steps.cache.outputs.cache-hit == '' }}
-        run: npm run populate
+        run: npm run populate || echo "No previously published version found"
 
       # If this push wasn't to main, add the commit hash to the version
       - name: Update version
