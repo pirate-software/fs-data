@@ -5,7 +5,7 @@ import { birthdayStringSchema, partialDateStringSchema } from "../types";
 
 export const ferretSchema = z.object({
   name: z.string(),
-  alternate: z.array(z.string()).readonly(),
+  aliases: z.array(z.string()).readonly(),
   commands: z.array(z.string()).readonly(),
   sex: z.literal(["Male", "Female"]).nullable(),
   birth: partialDateStringSchema.nullable(),
@@ -41,7 +41,7 @@ export type Ferret = z.infer<typeof ferretSchema>;
 const ferrets = {
   beans: {
     name: "Beans",
-    alternate: [
+    aliases: [
       "Unrepentant Ear Criminal",
       "Beanus Weenus",
       "Bean boy",
@@ -72,11 +72,11 @@ const ferrets = {
   },
   pickle: {
     name: "Pickle",
-    alternate: ["Chaos incarnate", "Water bongo"],
+    aliases: ["Chaos incarnate", "Water bongo"],
     commands: ["pickle", "pickles"],
     sex: "Male",
     birth: null,
-    birthday: "08-03",
+    birthday: "09-16", //"08-03",
     arrival: "2023-08-07",
     valhalla: null,
     playgroup: "genpop",
