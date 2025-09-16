@@ -1,8 +1,9 @@
-# Alveus.gg Shared Data
+# Ferret Software Shared Data
 
-Shared data repository for Alveus.gg projects, installed as a dependency in the
-[website](https://github.com/alveusgg/alveusgg) and
-[extension](https://github.com/alveusgg/extension) repositories.
+Shared data repository for Ferret Software projects, installed as a dependency in the
+[fs-extension](https://github.com/pirate-software/fs-extension) repository.
+
+This project is a modified version of the [alveusgg/data](https://github.com/alveusgg/data) repository.
 
 ## Installation
 
