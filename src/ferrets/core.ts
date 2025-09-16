@@ -32,7 +32,8 @@ export const ferretSchema = z.object({
         other: z.string(),
       }),
     ])
-    .nullable(),
+    .nullable()
+    .optional(),
 });
 
 export type Ferret = z.infer<typeof ferretSchema>;
@@ -68,6 +69,26 @@ const ferrets = {
     merch: {
       plushie: "https://merch.piratesoftware.live/products/beans-plush",
     },
+  },
+  pickle: {
+    name: "Pickle",
+    alternate: ["Chaos incarnate", "Water bongo"],
+    commands: ["pickle", "pickles"],
+    sex: "Male",
+    birth: null,
+    birthday: "08-03",
+    arrival: "2023-08-07",
+    valhalla: null,
+    playgroup: "genpop",
+    summary:
+      "Pickle is a rescue ferret of Snail's House. He is a super playful ferret of the babies and loves wardancing with everyone. He is the origin story for the yarrBongo and yarrGrass emotes. ",
+    lore: "Pickle was surrendered to the rescue by a pet store along with his bonded friend Spud and fellow cage mate Lucky because the store was opting out of selling ferrets. He has Waardenburg and is completely deaf. Waardenburg syndrome can cause deafness and behavioral issues in ferrets. Cage mate ferrets can develop similar behavioral issues due to this style of play within their cage.",
+    clips: [
+      {
+        id: "InquisitiveHedonisticDragonHumbleLife-R-DP1gyPjtYy3WL-",
+        caption: "Pickle fountain goblin (bongos)",
+      },
+    ],
   },
 } as const satisfies Record<string, Ferret>;
 

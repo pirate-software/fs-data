@@ -47,9 +47,13 @@ import beansYarrWave from "../assets/ferrets/beans/yarrWave.gif";
 import beansYarrWhy from "../assets/ferrets/beans/yarrWhy.gif";
 import beansYarrWOW from "../assets/ferrets/beans/yarrWOW.gif";
 
-// import picklesYarrBongos from "../assets/ferrets/pickles/yarrBongos.gif";
-// import picklesYarrGlue from "../assets/ferrets/pickles/yarrGlue.png";
-// import picklesYarrGrass from "../assets/ferrets/pickles/yarrGrass.gif";
+import pickleMugshot from "../assets/ferrets/pickle/mugshot.png";
+
+import pickleImage01 from "../assets/ferrets/pickle/01.png";
+
+import pickleYarrBongos from "../assets/ferrets/pickle/yarrBongos.gif";
+import pickleYarrGlue from "../assets/ferrets/pickle/yarrGlue.png";
+import pickleYarrGrass from "../assets/ferrets/pickle/yarrGrass.gif";
 
 // import snailsYarrDumpy from "../assets/ferrets/snails/yarrDumpy.png";
 
@@ -102,6 +106,12 @@ const ferretImages: {
       alt: "Beans and Onion snake mode drawing by Spice Link",
     },
   ],
+  pickle: [
+    {
+      src: pickleImage01,
+      alt: "Drawing by Shaye",
+    },
+  ],
   //TODO
 };
 
@@ -116,6 +126,7 @@ export const ferretMugshots: Partial<{
   [key in FerretKey]: FerretImage;
 }> = {
   beans: { src: beansMugshot, alt: "Beans Mugshot" },
+  pickle: { src: pickleMugshot, alt: "Pickle Mugshot" },
   //TODO
 };
 
@@ -171,11 +182,11 @@ export const ferretEmoteImages: Partial<{
     { src: beansYarrWhy, alt: "yarrWhy" },
     { src: beansYarrWOW, alt: "yarrWOW" },
   ],
-  // pickles: [
-  //   { src: picklesYarrBongos, alt: "yarrBongos" },
-  //   { src: picklesYarrGlue, alt: "yarrGlue" },
-  //   { src: picklesYarrGrass, alt: "yarrGrass" },
-  // ],
+  pickle: [
+    { src: pickleYarrBongos, alt: "yarrBongos" },
+    { src: pickleYarrGlue, alt: "yarrGlue" },
+    { src: pickleYarrGrass, alt: "yarrGrass" },
+  ],
   // snails: [
   //   { src: snailsYarrDumpy, alt: "yarrDumpy" },
   // ],
