@@ -1,0 +1,55 @@
+{
+  "name": "@alveusgg/data",
+  "version": "0.66.1",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alveusgg/data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alveusgg/data/issues"
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.ts\"",
+    "lint:fix": "eslint \"**/*.ts\" --fix",
+    "format": "prettier --write \"**/*.{ts,css}\"",
+    "format:check": "prettier --check \"**/*.{ts,css}\"",
+    "test": "tsc --noEmit",
+    "build": "tsup",
+    "populate": "tsx scripts/optimize.ts",
+    "iucn": "tsx scripts/iucn.ts",
+    "prepare": "husky"
+  },
+  "type": "module",
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "@npmcli/config": "^10.4.0",
+    "@types/node": "^22.18.1",
+    "@types/npmcli__config": "^6.0.3",
+    "@types/pacote": "^11.1.8",
+    "eslint": "^9.35.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.6",
+    "pacote": "^21.0.1",
+    "prettier": "^3.6.2",
+    "sharp": "^0.34.3",
+    "tailwindcss": "^4.1.13",
+    "ts-morph": "^26.0.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.42.0",
+    "zod": "^4.1.5"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^4.0.0",
+    "zod": "^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "tailwindcss": {
+      "optional": true
+    }
+  }
+}
