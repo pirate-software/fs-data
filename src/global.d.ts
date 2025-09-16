@@ -12,3 +12,8 @@ declare module "*.jpeg" {
   const value: unknown;
   export default value;
 }
+
+declare module "*.gif" {
+  const value: unknown;
+  export default value;
+}

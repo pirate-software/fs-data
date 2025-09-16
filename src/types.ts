@@ -13,6 +13,7 @@ export type PartialDateString =
   | DateStringYear
   | DateStringYearMonth
   | DateString;
+export type BirthdayString = `${DateStringMonth}-${DateStringDay}`;
 
 export const isPartialDateString = (
   value: string,
@@ -25,9 +26,20 @@ export const isPartialDateString = (
   ).test(value);
 };
 
+export const isBirthdayString = (value: string): value is BirthdayString => {
+  const month = "(0[1-9]|1[0-2])";
+  const day = "(0[1-9]|[12][0-9]|3[01])";
+  return new RegExp(`^(${month}|${month}-${day})$`).test(value);
+};
+
 export const partialDateStringSchema = z.custom<PartialDateString>(
   (value) => typeof value === "string" && isPartialDateString(value),
   "must be a valid partial date string (YYYY-MM-DD, YYYY-MM, YYYY)",
+);
+
+export const birthdayStringSchema = z.custom<BirthdayString>(
+  (value) => typeof value === "string" && isBirthdayString(value),
+  "must be a valid birthday string (MM-DD)",
 );
 
 export type Nullable<T> = T | null;
