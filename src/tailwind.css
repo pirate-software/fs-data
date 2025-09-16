@@ -105,6 +105,42 @@
   --color-alveus-green-800: oklch(from #484d45 l c h);
   --color-alveus-green-900: oklch(from #2c2f2b l c h);
 
+  --color-fs-tan: oklch(from #ffe6c4 l c h);
+  --color-fs-tan-50: oklch(from #fff4e5 l c h);
+  --color-fs-tan-100: oklch(from #ffe9cc l c h);
+  --color-fs-tan-200: oklch(from #ffd499 l c h);
+  --color-fs-tan-300: oklch(from #ffbe66 l c h);
+  --color-fs-tan-400: oklch(from #ffa933 l c h);
+  --color-fs-tan-500: oklch(from #ff9300 l c h);
+  --color-fs-tan-600: oklch(from #cc7600 l c h);
+  --color-fs-tan-700: oklch(from #995800 l c h);
+  --color-fs-tan-800: oklch(from #663b00 l c h);
+  --color-fs-tan-900: oklch(from #331d00 l c h);
+
+  --color-fs-pink: oklch(from #ffc9b1 l c h);
+  --color-fs-pink-50: oklch(from #ffede5 l c h);
+  --color-fs-pink-100: oklch(from #ffdccc l c h);
+  --color-fs-pink-200: oklch(from #ffb899 l c h);
+  --color-fs-pink-300: oklch(from #ff9566 l c h);
+  --color-fs-pink-400: oklch(from #ff7233 l c h);
+  --color-fs-pink-500: oklch(from #ff4e00 l c h);
+  --color-fs-pink-600: oklch(from #cc3f00 l c h);
+  --color-fs-pink-700: oklch(from #992f00 l c h);
+  --color-fs-pink-800: oklch(from #661f00 l c h);
+  --color-fs-pink-900: oklch(from #331000 l c h);
+
+  --color-fs-black: oklch(from #2a0600 l c h);
+  --color-fs-black-50: oklch(from #ffe9e5 l c h);
+  --color-fs-black-100: oklch(from #ffd3cc l c h);
+  --color-fs-black-200: oklch(from #ffa899 l c h);
+  --color-fs-black-300: oklch(from #ff7c66 l c h);
+  --color-fs-black-400: oklch(from #ff5033 l c h);
+  --color-fs-black-500: oklch(from #ff2400 l c h);
+  --color-fs-black-600: oklch(from #cc1d00 l c h);
+  --color-fs-black-700: oklch(from #991600 l c h);
+  --color-fs-black-800: oklch(from #660f00 l c h);
+  --color-fs-black-900: oklch(from #330700 l c h);
+
   --color-fall: oklch(from #834a26 l c h);
 
   --color-carnival: oklch(from #4e1362 l c h);

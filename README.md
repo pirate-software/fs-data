@@ -48,7 +48,6 @@ dependency:
 Alternatively for maintainers with write access to the repository, with the version updated, push
 the pre-release branch to GitHub and install the version reported by the `publish/publish` action:
 
-- Website: `cd apps/website && pnpm add @pirate-software/fs-data@<version>-pre.<hash>`
 - Extension: `pnpm add @pirate-software/fs-data@<version>-pre.<hash>`
 
 When the change is ready to release, update the version in this repository using
