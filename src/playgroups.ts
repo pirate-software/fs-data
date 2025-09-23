@@ -2,13 +2,53 @@ import { z } from "zod";
 
 export type Playgroup = {
   name: string;
+  description: string;
 };
 
 export type PlaygroupKey = keyof typeof playgroups;
 
 const playgroups = {
+  bepeepo: {
+    name: "BePeepo",
+    description: "Badger and Peepo's playgroup.",
+  },
   genpop: {
     name: "General Population",
+    description:
+      "The biggest playgroup of ferrets in the rescue consisting of 20+ ferrets. During nightcam the cage of gen pop will be in view.",
+  },
+  kyosai: {
+    name: "Kyo & Sai",
+    description: "Kyo and Sai's playgroup.",
+  },
+  m: {
+    name: "M3",
+    description: "Big Mike, Maisy, and Milo's playgroup.",
+  },
+  oldies: {
+    name: "Oldies",
+    description:
+      "Playgroup consisting of the older ferrets, being 5+ years old.",
+  },
+  pms: {
+    name: "PMS",
+    description: "Pepper, Moose, and Salt's playgroup.",
+  },
+  rb: {
+    name: "R&B",
+    description: "Rusty and Bruce's playgroup.",
+  },
+  solo: {
+    name: "Solo",
+    description: "Ferrets who usually go out solo.",
+  },
+  valhalla: {
+    name: "Valhalla",
+    description: "Ferrets who have passed away.",
+  },
+  vons: {
+    name: "Vons",
+    description: "Vincent, Onion, Nacho, and Salsa's playgroup.",
   },
 } as const satisfies Record<string, Playgroup>;
 

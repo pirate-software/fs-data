@@ -1,4 +1,9 @@
 // @ts-check
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config(tseslint.configs.recommended)
+export default tseslint.config(
+  tseslint.configs.recommended,
+  {
+    ignores: ['wikiscraper/**/*']
+  }
+)
