@@ -1,7 +1,11 @@
 from requests import get
 import regex as re
 import os
+import sys
 import json
+import csv
+from enum import Enum
+from typing import List
 
 API_BASE_URL = "https://ferrets.piratesoftware.wiki/w/api.php"
 
@@ -20,22 +24,24 @@ def __to_custom_json_stringval__(s: str) -> str:
     quotechar = '"' if '\n' not in s else "`"
     return f'{quotechar}{s.replace(quotechar, f"\\{quotechar}")}{quotechar}'
 
-def to_custom_json(d: dict, indent: int = 0) -> str: # generate json output string based on typescript format
+def to_custom_json(d: dict, indent: int = 0, srcVar: bool = False) -> str: # generate json output string based on typescript format
     out = "{\n"
     indent += 1
     spaces = "  "*indent
     for k, v in d.items():
-        if isinstance(v, str):
+        if srcVar and k == "src" and isinstance(v, str):
+            out += spaces + f'{k}: {v},\n'
+        elif isinstance(v, str):
             out += spaces + f'{k}: {__to_custom_json_stringval__(v)},\n'
         elif v == None:
             out += spaces + f"{k}: null,\n"
         elif isinstance(v, list):
-            out += spaces + f'{k}: [' + ", ".join(to_custom_json(x, indent) if isinstance(x, dict) else __to_custom_json_stringval__(x) for x in v) + "],\n"
+            out += spaces + f'{k}: [' + ", ".join(to_custom_json(x, indent, srcVar) if isinstance(x, dict) else __to_custom_json_stringval__(x) for x in v) + "],\n"
         elif isinstance(v, dict):
             if len(v) == 0:
                 out += spaces + f"{k}: {{}},\n"
             else:
-                out += spaces + f'{k}: ' + to_custom_json(v, indent) + ",\n"
+                out += spaces + f'{k}: ' + to_custom_json(v, indent, srcVar) + ",\n"
         else:
             print(f"Warning: unhandled type {type(v)} for key {k}")
     return out + "  "*(indent-1) + "}"
@@ -87,7 +93,7 @@ def get_clips_table() -> list[dict]:
     return get_cargo_table("ClipEntries", "Ferrets,Link,Title")
 
 def get_picture_table() -> list[dict]:
-    return get_cargo_table("PictureEntries", "Ferrets,File")
+    return get_cargo_table("PictureEntries", "Ferrets,File,Title")
 
 def get_page_content(page_name: str) -> str:
     page_params = {
@@ -159,8 +165,58 @@ def de_wikitext(s: str) -> str: # Wikitext to plain text
     s = re.sub(r"\{\{.*?\}\}", "", s)  # Remove templates
     return s.strip() 
 
-def generate_core_json() -> None:
-    ferrets = get_ferret_table()
+
+def main():
+    # check current dir is "wikiscraper"
+    if not os.path.exists("scrape.py"):
+        print("Please run this script from the 'wikiscraper' directory")
+        exit(1)
+
+    wiki_down = any(arg in ("--no-wiki", "-n") for arg in sys.argv[1:])
+
+    try:
+        if not wiki_down:
+            print("Fetching ferrets table")
+        ferrets = get_ferret_table() if not wiki_down else []
+    except:
+        print("Failed to get ferrets. The wiki is probably down.")
+        wiki_down = True
+        ferrets = []
+
+    if not wiki_down and len(ferrets) < 60:
+        print("Less than 60 ferrets found, something is probably wrong")
+        exit(1)
+    
+    while True:
+        print("\nSelect an option:")
+        if not wiki_down:
+            print("1. Download Mugshots")
+            print("2. Generate core.ts JSON")
+            print("3. Get Other Images and Save Captions to CSV")
+        print("4. Generate images.ts imports + JSON")
+        print("9. Exit")
+        choice = input("Enter your choice: ")
+
+        if choice == "1" and not wiki_down:
+            for ferret in ferrets:
+                if not save_mugshot(ferret["name"]):
+                    print(f"Failed to save mugshot for {ferret['name']}")
+            print("Images downloaded and saved")
+        elif choice == "2" and not wiki_down:
+            generate_core_json(ferrets)
+            print("core_snippet.ts generated")
+        elif choice == "3" and not wiki_down:
+            download_pictures(ferrets)
+            print("Other images downloaded and saved")
+        elif choice == "4":
+            generate_images_ts_json()
+            print("images.ts generated")
+        elif choice == "9":
+            break
+        else:
+            print("Invalid choice, please try again.")
+
+def generate_core_json(ferrets: list[dict]) -> None:
     ferret_data = dict()
 
     for ferret in ferrets:
@@ -302,54 +358,28 @@ def generate_core_json() -> None:
     ferret_data_string = "const ferrets = " + to_custom_json(ferret_data) + " as const satisfies Record<string, Ferret>;"
     with open("core_snippet.ts", "w", encoding="utf-8") as f:
         f.write(ferret_data_string)
-
-
-def main():
-    ferrets = get_ferret_table()
-
-    if len(ferrets) < 60:
-        print("Less than 60 ferrets found, something is probably wrong")
-        exit(1)
-
-    while True:
-        print("\nSelect an option:")
-        print("1. Download Mugshots")
-        print("2. Generate core.ts JSON")
-        print("3. Get Other Images")
-        print("4. Generate images.ts JSON")
-        print("9. Exit")
-        choice = input("Enter your choice: ")
-
-        if choice == "1":
-            for ferret in ferrets:
-                if not save_mugshot(ferret["name"]):
-                    print(f"Failed to save mugshot for {ferret['name']}")
-            print("Images downloaded and saved")
-        elif choice == "2":
-            generate_core_json()
-            print("Ferret data JSON generated")
-        elif choice == "3":
-            download_pictures(ferrets)
-        elif choice == "4":
-            # TODO
-            print("Not implemented yet")    
-        elif choice == "9":
-            break
-        else:
-            print("Invalid choice, please try again.")
+    
+    with open("core_snippet.json", "w", encoding="utf-8") as f: # regular json output for other uses
+        json.dump(ferret_data, f, indent=2)
 
 def download_pictures(ferrets):
     pictures = get_picture_table()
     print(f"Found {len(pictures)} pictures")
+
+    picture_data = dict()
+
     ferret_counts = dict()
     for ferret in ferrets:
         ferret_counts[ferret["name"]] = 0
+        picture_data[ferret["name"]] = []
+    
     for i, pic in enumerate(pictures):
         ferret_names = [name.strip() for name in pic["Ferrets"].split(";")]
         for ferret_name in ferret_names:
             file_extension = pic['File'].split(".")[-1].lower()
             ferret_counts[ferret_name] = ferret_counts[ferret_name] + 1
-            filename = f"../src/assets/ferrets/{remove_spaces(ferret_name).lower()}/{ferret_counts[ferret_name]:02d}.{file_extension}"
+            ferret_no_space = remove_spaces(ferret_name).lower()
+            filename = f"../src/assets/ferrets/{ferret_no_space}/{ferret_counts[ferret_name]:02d}.{file_extension}"
             if file_extension not in ["png", "jpg", "jpeg", "gif", "bmp", "webp"]:
                 print(f"Skipping unsupported file type: {filename}")
                 continue
@@ -357,14 +387,151 @@ def download_pictures(ferrets):
                 print(f"Failed to save image {pic['File']} for {ferret_name}")
             else:
                 print(f"Saved image {i+1}/{len(pictures)}: {filename}")
-    print("Other images downloaded and saved")
+                alt = de_wikitext(pic["Title"].strip())
+                if not alt:
+                    alt = None
+                picture_data[ferret_name].append({
+                    "ferret_no_space": ferret_no_space,
+                    "src": filename.split("/")[-1],
+                    "alt": alt
+                })
+    
+    # save picture data to csv
+    with open("pictures.csv", "w", newline="", encoding="utf-8") as csvfile:
+        fieldnames = ["ferret_name", "ferret_no_space", "src", "alt"]
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-    # for ferret in ferrets[:1]:
-    #     page = get_page_content(ferret["name"])
-    #     print(page)
-    #     print("="*200)
-    #     match = INFOBOX_REGEX.search(page)
-    #     print(match.groups())
+        writer.writeheader()
+        for ferret_name, pics in picture_data.items():
+            for pic in pics:
+                writer.writerow({
+                    "ferret_name": ferret_name,
+                    "ferret_no_space": pic["ferret_no_space"],
+                    "src": pic["src"],
+                    "alt": pic["alt"] if pic["alt"] else ""
+                })
+
+class ImageType(Enum):
+    MUGSHOT = 1
+    PHOTO = 2
+    EMOTE = 3
+
+class ImageEntry:
+    def __init__(self, ferret_name: str, ferret_nospace: str, filename: str, alt: str | None, img_type: ImageType):
+        self.ferret_name = ferret_name
+        self.ferret_nospace = ferret_nospace
+        self.filename = filename
+        self.alt = alt
+        self.img_type = img_type
+
+def generate_images_ts_json():
+    images: List[ImageEntry] = []
+
+    # Load pictures.csv
+    with open("pictures.csv", "r", newline="", encoding="utf-8") as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            ferret_name = row["ferret"].strip()
+            ferret_nospace = remove_spaces(ferret_name).lower()
+            src = row["src"].strip()
+            alt = row["alt"].strip() if row["alt"].strip() else None
+            images.append(ImageEntry(ferret_name, ferret_nospace, src, alt, ImageType.PHOTO))
+
+    # Anything not in pictures.csv should either be an emote or a mugshot
+    # We find these by searching the assets/ferrets directory
+    # All mugshots are named mugshot.XXX
+    # all emotes start with either "yarr" or "dook" ie yarrSadge.gif or dookSniff.png
+    # mugshots should have alt="Mugshot of {ferret}"
+    # emotes should have alt="{ferret}'s {filename} emote"
+
+    with open("core_snippet.json", "r", encoding="utf-8") as f:
+        core_data = json.load(f)
+
+    assets_dir = "../src/assets/ferrets"
+    for ferret_dir in os.listdir(assets_dir):
+        ferret_path = os.path.join(assets_dir, ferret_dir)
+        if not os.path.isdir(ferret_path):
+            print(f"Skipping non-directory {ferret_path}")
+            continue
+
+        # get ferret names from core_snippet.json
+        ferret_name = core_data.get(ferret_dir, {}).get("name")
+        ferret_nospace = remove_spaces(ferret_name).lower() if ferret_name else None
+
+        if not ferret_name:
+            print(f"Could not find ferret name for directory {ferret_dir}, skipping")
+            continue
+
+        for filename in os.listdir(ferret_path):
+            filepath = os.path.join(ferret_path, filename)
+            if not os.path.isfile(filepath):
+                continue
+
+            if re.match(r"mugshot\.(png|jpg|jpeg|gif|webp)$", filename, re.IGNORECASE): # mugshots
+                # mugshot
+                if any(img.filename == filename and img.ferret_name == ferret_name for img in images):
+                    continue # already in pictures.csv
+                alt = f"Mugshot of {ferret_name}"
+                images.append(ImageEntry(ferret_name, ferret_nospace, filename, alt, ImageType.MUGSHOT))
+            elif re.match(r"(?:yarr|dook).*\.(png|jpg|jpeg|gif|webp)$", filename, re.IGNORECASE): # emotes
+                # emote
+                if any(img.filename == filename and img.ferret_name == ferret_name for img in images):
+                    continue # already in pictures.csv
+                alt = f"{ferret_name}'s {filename.split('.')[0]} emote"
+                images.append(ImageEntry(ferret_name, ferret_nospace, filename, alt, ImageType.EMOTE))
+            else: # pictures
+                if any(img.filename == filename and img.ferret_name == ferret_name for img in images):
+                    continue # already in pictures.csv
+                print(f"Unknown image file {filename} for {ferret_name}, skipping")
+                continue
+
+    # Generate images_snippet.ts
+    importsString = ""
+    mugshotsDict = dict()
+    photosDict = dict()
+    emotesDict = dict()
+
+    # Mugshots
+    mugshots = [img for img in images if img.img_type == ImageType.MUGSHOT]
+    for img in mugshots:
+        varname = f"{img.ferret_nospace}Mugshot"
+        importsString += f'import {varname} from "../assets/ferrets/{remove_spaces(img.ferret_name).lower()}/{img.filename}";\n'
+        mugshotsDict[img.ferret_nospace] = {"src": varname, "alt": img.alt if img.alt else ""}
+    
+    importsString += "\n"
+
+    # Photos
+    photos = [img for img in images if img.img_type == ImageType.PHOTO]
+    for img in photos:
+        fileNoExt = int(img.filename.split('.')[0])
+        varname = f"{img.ferret_nospace}Image{fileNoExt}"
+        importsString += f'import {varname} from "../assets/ferrets/{remove_spaces(img.ferret_name).lower()}/{img.filename}";\n'
+        if img.ferret_nospace not in photosDict:
+            photosDict[img.ferret_nospace] = []
+        photosDict[img.ferret_nospace].append({"src": varname, "alt": img.alt if img.alt else ""})
+    
+    importsString += "\n"
+
+    # Emotes
+    emotes = [img for img in images if img.img_type == ImageType.EMOTE]
+    for img in emotes:
+        fileNoExt = img.filename.split('.')[0]
+        varname = f"{img.ferret_nospace}{fileNoExt[0].capitalize()}{fileNoExt[1:]}"
+        importsString += f'import {varname} from "../assets/ferrets/{remove_spaces(img.ferret_name).lower()}/{img.filename}";\n'
+        if img.ferret_nospace not in emotesDict:
+            emotesDict[img.ferret_nospace] = []
+        emotesDict[img.ferret_nospace].append({"src": varname, "alt": img.alt if img.alt else ""})
+
+    outString = importsString + "\n\n"
+    outString += "const ferretImages: Partial<{\n  [key in FerretKey]: FerretImages;\n}> = " + to_custom_json(photosDict, srcVar=True)+";\n\n"
+    outString += "const ferretMugshots: {\n  [key in FerretKey]: FerretImages;\n} = " + to_custom_json(mugshotsDict, srcVar=True)+";\n\n"
+    outString += "const ferretEmoteImages: Partial<{\n  [key in FerretKey]: FerretImages;\n}> = " + to_custom_json(emotesDict, srcVar=True)+";\n\n"
+
+    # write to images_snippet.ts
+    with open("images_snippet.ts", "w", encoding="utf-8") as f:
+        f.write(outString)
+    
+
 
 if __name__ == "__main__":
     main()

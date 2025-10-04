@@ -1,5 +1,5 @@
 img_out/*
 !img_out/.gitkeep
 out.*
-core_snippet.ts
-images_snippet.ts
+*snippet.*
+pictures.csv
