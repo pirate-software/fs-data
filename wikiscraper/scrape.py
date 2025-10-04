@@ -6,6 +6,7 @@ import json
 import csv
 from enum import Enum
 from typing import List
+from PIL import Image
 
 API_BASE_URL = "https://ferrets.piratesoftware.wiki/w/api.php"
 
@@ -194,6 +195,7 @@ def main():
             print("2. Generate core.ts JSON")
             print("3. Get Other Images and Save Captions to CSV")
         print("4. Generate images.ts imports + JSON")
+        print("5. Trim mugshots")
         print("9. Exit")
         choice = input("Enter your choice: ")
 
@@ -211,6 +213,9 @@ def main():
         elif choice == "4":
             generate_images_ts_json()
             print("images.ts generated")
+        elif choice == "5":
+            trim_mugshots()
+            print("Mugshots trimmed")
         elif choice == "9":
             break
         else:
@@ -530,7 +535,31 @@ def generate_images_ts_json():
     # write to images_snippet.ts
     with open("images_snippet.ts", "w", encoding="utf-8") as f:
         f.write(outString)
-    
+
+def trim_mugshots():
+    assets_dir = "../src/assets/ferrets"
+    for ferret_dir in os.listdir(assets_dir):
+        ferret_path = os.path.join(assets_dir, ferret_dir)
+        if not os.path.isdir(ferret_path):
+            print(f"Skipping non-directory {ferret_path}")
+            continue
+
+        mugshot_path = os.path.join(ferret_path, "mugshot.png")
+        if not os.path.isfile(mugshot_path):
+            print(f"No mugshot found for {ferret_dir}, skipping")
+            continue
+
+        # trim 10% from top, 15% from sides, 25% from bottom
+        with Image.open(mugshot_path) as img:
+            width, height = img.size
+            left = int(0.15 * width)
+            right = int(0.85 * width)
+            top = int(0.10 * height)
+            bottom = int(0.75 * height)
+            img_cropped = img.crop((left, top, right, bottom))
+
+            img_cropped.save(mugshot_path)
+            print(f"Trimmed and resized mugshot for {ferret_dir}")
 
 
 if __name__ == "__main__":
