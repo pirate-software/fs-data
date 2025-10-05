@@ -47,7 +47,7 @@ const playgroups = {
     description: "Ferrets who have passed away.",
   },
   vons: {
-    name: "Vons",
+    name: "VONS",
     description: "Vincent, Onion, Nacho, and Salsa's playgroup.",
   },
 } as const satisfies Record<string, Playgroup>;
