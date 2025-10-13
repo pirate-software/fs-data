@@ -120,6 +120,10 @@ const ferrets = {
         caption: "Badger throwing dooks with Peepo",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/MotionlessLaconicDugongArgieB8-xdzyFAn_tYaK151U",
+        caption: "Badger snuggle with Peepo",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/SavoryHyperPieAsianGlow-nGh0Mkao7dPe7r2Z",
         caption: "Badger plays rice box tag thru the box with Peepo",
       },
@@ -402,7 +406,7 @@ During the first night in his temporary cage (quarantine), he proceeded to rip o
     birthday: "02-20",
     arrival: "2021-07-02",
     valhalla: null,
-    playgroup: "genpop",
+    playgroup: "oldies",
     summary:
       "Beef is a ferret of Snail's House. He enjoys stealing food from other ferrets mouths and desires the freshest of water from the bottom of the water bowl.  Cheese is his sister.",
     lore: "Beef came from the pet store with his sister Cheese, they were both bought as pets before Thor and Shaye decided to start a ferret sanctuary. He has quite the personality. He will stick his head into the water dish, all the way to the bottom and then panic as if he's drowning. Beef used to be very interested in Mouse but she was indifferent. He enjoys playing with Pepper when given the opportunity, but they are currently in different play groups.",
@@ -488,6 +492,10 @@ Mike is a big boy with the total white paw chrome package (that means all four f
         caption: "Big Mike sinking into the ballpit",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/DarkTallPuppyPlanking-dju8vSbfC8wUP5tb",
+        caption: "Big Mike: Mom don't leave!!",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/DifficultPeppyMeatloafKappaWealth-MKKqACDml2wPX6BO",
         caption: "Big Mike jamming the toob",
       },
@@ -560,6 +568,10 @@ Mike is a big boy with the total white paw chrome package (that means all four f
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlitheThoughtfulDragonflyKappaPride-697a3MxrvJq282k0",
         caption: "Bruce sabotaging the castle while wardancing",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FrigidGoodFishBCouch-6UFaj8xSY0d8ypM9",
+        caption: "Bruce: crossing the gap towards comfy!",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/GrossFunnySnoodSaltBae-_9zPyopqLCA4QrD3",
@@ -682,7 +694,7 @@ Mike is a big boy with the total white paw chrome package (that means all four f
     birthday: "02-20",
     arrival: "2021-07-02",
     valhalla: null,
-    playgroup: "genpop",
+    playgroup: "oldies",
     summary:
       "Cheese is a ferret of Snail's House. She is the professional photo model for the business and loves posing for the camera. She enjoys redecorating the playroom and climbing Shaye.",
     lore: 'Cheese came from the pet store with her brother Beef, they were both bought as pets before Thor and Shaye decided to start a ferret sanctuary. Cheese is a Roan/Silver ferret. With each shed she get more and more white hair (called "roaning out") and will probably be full white eventually. Cheese is a very sweet little lady who likes to chill and cuddle. She is mostly left alone by the rowdy youngins\' because she is actually the most vicious fighter of the business.  She is incredibly photogenic.',
@@ -1730,6 +1742,10 @@ Thor explaining Ghost's situation in short: Link`,
         caption: "Henry learned: Scratch",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/CorrectSleepyHumanPhilosoraptor-eBx7A4RNundjmWMC",
+        caption: "Henry sneaking and peaking",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/CrazyGrotesqueHamburgerVoteNay-OhhbYJPmjdfv1kPN",
         caption: "Henry ninja roll",
       },
@@ -1800,6 +1816,10 @@ Thor explaining Ghost's situation in short: Link`,
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/PluckyMotionlessSamosaTinyFace-MjcYROxb3xLyQ1m4",
         caption: "Henry getting eaten by the hunny pot",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PopularCarefulWatermelonDeIlluminati-3dBoP7jpHOZBb1cW",
+        caption: "Cinnamon roll Henry close up",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/PreciousBashfulCaribouCharlieBitMe-8zkE-UYVE_yc2c4y",
@@ -2414,6 +2434,32 @@ Loki loved to stash toys, regardless of their size.`,
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/RelatedBrightCattleAMPEnergyCherry-c6kho6vS94fUva-d",
         caption: "That sock is MINE",
+      },
+    ],
+    merch: null,
+  },
+  lucas: {
+    name: "Lucas",
+    wikipage: "Lucas",
+    aliases: [],
+    commands: ["lucas", "luca"],
+    sex: "Male",
+    birth: null,
+    birthday: null,
+    arrival: "2025-09-27",
+    valhalla: null,
+    playgroup: "oldies",
+    summary:
+      "Lucas is a rescue ferret of Snail's House. He came from a loving home where he lost his friends to age. He enjoys playtime with his fellow oldies.",
+    lore: "Lucas came to the rescue from a loving home. His playmates had passed and the owner wanted him to have ferret friends so he wouldn't be lonely.",
+    clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/CorrectExuberantSashimiOSkomodo-rU7t7THkrsAajdvo",
+        caption: "Lucas requesting Maddie attention",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/HomelySullenGrouseHotPokket-MYU1yZU_CJmzdcz7",
+        caption: "Lucas gets uppies and kisses!",
       },
     ],
     merch: null,
@@ -3053,6 +3099,10 @@ Mocha sleeps in the cage with the oldies. During playtimes Mocha frequently slee
         caption: "Moose, Peekaboo!",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BadTameAnacondaWoofer-8Who9BjDMaORi1Tu",
+        caption: "Moose wiggly wardance",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/RichCheerfulLobsterPJSugar-qgFpIsehVv3WOhJv",
         caption: "Moose rice dancing",
       },
@@ -3232,10 +3282,10 @@ Thor is Mouse's favorite, and Thor has admitted that Mouse is his favorite.`,
     birth: null,
     birthday: null,
     arrival: "2024-01-05",
-    valhalla: null,
-    playgroup: "oldies",
+    valhalla: "2025-10-08",
+    playgroup: "valhalla",
     summary:
-      "Moxie is a rescue ferret of Snail's House. She's a low key and chill oldie who can be identified during playtime by her bottle brush tail.",
+      "Moxie was a rescue ferret of Snail's House. She was a low key and chill oldie who could be identified during playtime by her bottle brush tail.",
     lore: `After the passing of her crewmate, Bandit, she is frequently seen with Eddie. (Per Shaye during playtime).
 She also has taken a liking to Henry and loves being his cuddle buddy.
 
@@ -3246,8 +3296,16 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
         caption: "Group sooping with Cowboy, Moxie and Henry",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/EntertainingArbitraryLouseBIRB-GY9W7WxkzRMuBk6R",
+        caption: "Moxie sliding into the blanket",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/FastBitterLampHumbleLife-wUHmL6evqNFCasAz",
         caption: "Moxie doing an inspection round",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/HardBrightSquirrelTheTarFu-xtB_MB9Y1Q-0dbOv",
+        caption: "Moxie emerging from the sufferfish",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/InquisitivePowerfulChimpanzeeBIRB-A9EtkqLJR_rNNzvi",
@@ -3256,6 +3314,10 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/OpenCarelessDragonfruitPeteZaroll-EbW8sqTww_NIWIIa",
         caption: "Moxie doing some toobing",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/OpenGoldenSquidKlappa-lE8dAF74iEdYPItf",
+        caption: "Moxie doing some chill toobing",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/RepleteHonorableRavenFloof-sxyiY8R4tjynwpFL",
@@ -3605,6 +3667,10 @@ When Onion first came to the rescue, she was obsessed and imprinted on Beans. Th
         caption: "Peanut swing",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/WildQuaintAubergineKippa-cMgq9FunyEiBkVpf",
+        caption: "Peanut trying to escape THE CLAW",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/FineCuteParrotSaltBae-y2O1fBpSYO1GIPKw",
         caption: "Beans grooming Peanut",
       },
@@ -3695,6 +3761,10 @@ When Onion first came to the rescue, she was obsessed and imprinted on Beans. Th
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FurtiveMistyWerewolfNerfBlueBlaster-MIUPJPL-_asxWUuj",
         caption: "Badger throwing dooks with Peepo",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/MotionlessLaconicDugongArgieB8-xdzyFAn_tYaK151U",
+        caption: "Badger snuggle with Peepo",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/SavoryHyperPieAsianGlow-nGh0Mkao7dPe7r2Z",
@@ -4752,6 +4822,10 @@ Teep affectionately earned the nickname "Officer Teep" when she chose to ride He
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/OriginalSmokyCattleTwitchRaid-K6p06fl5UJtpDpWP",
         caption: "Officer Teep arresting more suspects",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PiercingPlausibleTildeTriHard-BbYzo8ITulaG_d_r",
+        caption: "Teep tries the wheel",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/SpoopyHilariousPlumageEagleEye-pPvobJYY3I8F2kv7",

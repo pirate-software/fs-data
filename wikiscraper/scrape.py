@@ -12,6 +12,9 @@ API_BASE_URL = "https://ferrets.piratesoftware.wiki/w/api.php"
 
 ## Util
 
+def space_to_wikisnake(s: str) -> str:
+    return "_".join([n.capitalize() for n in s.split(" ")])
+
 def space_to_snake(s: str) -> str:
     return s.replace(" ", "_")
 
@@ -57,6 +60,10 @@ def save_image(url: str, filename: str) -> bool: # returns True if successful
             for chunk in response.iter_content(8192):
                 f.write(chunk)
         return True
+    else:
+        print(f"Failed to download image from {url}: HTTP {response.status_code}")
+        print("Response content:", response.content)
+        exit()
     return False
 
 def get_cargo_table(table_name: str, fields: str) -> list[dict]:
@@ -227,7 +234,7 @@ def generate_core_json(ferrets: list[dict]) -> None:
     for ferret in ferrets:
         name = ferret["name"].strip()
         name_nospace = remove_spaces(name).lower()
-        name_snake = space_to_snake(name)
+        name_snake = space_to_wikisnake(name)
         page = get_page_content(name)
         
         # summary
@@ -436,8 +443,8 @@ def generate_images_ts_json():
     with open("pictures.csv", "r", newline="", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            ferret_name = row["ferret"].strip()
-            ferret_nospace = remove_spaces(ferret_name).lower()
+            ferret_name = row["ferret_name"].strip()
+            ferret_nospace = row["ferret_no_space"].strip()
             src = row["src"].strip()
             alt = row["alt"].strip() if row["alt"].strip() else None
             images.append(ImageEntry(ferret_name, ferret_nospace, src, alt, ImageType.PHOTO))
@@ -529,7 +536,7 @@ def generate_images_ts_json():
 
     outString = importsString + "\n\n"
     outString += "const ferretImages: Partial<{\n  [key in FerretKey]: FerretImages;\n}> = " + to_custom_json(photosDict, srcVar=True)+";\n\n"
-    outString += "const ferretMugshots: {\n  [key in FerretKey]: FerretImages;\n} = " + to_custom_json(mugshotsDict, srcVar=True)+";\n\n"
+    outString += "const ferretMugshots: {\n  [key in FerretKey]: FerretImage;\n} = " + to_custom_json(mugshotsDict, srcVar=True)+";\n\n"
     outString += "const ferretEmoteImages: Partial<{\n  [key in FerretKey]: FerretImages;\n}> = " + to_custom_json(emotesDict, srcVar=True)+";\n\n"
 
     # write to images_snippet.ts

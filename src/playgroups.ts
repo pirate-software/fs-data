@@ -15,7 +15,7 @@ const playgroups = {
   genpop: {
     name: "General Population",
     description:
-      "The biggest playgroup of ferrets in the rescue consisting of 20+ ferrets. During nightcam the cage of gen pop will be in view.",
+      "The biggest playgroup of ferrets in the rescue consisting of 20+ ferrets.",
   },
   kyosai: {
     name: "Kyo & Sai",
