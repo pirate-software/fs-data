@@ -3,7 +3,7 @@
 Shared data repository for Ferret Software projects, installed as a dependency in the
 [fs-extension](https://github.com/pirate-software/fs-extension) repository.
 
-This project is a modified version of the [alveusgg/data](https://github.com/alveusgg/data) repository.
+This project is derived from the [alveusgg/data](https://github.com/alveusgg/data) repository.
 
 ## Installation
 

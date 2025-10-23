@@ -504,12 +504,20 @@ Mike is a big boy with the total white paw chrome package (that means all four f
         caption: "Big Mike, Big chase",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FragileDarlingHabaneroTheRinger-UU57NMTcXKMJz63u",
+        caption: "Big Mike: Mother, here i come!",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/HardApatheticWatermelonSMOrc-dJtzz_FiPczL6yhT",
         caption: "Big Mike exploring the ricebin",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/KawaiiRenownedSharkKappaPride-UUEa30Xomq5h3oMX",
         caption: "Big Mike toob tail wiggles!",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SaltyWrongBunnyNononoCat-gxpDdVJwyrhHo_-v",
+        caption: "Big Mike flop",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/SquareSourAsteriskPeanutButterJellyTime-nwEPN7VJRb8NdrJx",
@@ -764,6 +772,10 @@ Mike is a big boy with the total white paw chrome package (that means all four f
         caption: "Cheese goes for a tumble",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BenevolentColdbloodedSoybeanDerp-GI59Wuay4mFGA_n1",
+        caption: "Cheese chilling, Luna tries to groom",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/AssiduousScrumptiousDragonTheRinger-b-6-4BKa2XAtxYSR",
         caption: "Cheese shows Rusty who's the queen of the business!",
       },
@@ -987,7 +999,7 @@ Due to Chili being such a chill dude, he and Beans are typically part of the wel
   demeter: {
     name: "Demeter",
     wikipage: "Demeter",
-    aliases: ["Professional Noseball Noodle"],
+    aliases: ["Professional Noseball Noodle, Deme"],
     commands: ["demeter"],
     sex: "Female",
     birth: null,
@@ -1311,7 +1323,7 @@ Due to Chili being such a chill dude, he and Beans are typically part of the wel
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/SmokyTallChickenHeyGirl-OkJYFG44qJCqOTO9",
-        caption: "Luna comes to snuggle fig!",
+        caption: "Luna comes to snuggle Fig!",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/VainFantasticPizzaPicoMause-vR_iqOOKNNjKxB-o",
@@ -1862,6 +1874,14 @@ Thor explaining Ghost's situation in short: Link`,
         caption: "Thor's Reaction",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/AmericanAbrasiveSamosaRuleFive-nDCt4W45mded6C1N",
+        caption: "Luna checking on Henry",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ColdbloodedDirtyEelDendiFace-OorZ6bL1iIqZaBG2",
+        caption: "Luna and Henry play chase",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlindingSarcasticSpaghettiJebaited-gC6mWEvclQkpKivz",
         caption: "Jack observing Henry",
       },
@@ -1999,7 +2019,7 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
   jasmine: {
     name: "Jasmine",
     wikipage: "Jasmine",
-    aliases: [],
+    aliases: ["Jazzy"],
     commands: ["jasmine"],
     sex: "Female",
     birth: null,
@@ -2522,8 +2542,24 @@ Loki loved to stash toys, regardless of their size.`,
         caption: "Bruce toobing with Luna",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BenevolentColdbloodedSoybeanDerp-GI59Wuay4mFGA_n1",
+        caption: "Cheese chilling, Luna tries to groom",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/SmokyTallChickenHeyGirl-OkJYFG44qJCqOTO9",
-        caption: "Luna comes to snuggle fig!",
+        caption: "Luna comes to snuggle Fig!",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/AmericanAbrasiveSamosaRuleFive-nDCt4W45mded6C1N",
+        caption: "Luna checking on Henry",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ColdbloodedDirtyEelDendiFace-OorZ6bL1iIqZaBG2",
+        caption: "Luna and Henry play chase",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/AgitatedAmorphousBaguetteDeIlluminati-i_CIL7OjUi3CdsYg",
+        caption: "Luna requesting stikk from Maddie",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AnimatedSpunkyCrowMikeHogu-CTpniatqntfkrc23",
@@ -2546,12 +2582,56 @@ Loki loved to stash toys, regardless of their size.`,
         caption: "Luna digs in the rice box",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FragileSpeedyPeafowlDatBoi-F0e0GnP3ij7FwMeO",
+        caption: "Luna snek attack",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/KitschyBelovedGorillaWOOP-bWYKoNKEuSvKQiow",
+        caption: "Luna checking all pockets for stikk",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/LaconicCleanMangoRalpherZ-bJ5z_RB7xKU_fS0J",
+        caption: "Luna requesting stikk from Thor",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PlausibleIntelligentBasenjiHumbleLife-b9pzW-im2Fcs-TAW",
+        caption: "Luna hopping into the mango",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/RefinedKindCheetahMoreCowbell-nz2VIzl3odcn1FFI",
+        caption: "Luna gets stick from the Hairman",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/RepleteSullenSardineArgieB8-k7LC1ufvCkr2eusa",
+        caption: "Shaye pretending to be sleepy Luna",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TemperedSincereGorillaMingLee-zCaEfotdAVnqcGOp",
+        caption: "Luna shroom flip",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/VibrantTastyPicklesPraiseIt-wVYNT94x1QETsDVe",
         caption: "Luna checking her blood sugar",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/PlumpSingleLorisPicoMause-xvNnIw58hHr7_30v",
         caption: "Luna toob chase with Odin",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TenaciousVibrantAntelopeOMGScoots-eurmrPvs1t7GnSlL",
+        caption: "Luna and Peanut 2 sharing a stick",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PreciousBashfulAnteaterBleedPurple-PVFNRu_Z4joSSvEj",
+        caption: "Luna and Pepper 2 toobing time",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SuccessfulAmazonianSaladKappaClaus-HjUQkv1JfJXGJXfO",
+        caption: "Luna and Teep crossfeeding time",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/WealthyGoodMeerkatResidentSleeper-BaYdeH91eODLxE9H",
+        caption: "Luna and Teep stretchy time",
       },
     ],
     merch: null,
@@ -3109,6 +3189,10 @@ Mocha sleeps in the cage with the oldies. During playtimes Mocha frequently slee
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/SparklingWildMochaPhilosoraptor-VT_b7SL746b1974a",
         caption: "Moose playing with the pizza",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FurryPlausiblePterodactylDancingBanana-I7U1-lXiiFcWkEHc",
+        caption: "Moose wildin' and Pepper nail clippies",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ExpensiveHonorableHarePRChase-O-T4mWIh8RKfSlTH",
@@ -3717,6 +3801,10 @@ When Onion first came to the rescue, she was obsessed and imprinted on Beans. Th
         caption: "Peanut 2 doing an inspect on Kylo",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TenaciousVibrantAntelopeOMGScoots-eurmrPvs1t7GnSlL",
+        caption: "Luna and Peanut 2 sharing a stick",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlightedAwkwardBisonCharlietheUnicorn-ncGVcz0OCfZzlz8b",
         caption: "Peanut 2 Stashes a Toy hide!",
       },
@@ -3827,6 +3915,10 @@ When Onion first came to the rescue, she was obsessed and imprinted on Beans. Th
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CuteSneakyClipsmomUnSane-niQuMxtbWDa53NmP",
         caption: "Badger badgering Pepper",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FurryPlausiblePterodactylDancingBanana-I7U1-lXiiFcWkEHc",
+        caption: "Moose wildin' and Pepper nail clippies",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AbnegateShyDogAsianGlow-Jj6__q7Bm470ZkL0",
@@ -3980,6 +4072,10 @@ When Onion first came to the rescue, she was obsessed and imprinted on Beans. Th
 
 After the passing of some of his fellow cagemates, he has been spending time with the oldies playgroup and enjoys Peanut 2 and Bagel's company.`,
     clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PreciousBashfulAnteaterBleedPurple-PVFNRu_Z4joSSvEj",
+        caption: "Luna and Pepper 2 toobing time",
+      },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FamousVivaciousRuffStoneLightning-_xRGuY2rE4oLCCQD",
         caption: "Doing some toobing",
@@ -4814,6 +4910,14 @@ Teep affectionately earned the nickname "Officer Teep" when she chose to ride He
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/PluckyHardReindeerDancingBaby-IICOoIsI1zm2ew-C",
         caption: "Cowboy snacking together with Teep",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SuccessfulAmazonianSaladKappaClaus-HjUQkv1JfJXGJXfO",
+        caption: "Luna and Teep crossfeeding time",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/WealthyGoodMeerkatResidentSleeper-BaYdeH91eODLxE9H",
+        caption: "Luna and Teep stretchy time",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/EnthusiasticPopularCoyotePMSTwin-Fq5cQqmopKeW1IxR",
