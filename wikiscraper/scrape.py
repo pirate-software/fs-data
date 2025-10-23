@@ -203,6 +203,8 @@ def main():
             print("3. Get Other Images and Save Captions to CSV")
         print("4. Generate images.ts imports + JSON")
         print("5. Trim mugshots")
+        print("6. Compress images")
+        print("7. Delete images")
         print("9. Exit")
         choice = input("Enter your choice: ")
 
@@ -223,10 +225,97 @@ def main():
         elif choice == "5":
             trim_mugshots()
             print("Mugshots trimmed")
+        elif choice == "6":
+            compress_images()
+            print("Images compressed")
+        elif choice == "7":
+            delete_images()
+            print("Images deleted")
         elif choice == "9":
             break
         else:
             print("Invalid choice, please try again.")
+
+def compress_images():
+    # crawl through the images folder and compress all images to reduce file size
+    # they should each be a medium quality jpg
+    # do not compress any image called "mugshot" or any gifs or any which are already jpgs
+    # finally, update pictures.csv to reflect any filename changes
+    assets_dir = "../src/assets/ferrets"
+    for ferret_dir in os.listdir(assets_dir):
+        ferret_path = os.path.join(assets_dir, ferret_dir)
+        if not os.path.isdir(ferret_path):
+            print(f"Skipping non-directory {ferret_path}")
+            continue
+
+        for filename in os.listdir(ferret_path):
+            filepath = os.path.join(ferret_path, filename)
+            if not os.path.isfile(filepath):
+                continue
+
+            if re.match(r"mugshot\.(png|jpg|jpeg|gif|webp)$", filename, re.IGNORECASE): # skip mugshots
+                print(f"Skipping mugshot {filename} for {ferret_dir}")
+                continue
+            if filename.lower().endswith(".gif"): # skip gifs
+                print(f"Skipping gif {filename} for {ferret_dir}")
+                continue
+            if filename.lower().endswith(".jpg") or filename.lower().endswith(".jpeg"): # skip jpgs
+                print(f"Skipping jpg {filename} for {ferret_dir}")
+                continue
+
+            try:
+                with Image.open(filepath) as img:
+                    rgb_img = img.convert("RGB") # convert to RGB to save as jpg
+                    compressed_filename = os.path.splitext(filename)[0] + ".jpg"
+                    compressed_filepath = os.path.join(ferret_path, compressed_filename)
+                    rgb_img.save(compressed_filepath, "JPEG", quality=75)
+                    if compressed_filepath != filepath:
+                        os.remove(filepath) # remove original file if different
+                    print(f"Compressed image {filename} for {ferret_dir} to {compressed_filename}")
+            except Exception as e:
+                print(f"Failed to compress image {filename} for {ferret_dir}: {e}")
+    
+    # finally, update pictures.csv to reflect any filename changes
+    with open("pictures.csv", "r", newline="", encoding="utf-8") as csvfile:
+        reader = csv.DictReader(csvfile)
+        pictures = list(reader)
+    
+    with open("pictures.csv", "w", newline="", encoding="utf-8") as csvfile:
+        fieldnames = ["ferret_name", "ferret_no_space", "src", "alt"]
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for pic in pictures:
+            filename = pic["src"]
+            if not filename.lower().endswith(".jpg") and not filename.lower().endswith(".jpeg"):
+                new_filename = os.path.splitext(filename)[0] + ".jpg"
+                pic["src"] = new_filename
+            writer.writerow(pic)
+
+
+# delete all images other than mugshots
+def delete_images():
+    assets_dir = "../src/assets/ferrets"
+    for ferret_dir in os.listdir(assets_dir):
+        ferret_path = os.path.join(assets_dir, ferret_dir)
+        if not os.path.isdir(ferret_path):
+            print(f"Skipping non-directory {ferret_path}")
+            continue
+
+        for filename in os.listdir(ferret_path):
+            filepath = os.path.join(ferret_path, filename)
+            if not os.path.isfile(filepath):
+                continue
+
+            if re.match(r"mugshot\.(png|jpg|jpeg|gif|webp)$", filename, re.IGNORECASE): # skip mugshots
+                print(f"Skipping mugshot {filename} for {ferret_dir}")
+                continue
+
+            try:
+                os.remove(filepath)
+                print(f"Deleted image {filename} for {ferret_dir}")
+            except Exception as e:
+                print(f"Failed to delete image {filename} for {ferret_dir}: {e}")
+
 
 def generate_core_json(ferrets: list[dict]) -> None:
     ferret_data = dict()
