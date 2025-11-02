@@ -361,13 +361,13 @@ def generate_core_json(ferrets: list[dict]) -> None:
 
         sex = ferret["gender"].strip()
         if sex not in ["Male", "Female"]:
-            print(f"Unrecognized sex for {name}: {sex}")
+            print(f"Unrecognised sex for {name}: {sex}")
             sex = None
 
         birthday_text = ferret["birthday"].strip() # i.e. "Apr 3"
         birthday = None
-        if birthday_text and re.match(r"^[A-Za-z]{3,} [0-9]{1,2}$", birthday_text):
-            month_str, day_str = birthday_text.split(" ")
+        if birthday_text and re.match(r"^\s*[A-Za-z]{3,}\s+[0-9]{1,2}(\s+20[0-9]{2})?\s*$", birthday_text):
+            month_str, day_str = birthday_text.split(" ")[:2]
             month_str = month_str.lower()
             month_map = {
                 "jan": "01", "feb": "02", "mar": "03", "apr": "04",
@@ -383,24 +383,24 @@ def generate_core_json(ferrets: list[dict]) -> None:
                 day = day_str.zfill(2)
                 birthday = f"{month}-{day}"
             else:
-                print(f"Unrecognized month in birthday for {name}: {birthday_text}")
+                print(f"Unrecognised month in birthday for {name}: {birthday_text}")
                 birthday = None
         elif birthday_text == "":
             print(f"No birthday listed for {name}")
             birthday = None
         else:
-            print(f"Unrecognized birthday format for {name}: {birthday_text}")
+            print(f"Unrecognised birthday format for {name}: {birthday_text}")
             birthday = None
 
         arrival = ferret["arrivaldate"].strip().replace("/", "-")
         if not re.match(r"^[0-9]{4}-[0-9]{2}-[0-9]{2}$", arrival):
-            print(f"Unrecognized arrival date format for {name}: {arrival}")
+            print(f"Unrecognised arrival date format for {name}: {arrival}")
             arrival = None
 
         valhalla = ferret["valhalla"].strip().replace("/", "-")
         if not re.match(r"^[0-9]{4}-[0-9]{2}-[0-9]{2}$", valhalla):
             if valhalla != "":
-                print(f"Unrecognized valhalla date format for {name}: {valhalla}")
+                print(f"Unrecognised valhalla date format for {name}: {valhalla}")
             valhalla = None
 
         commands = [name_nospace]
@@ -409,7 +409,7 @@ def generate_core_json(ferrets: list[dict]) -> None:
 
         playgroup = re.sub(r"[^a-zA-Z]", "", ferret["playgroup"]).lower()
         if playgroup not in VALID_PLAYGROUPS:
-            print(f"Unrecognized playgroup for {name}: {ferret['playgroup']}")
+            print(f"Unrecognised playgroup for {name}: {ferret['playgroup']}")
             playgroup = None
 
         ferret_data[name_nospace] = {

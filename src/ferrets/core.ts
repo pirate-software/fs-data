@@ -1786,6 +1786,10 @@ Thor explaining Ghost's situation in short: Link`,
         caption: "Henry getting Thor snuggles",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FaintCulturedZebraAMPEnergyCherry-TXBXZdcLUyNFpssi",
+        caption: "Thor tucking in Henry",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/HappyBlindingDumplingsTBTacoRight-Pi6sOUfFUBtcu2UP",
         caption: "Henry foot soop, #ShayeHands",
       },
@@ -2465,7 +2469,7 @@ Loki loved to stash toys, regardless of their size.`,
     commands: ["lucas", "luca"],
     sex: "Male",
     birth: null,
-    birthday: null,
+    birthday: "12-08",
     arrival: "2025-09-27",
     valhalla: null,
     playgroup: "oldies",
@@ -2531,11 +2535,11 @@ Loki loved to stash toys, regardless of their size.`,
     birth: null,
     birthday: null,
     arrival: "2024-09-15",
-    valhalla: null,
-    playgroup: "oldies",
+    valhalla: "2025-10-17",
+    playgroup: "valhalla",
     summary:
-      "Luna is a rescue ferret of Snail's House. She frequently enjoys the rice box and is a total sweetheart who enjoys snuggling all the ferrets, even Henry. While she came in with her cagemate Odin, she now resides with the oldies.",
-    lore: "Luna arrived by a local surrender at 7 years old with fellow cagemate Odin. She sometimes likes sleepovers in the babies cage.",
+      "Luna was a rescue ferret of Snail's House. She frequently enjoyed the rice box and was a total sweetheart who enjoyed snuggling with all the ferrets, even Henry. While she came in with her cagemate Odin, she went on to reside with the oldies.",
+    lore: "Luna arrived by a local surrender at 7 years old with fellow cagemate Odin. She sometimes liked to have sleepovers in the babies cage.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/YummyUgliestHedgehogJonCarnage-qFYL43qaO1CAQDxi",
@@ -3512,6 +3516,10 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
         caption: "Odin taking a stroll through the tube",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FlaccidKnottyCocoaBlargNaut-drzARLyfQizQogpv",
+        caption: "Odin buldozering through the toys",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/InnocentKnottyLatteHoneyBadger-IFZM7WRnPUL0yHSe",
         caption: "Odin playing carpet shark",
       },
@@ -3871,12 +3879,20 @@ When Onion first came to the rescue, she was obsessed and imprinted on Beans. Th
         caption: "Peepo blanket play",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/CallousJazzyPoultryMcaT-mpmX9e-0tsvbL0jR",
+        caption: "Peepo hiding a lambchop",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/ExquisiteSquareSpindlePipeHype-rX7QbFZ01gH_oV_1",
         caption: "Peepo getting Shaye's attention",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FrailReliableHippoBIRB-OjGqoYRizAOBpU7D",
         caption: "Finding Peepo",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/LittleOpenAntStoneLightning-KX3NL0xSuBNLYjah",
+        caption: "Peepo peeping cam",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/MushyHelplessSeahorseRedCoat-PESkHTLVm6M7yuQG",
@@ -4498,6 +4514,10 @@ That is not a weakness. That is life.`,
         caption: "Rusty: Lion King Showoff",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TangentialJazzyPeppermintChocolateRain-BfUTcm5TpWCWZqpI",
+        caption: "Rusty being cute on the cat tree",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/ZealousBeautifulSmoothieTheRinger-5KWWa_ebY_lD8SVs",
         caption: "Stretchy pouts",
       },
@@ -5074,12 +5094,36 @@ Torch is 6 years old and per his previous owner: "Torch tried to take down a new
         caption: "Torch gets scritches!",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/DeterminedThankfulSoybeanFUNgineer-Klqefft2HBbW0NXw",
+        caption: "Torch playing ball and doing zooms",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/DreamyEvilSangTwitchRaid-w-tvb7pTYMQm1PeG",
+        caption: "Torch exploring the mystery box",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/DullConfidentAppleRickroll-qWENkG1kxbSZyTDC",
+        caption: "Torch toying around",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/FantasticBlushingClipzKeyboardCat-N7Mxif-TN_P86KRx",
         caption: "Torch plays Basket Game with Shaye",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FineBombasticAubergineSSSsss-0xa8aCO3cyYivTiT",
         caption: "Helping Shaye clean up toys",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FineRichCookiePeteZarollTie-FVa8eaXf5QcCXQqD",
+        caption: "Torch and Thor play",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/GloriousTalentedAlmondMVGame-7uxD1c-OJ1mphh5D",
+        caption: "Roomba Torch",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/HardTangibleCoffeeCharlieBitMe-NP6YQ7u2CHNlVNn7",
+        caption: "Torch getting all the scritchies",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/HardTenderEggnogDxCat-21vZXDSKbDybWwMg",
@@ -5090,20 +5134,60 @@ Torch is 6 years old and per his previous owner: "Torch tried to take down a new
         caption: "Toobing Torch",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/LachrymoseArbitraryEggnogStrawBeary-qIbeb0cP6P9INStl",
+        caption: "Torch scoring some kibble",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/MoldyCloudyJackalOhMyDog-V1H106CMeDdE8tmm",
+        caption: "Torch happy with the hoomans",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/PatientWanderingWalletPRChase-O24G2U9Rxaqugvdi",
         caption: "Torch extremely happy with Shaye",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PhilanthropicKnottyMetalGivePLZ-mDVbsYfoNAJnOBge",
+        caption: "Torch showing off new yoga pose",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/RudeEnticingEmuUnSane-63RjYWsUYRCmrBA2",
+        caption: "Torch investigating different food options",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ShyAbstruseJamPermaSmug-Ad32Wp7kR0dteKll",
         caption: "Torch fights the rice box ghosts",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SlickCharmingCockroachCurseLit-giE7LI_d4vcaPz_b",
+        caption: "Torch noseballing",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/SmallCrackyPassionfruitHumbleLife-99LpX0akBGAEc9od",
         caption: "Torch spots hooman!",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SoftMoralTapirThunBeast-1l-LRI1jgzwQ24Wm",
+        caption: "Torch playing minirug and Maddie",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/TardyDullOpossumPeteZaroll-J5zEzIVyuTgbUMAZ",
         caption: "Torch plays in rice box",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TolerantPlainGorillaHeyGuys-P5AEvLd6FTl-_h1Y",
+        caption: "Thor and Torch",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TrustworthyShinyDragonflyRitzMitz-YiWr6_82rAg4v9QM",
+        caption: "Torch and Shaye snuggles",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/VastCoweringPidgeonBloodTrail-kyuGoVdM6RsRWsaU",
+        caption: "Torch scritchie on the stretcher",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ViscousFunSalamanderHeyGuys-kuUGpBmKaT_ffjTm",
+        caption: "Torch toobing back and forth",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/VivaciousSingleSandwichNomNom-A8rKcpGOTkNKLE_x",
