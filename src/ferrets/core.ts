@@ -72,6 +72,10 @@ const ferrets = {
         caption: "Shaye trying to activate Badger",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/GoodSuspiciousDoveTBTacoRight-HpWuk-0vnN4RbJqm",
+        caption: "Badger trying his best",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/IcyPlayfulDumplingsNinjaGrumpy-xL4uJ8mOLdz9-4QK",
         caption: "Badger being eaten by the Sarlecc pit",
       },
@@ -169,6 +173,10 @@ const ferrets = {
         url: "https://www.twitch.tv/ferretsoftware/clip/FitKindBubbleteaPermaSmug-gBqdI-tjnjL--70N",
         caption: "Bagel sniffah Jack",
       },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PluckySpeedyGiraffeMingLee-3ZBWrDBzgeeaBchI",
+        caption: "Bagel wants to use Peanut 2 as a pillow",
+      },
     ],
     merch: null,
   },
@@ -261,10 +269,10 @@ After about five months in the care of Shaye and Thor he sadly passed away of ol
     wikipage: "Beans",
     aliases: [
       "Beanus Weenus",
-      "Bean boy",
-      "Mr bean",
-      "Jelly bean",
-      "Beanie baby",
+      "Bean Boy",
+      "Mr. Bean",
+      "Jelly Bean",
+      "Beanie Baby",
       "Beansman",
       "Unrepentant Ear Criminal",
     ],
@@ -276,8 +284,10 @@ After about five months in the care of Shaye and Thor he sadly passed away of ol
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Beans is a ferret of Snail's House. He is known for being very photogenic and causing chaos. He isn't the brightest bulb in the box: Sometimes i think, but then i forget.",
-    lore: `Beans was purchased in a pet store. He was hanging out there by himself without friends so Thor and Shaye decided to acquire him and make sure he got all the friends he could need. Beans was bought as a pet before Thor and Shaye decided to start a ferret sanctuary. Beans' birthday is December 19th, 2021. He also has a sweet tooth and craves Shaye's ice cream. Beans is also the favorite ferret of Zultralord since day 1. 
+      "Beans is a ferret of Snail's House. He is known for being very photogenic and causing chaos. He is famous for many reasons, one of which is his likeness as a plushie!",
+    lore: `As one of the original ferrets before Snail's House became a sanctuary, Beans came from a pet store. Thor and Shaye saw him alone in his enclosure and decided to bring him home to have friends, especially since ferrets are very social animals.
+
+Beans' birthday is December 19th, 2021. He also has a sweet tooth and craves Shaye's ice cream. Since the day he came home, he has held the number one spot in Zultralord's heart. 
 
 Due to Beans being such a chill dude, aside from ear crimes, he and Chili are typically part of the welcome committee to introduce new ferrets to the business when they are ready to integrate.
 
@@ -399,7 +409,7 @@ During the first night in his temporary cage (quarantine), he proceeded to rip o
   beef: {
     name: "Beef",
     wikipage: "Beef",
-    aliases: ["The Theif"],
+    aliases: ["The Thief"],
     commands: ["beef"],
     sex: "Male",
     birth: null,
@@ -408,8 +418,8 @@ During the first night in his temporary cage (quarantine), he proceeded to rip o
     valhalla: null,
     playgroup: "oldies",
     summary:
-      "Beef is a ferret of Snail's House. He enjoys stealing food from other ferrets mouths and desires the freshest of water from the bottom of the water bowl.  Cheese is his sister.",
-    lore: "Beef came from the pet store with his sister Cheese, they were both bought as pets before Thor and Shaye decided to start a ferret sanctuary. He has quite the personality. He will stick his head into the water dish, all the way to the bottom and then panic as if he's drowning. Beef used to be very interested in Mouse but she was indifferent. He enjoys playing with Pepper when given the opportunity, but they are currently in different play groups.",
+      "Beef is a ferret of Snail's House. He enjoys stealing food from other ferrets' mouths and desires the freshest of water from the bottom of the water bowl.  Cheese is his sister.",
+    lore: "Originally a pet of Thor and Shaye, Beef came to Snail's House from the pet store with his sister Cheese. He has quite the personality. He will stick his head into the water dish, all the way to the bottom and then panic as if he's drowning. Beef used to be very interested in Mouse but she was indifferent. He enjoys playing with Pepper when given the opportunity, but they are currently in different play groups. Beef now currently resides in the oldies cage so he and his sister's aging health can be monitored closely.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlightedInterestingNeanderthalMingLee-cXiqEcEzDzQ-OGCU",
@@ -470,18 +480,18 @@ During the first night in his temporary cage (quarantine), he proceeded to rip o
     valhalla: null,
     playgroup: "m",
     summary:
-      "Big Mike is a rescue ferret of Snail's House. He was super ill when he first joined the rescue, but has since recovered. He is a big boy with big white paws!",
-    lore: `Big Mike was surrendered by a pet store due to having Covid, Influenza-A, and Influenza-B. Thanks to the resources of the rescue, he was able to recover.
+      "Big Mike is a rescue ferret of Snail's House. He was super ill when he first joined the sanctuary, but has since recovered. He is a big boy with big white paws!",
+    lore: `Big Mike was surrendered to Snail's House by a pet store due to having Covid, Influenza-A, and Influenza-B. Thanks to the rescue's knowledge and resources, he was able to recover. Now that he's feeling better, his big goober side has really started to show. After his treatment and quarantine, Mike played with the oldies at first since they treated him gently. Once he was feeling more confident, he started a new playgroup with his new friend Maisy to form M&M, which quickly included Milo and formed M3.
 
-He was named by Thor and his Twitch chat due to his incessant need for a microphone to speak to his people. 
-
-When Mike first arrived at the rescue, he started a new playgroup with Maisy called M&M. Shortly after that, their playgroup grew to include Milo, calling the new group M3.
-
-Mike is a big boy with the total white paw chrome package (that means all four feet)! He loves to play chase and especially enjoys playing with his buddy Milo.`,
+When looking to identify him, Mike is a big boy with the total white paw chrome package (that means all four feet)! He loves to play chase and especially enjoys playing with his buddy Milo. Mike also enjoys mingling with many different ferrets and playgroups, so be sure to keep an eye out for him.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/RepleteDignifiedFloofTinyFace-qm53lNCje2D6veLf",
         caption: "Big Mike toobing with Beans",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/AcceptableElatedWaspKeyboardCat-ORfbBiOLgkpVAEv3",
+        caption: 'Big Mike :MOMMM!"',
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AgitatedSpoopyDaikonItsBoshyTime-Njsaiwhcg11YjtAo",
@@ -490,6 +500,10 @@ Mike is a big boy with the total white paw chrome package (that means all four f
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlazingFrigidCheeseOpieOP-bF8yUC-0ospKW-vl",
         caption: "Big Mike sinking into the ballpit",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BlindingBeautifulToadKappaWealth-HinQ30Z1TWrr-Eo_",
+        caption: "Big Mike: mom stop it you're embarrassing me!",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/DarkTallPuppyPlanking-dju8vSbfC8wUP5tb",
@@ -510,6 +524,10 @@ Mike is a big boy with the total white paw chrome package (that means all four f
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/HardApatheticWatermelonSMOrc-dJtzz_FiPczL6yhT",
         caption: "Big Mike exploring the ricebin",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/HumbleGloriousIcecreamItsBoshyTime-H2RWVWhECKY3qzg0",
+        caption: "Big Mike moving the ball like a little goof",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/KawaiiRenownedSharkKappaPride-UUEa30Xomq5h3oMX",
@@ -544,6 +562,14 @@ Mike is a big boy with the total white paw chrome package (that means all four f
         caption: "Big Mike toobing with Maisy",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BlueHungryMeatloafGOWSkull-gV43d0yac8cOj47q",
+        caption: "Milo leap on Big Mike",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FrozenPreciousPeanutTheTarFu-FwsgIXfcTAKDm4SM",
+        caption: "Big Mike and Milo being menaces",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/GloriousRoundPotatoSmoocherZ-7LDkQUiHz4fiV8aK",
         caption: "Milo playing with Mike and Maisy",
       },
@@ -571,7 +597,7 @@ Mike is a big boy with the total white paw chrome package (that means all four f
     playgroup: "rb",
     summary:
       "Bruce is a rescue ferret of Snail's House. He's a very chill and laid back dude who sometimes activates and crushes castles while wardancing. He enjoys leisure walks with his friend Teep.",
-    lore: "Bruce came to the rescue with Teep from a loving home. They were surrendered due to needed senior care the rescue could provide.",
+    lore: "Bruce came to the rescue with Teep from a loving home. They were surrendered due to needed senior care the rescue could provide. After some time and due to his very unshakable and calm demeanor, he made friends and was paired Rusty to form R&B.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlitheThoughtfulDragonflyKappaPride-697a3MxrvJq282k0",
@@ -615,7 +641,7 @@ Mike is a big boy with the total white paw chrome package (that means all four f
   cashew: {
     name: "Cashew",
     wikipage: "Cashew",
-    aliases: ["Speedy muscle boy"],
+    aliases: ["Cash, Speedy Muscle Boy"],
     commands: ["cashew"],
     sex: "Male",
     birth: null,
@@ -625,7 +651,7 @@ Mike is a big boy with the total white paw chrome package (that means all four f
     playgroup: "genpop",
     summary:
       "Cashew is a rescue ferret of Snail's House. While he plays well with everyone, he really enjoys playing with Pickle. He is easy to identify during playtime by his large size and nub tail.",
-    lore: `Cashew was adopted from the pet store with Hazelnut and Peanut as part of the "Nut Gang". Peanut and Hazel were rescued due to them having Waardenburg Syndrome  and multiple behavioral issues. Cashew developed similar behavioral issues due to living as cage mates with these others and had also bonded to them, causing the rescue to acquire him as well.
+    lore: `Cashew was adopted from the pet store with Hazelnut and Peanut as part of the "Nut Gang". Peanut and Hazel were rescued due to them having Waardenburg Syndrome  and multiple behavioral issues. Cashew developed similar behavioral issues due to living as cage mates with these others and had also bonded to them, causing the rescue to acquire him as well. These days, he really enjoys playtime with the general population playgroup.
 
 *Please note, pet stores will return ferrets with behavioral issues to Marshalls for replacement ferrets.`,
     clips: [
@@ -705,7 +731,7 @@ Mike is a big boy with the total white paw chrome package (that means all four f
     playgroup: "oldies",
     summary:
       "Cheese is a ferret of Snail's House. She is the professional photo model for the business and loves posing for the camera. She enjoys redecorating the playroom and climbing Shaye.",
-    lore: 'Cheese came from the pet store with her brother Beef, they were both bought as pets before Thor and Shaye decided to start a ferret sanctuary. Cheese is a Roan/Silver ferret. With each shed she get more and more white hair (called "roaning out") and will probably be full white eventually. Cheese is a very sweet little lady who likes to chill and cuddle. She is mostly left alone by the rowdy youngins\' because she is actually the most vicious fighter of the business.  She is incredibly photogenic.',
+    lore: 'Cheese came from the pet store with her brother Beef, they were both bought as pets before Thor and Shaye decided to start a ferret sanctuary. Cheese is a Roan/Silver ferret. With each shed she get more and more white hair (called "roaning out") and will probably be full white eventually. Cheese is a very sweet little lady who likes to chill and cuddle. She is mostly left alone by the rowdy youngins\' because she is actually the most vicious fighter of the business. She is incredibly photogenic. Recently she moved from general population to live with the oldies with her brother, Beef, so that her health could be monitored more closely.',
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/NastyPeppyFishPicoMause-aR_cFP3m7ieaBBpd",
@@ -800,8 +826,16 @@ Mike is a big boy with the total white paw chrome package (that means all four f
 Due to Chili being such a chill dude, he and Beans are typically part of the welcome committee to introduce new ferrets to the business when they are ready to integrate.`,
     clips: [
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/AntsyInquisitiveLapwingPanicVis-gQfvNHfoU8yKBg0K",
+        caption: "Chili standing like person",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/BadFuriousChickpeaRaccAttack-p7GRHWvmCNe4IHGe",
         caption: "Chili double climb attempt, JAIL",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/CreativeMushyHawkShadyLulu-bgBxx37B6WLI2_JQ",
+        caption: "Chili: No I sploot here",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/GentleOilyFennelYee-DuuEKB4NJfKa1G_G",
@@ -1009,7 +1043,7 @@ Due to Chili being such a chill dude, he and Beans are typically part of the wel
     playgroup: "genpop",
     summary:
       "Demeter is a rescue ferret of Snail's House. She is a classic ferret who truly enjoys the sport of noseball, and is the fastest of the business. Joining Chili, she also has a strange obsession with trash cans.",
-    lore: "Demeter joined the rescue together with Mistoffelees. They were surrendered because the owners felt they could no longer provide adequate care.",
+    lore: "Demeter joined the rescue together with Mistoffelees. They were surrendered because the owners felt they could no longer provide adequate care. She is often seen running around the playroom at full speed with a ball at her nose, playing with the other ferrets of general population, and sometimes even attempting clever escapes.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ClearUninterestedCrabMau5-kyu_ylbxZqK8nytu",
@@ -1075,7 +1109,7 @@ Due to Chili being such a chill dude, he and Beans are typically part of the wel
     playgroup: "oldies",
     summary:
       "Eddie is a rescue ferret of Snail's House. He came into the rescue as a solo ferret. Since he is so chill, he meshed really well with the oldies and enjoys snuggling with Zero and Banana.",
-    lore: "Eddie came to the rescue from a pair of fantastic owners. His lifelong buddy had died and he needed other ferret friends as they are super social creatures.",
+    lore: "Eddie came to the rescue from a pair of fantastic owners. His lifelong buddy had died and he needed other ferret friends as they are super social creatures.  Now he enjoys his leisure time among the oldies with lots of jaunts around the playroom, plenty of mango snuggles, and tasty soupies.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CoyExquisiteFoxDatSheffy-cxLgwrpthHUuk8wi",
@@ -1348,8 +1382,8 @@ Due to Chili being such a chill dude, he and Beans are typically part of the wel
     valhalla: null,
     playgroup: "solo",
     summary:
-      "Finn is a rescue ferret of Snail's House. While he sometimes struggles to make ferret friends, he really enjoys human snuggles and scritches.",
-    lore: "Finn joined us together with his, at the time, naked friend Felix. They were in-state medical surrenders. For a while the best way to identify Finn, was to see Felix with him. Finn was very protective of his best friend Felix. Finn was there when his best friend passed away.",
+      "Finn is a rescue ferret of Snail's House. While he sometimes struggles to make ferret friends, he really enjoys human snuggles and scritches. He came to the rescue with his friend Felix.",
+    lore: "Finn joined us together with his, at the time, naked friend Felix. They were in-state medical surrenders. For a while the best way to identify Finn, was to see Felix with him. Finn was very protective of his best friend Felix. Finn was there when his best friend passed away. These days, Finn enjoys the solo life with his gaming buddy, Shaye.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/TubularWrongGuanacoGrammarKing-JmQjS9olX3LAjvZw",
@@ -1493,7 +1527,9 @@ Thor explaining Ghost's situation in short: Link`,
       'Hazel is a rescue ferret of Snail\'s House. She enjoys fighting the "ghosts" she sees in the hammocks and has an obsession with biting socks of her human caretakers. She is identifiable by her mostly white coat and very energetic activity.',
     lore: `Hazelnut was adopted from a pet store with Cashew and Peanut as part of the "Nut Gang". She has Waardenburg Syndrome  , is fully deaf, and has many behavioral issues. She was sold and returned multiple times due to these behavioral issues before the rescue acquired her.
 
-*Please note, pet stores will return ferrets with behavioral issues to Marshalls for replacement ferrets.`,
+*Please note, pet stores will return ferrets with behavioral issues to Marshalls for replacement ferrets.
+
+These days, Hazel can be seen bopping around playtime with her general population friends, chasing her caretakers around the playroom, and playing with the wand toys.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BloodyFragileRedpandaRedCoat-MoQwci1P5ujCRj5C",
@@ -1886,6 +1922,10 @@ Thor explaining Ghost's situation in short: Link`,
         caption: "Luna and Henry play chase",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TiredFlirtyParrotDogFace-08fee4mbdjra1n3k",
+        caption: "Peanut 2 cleaning Henry",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlindingSarcasticSpaghettiJebaited-gC6mWEvclQkpKivz",
         caption: "Jack observing Henry",
       },
@@ -2031,12 +2071,29 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
     arrival: "2025-07-11",
     valhalla: null,
     playgroup: "oldies",
-    summary: "Jasmine is a rescue ferret of Snail's House.",
-    lore: "",
+    summary:
+      "Jasmine is a rescue ferret of Snail's House. While she resides with the oldies, she has quite the get-up and go! She is frequently seen promenading around the playroom during oldie playtime.",
+    lore: "Jasmine arrived at the rescue as a solo lady from a loving home. She was in need of friends and some senior medical care the rescue could provide. She is a super active old lady who seems to always want playtime. She likes chilling in the comfy beds and also occasionally likes to play with the balls available around the playroom. And like any active old lady, she demands to be involved in ALL playtimes.",
     clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/GoldenSecretiveQuailTheTarFu-wJ7iUZ_A8v4-Ul3X",
+        caption: "Jasmine demands the ball",
+      },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/NastyGrotesqueDragonStrawBeary-5zvy26pSWRM47I4w",
         caption: "Jasmine doing an investigate",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/OilyBadDumplingsStoneLightning-1hxIkWsh9Fd-cgjc",
+        caption: "Jasmine getting attentions and stikk",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ThoughtfulCalmSalsifyImGlitch-D1HXnxvS7cr7zBMb",
+        caption: "Jasmine chilling in the long lemon boat",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ToughKitschyTitanBudStar-j71fIyaqXN5H7S1p",
+        caption: "Kitty and Jasmine share a stikk",
       },
     ],
     merch: null,
@@ -2044,7 +2101,7 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
   jinx: {
     name: "Jinx",
     wikipage: "Jinx",
-    aliases: ["Chill climber"],
+    aliases: ["Chill Climber"],
     commands: ["jinx"],
     sex: "Female",
     birth: null,
@@ -2053,8 +2110,8 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Jinx is a rescue ferret of Snail's House. She is a very playful girl who gets along with many of business. She is also a professional climber who can climb up AND down.",
-    lore: "Jinx came to the rescue together with Henry. They are in different playgroups because of Henry requiring special treatment. Jinx is quite playful and gets along well with the other ferrets. Recently Jinx joined the crew of crazy climbers.",
+      "Jinx is a rescue ferret of Snail's House. She is a very playful girl who gets along with many of business. She is also a professional escape artist with a knowledge of both directions: up AND down!",
+    lore: "Jinx came to the rescue together with Henry. They are in different playgroups because of Henry requiring special treatment. Jinx is quite playful and gets along well with the other ferrets. Recently Jinx joined the crew of escape artists.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/GeniusResoluteKathyVoteYea-zhQRBXdC6jFxxFJq",
@@ -2138,6 +2195,10 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
     lore: "Kitty came to the rescue on December 19th, 2024. Kitty has Lymphoma, and started Chemo on 1/17/2025. Kitty is also missing most of her tail due to a chordoma. Despite her condition, Kitty seems happy, healthy and has been gaining weight since joining the rescue.",
     clips: [
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ToughKitschyTitanBudStar-j71fIyaqXN5H7S1p",
+        caption: "Kitty and Jasmine share a stikk",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/AcceptableObliqueOpossumTriHard-KZkZsIcHlHeHaZsk",
         caption: "Nomming soop, many excite!",
       },
@@ -2184,6 +2245,14 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/HandsomeClearCasetteNomNom-uuvNxT0-R2aR1p27",
         caption: "Smol Kitty, big Henry",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PatientAssiduousGalagoDxCat-9f7HCN26Su_15Yrn",
+        caption: "Loki cleaning Kitty and Peanut 2",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/CooperativePolishedOwlKippa-niOIsg5TczIENeoo",
+        caption: "Pepperoni stealing Kitty’s stick",
       },
     ],
     merch: null,
@@ -2402,6 +2471,10 @@ Loki loved to stash toys, regardless of their size.`,
         caption: "Loki and Cowboy sniffah",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PatientAssiduousGalagoDxCat-9f7HCN26Su_15Yrn",
+        caption: "Loki cleaning Kitty and Peanut 2",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/ObliviousFuriousBeanDancingBaby-3MIv3lR9zZA-NWZ_",
         caption: "Loki yoinks the toy",
       },
@@ -2456,6 +2529,18 @@ Loki loved to stash toys, regardless of their size.`,
         caption: "Cage climber",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/GrotesqueUnusualPeafowlCeilingCat-hrMK6Xx9qNxCMaOi",
+        caption: "Louise toob rage",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/HorribleEmpathicAnteaterAliens-os0qEgKX5GSQ9n0f",
+        caption: "Louise playing in the paper",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/InspiringArtsyWoodpeckerHotPokket-l7rAALakAGi50ojP",
+        caption: "Louise cat tree parkour",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/RelatedBrightCattleAMPEnergyCherry-c6kho6vS94fUva-d",
         caption: "That sock is MINE",
       },
@@ -2478,12 +2563,20 @@ Loki loved to stash toys, regardless of their size.`,
     lore: "Lucas came to the rescue from a loving home. His playmates had passed and the owner wanted him to have ferret friends so he wouldn't be lonely.",
     clips: [
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BlazingSaltyEyeballRickroll-SPQ12aw68OJIDxUA",
+        caption: "Lucas digging the tubes",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/CorrectExuberantSashimiOSkomodo-rU7t7THkrsAajdvo",
         caption: "Lucas requesting Maddie attention",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/HomelySullenGrouseHotPokket-MYU1yZU_CJmzdcz7",
         caption: "Lucas gets uppies and kisses!",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TiredEntertainingOctopusBigBrother-0NOqeUSnPySna-Ht",
+        caption: "Lucas very carefully exiting the paper bin",
       },
     ],
     merch: null,
@@ -2679,7 +2772,7 @@ Loki loved to stash toys, regardless of their size.`,
     playgroup: "m",
     summary:
       "Maisy is a rescue ferret of Snail's House. She loves to stash all the toys! She came to the rescue with behavioral issues.",
-    lore: `Maisy was surrendered by a pet store because she was biting the attendants. After about two months of training she is now a nice little lady
+    lore: `Maisy was surrendered by a pet store because she was biting the attendants. After about two months of training she is now a nice little lady.
 
 When she was first introduced to the business, she did not mesh well with a few of the youngest ferrets and lived alone for a bit. After Big Mike cleared quarantine, the two of them became the best of buddies. After a while, Milo was then added to their playgroup, transforming M&M to M3.
 
@@ -2762,6 +2855,18 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
 
 *Please note, pet stores will return ferrets with behavioral issues to Marshalls for replacement ferrets.`,
     clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BlueHungryMeatloafGOWSkull-gV43d0yac8cOj47q",
+        caption: "Milo leap on Big Mike",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FrozenPreciousPeanutTheTarFu-FwsgIXfcTAKDm4SM",
+        caption: "Big Mike and Milo being menaces",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/KitschyFairWheelBrokeBack-gEF0X7Fs9TsRLfgR",
+        caption: "Milo wants to stash the pizza",
+      },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/SpoopyVivaciousAyeayeMrDestructoid-FKTk5KxzZhwCizvW",
         caption: "Playing with toy",
@@ -3802,8 +3907,22 @@ When Onion first came to the rescue, she was obsessed and imprinted on Beans. Th
     playgroup: "valhalla",
     summary:
       "Peanut 2 was a rescue ferret of Snail's House. She came to the rescue with her cagemate Bagel and really enjoys her company. She was an older and very chill ferret who really enjoyed snuggles.",
-    lore: "Peanut 2 came to the rescue together with Bagel. They were surrendered in love by their owners due to age and existing health conditions.",
+    lore: `Peanut 2 came to the rescue together with Bagel. They were surrendered in love by their owners due to age and existing health conditions.
+
+She came to the rescue with her favourite toy rabbit and loved stashing it not very well all around the room.`,
     clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PluckySpeedyGiraffeMingLee-3ZBWrDBzgeeaBchI",
+        caption: "Bagel wants to use Peanut 2 as a pillow",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TiredFlirtyParrotDogFace-08fee4mbdjra1n3k",
+        caption: "Peanut 2 cleaning Henry",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PatientAssiduousGalagoDxCat-9f7HCN26Su_15Yrn",
+        caption: "Loki cleaning Kitty and Peanut 2",
+      },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/StupidEasyWormGOWSkull-JUy-rxJue7b62QjF",
         caption: "Peanut 2 doing an inspect on Kylo",
@@ -3815,6 +3934,10 @@ When Onion first came to the rescue, she was obsessed and imprinted on Beans. Th
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlightedAwkwardBisonCharlietheUnicorn-ncGVcz0OCfZzlz8b",
         caption: "Peanut 2 Stashes a Toy hide!",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PunchyBoredCroissantAMPEnergy-U3sNdoiXwE3QOn2c",
+        caption: "Peanut 2 stashing her favourite rabbit",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/TrustworthyIcyPeppermintNerfBlueBlaster-IsUrVaXKmm2qHl07",
@@ -4089,12 +4212,20 @@ When Onion first came to the rescue, she was obsessed and imprinted on Beans. Th
 After the passing of some of his fellow cagemates, he has been spending time with the oldies playgroup and enjoys Peanut 2 and Bagel's company.`,
     clips: [
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/CooperativePolishedOwlKippa-niOIsg5TczIENeoo",
+        caption: "Pepperoni stealing Kitty’s stick",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/PreciousBashfulAnteaterBleedPurple-PVFNRu_Z4joSSvEj",
         caption: "Luna and Pepper 2 toobing time",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FamousVivaciousRuffStoneLightning-_xRGuY2rE4oLCCQD",
         caption: "Doing some toobing",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/HomelyObservantCookie4Head-JMMpoYsTaTEDfyCG",
+        caption: "Pepperoni enjoying the lambchop bed",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/OnerousStormyTurnipOSkomodo-jJ8KE_WL29cVc6yU",
@@ -5086,12 +5217,20 @@ Torch is 6 years old and per his previous owner: "Torch tried to take down a new
         caption: "Torch plays with Shaye",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BoxyToughPelicanAllenHuhu-_ZPXD322G6zmggbU",
+        caption: "Torch ACTIVATE",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/CogentCoweringShieldBleedPurple-cSB-lO71Xy8eP2mr",
         caption: "Ricedancing",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CredulousTiredPancakeBrainSlug-nKdOUw7I4Xa9Nn_o",
         caption: "Torch gets scritches!",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/DependableEphemeralScallionAMPEnergyCherry-1-q0NkkN19V5TGa3",
+        caption: "Torch being crazy",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/DeterminedThankfulSoybeanFUNgineer-Klqefft2HBbW0NXw",
@@ -5134,6 +5273,10 @@ Torch is 6 years old and per his previous owner: "Torch tried to take down a new
         caption: "Toobing Torch",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/HonestTastyBorkRitzMitz-ZkCsWXTvj-5dLQBo",
+        caption: "Couch smushes Torch",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/LachrymoseArbitraryEggnogStrawBeary-qIbeb0cP6P9INStl",
         caption: "Torch scoring some kibble",
       },
@@ -5148,6 +5291,10 @@ Torch is 6 years old and per his previous owner: "Torch tried to take down a new
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/PhilanthropicKnottyMetalGivePLZ-mDVbsYfoNAJnOBge",
         caption: "Torch showing off new yoga pose",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/RenownedDepressedDurianKappaWealth-h25c0AT3UlDujw_E",
+        caption: "Shaye teaching Torch how to read",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/RudeEnticingEmuUnSane-63RjYWsUYRCmrBA2",
@@ -5192,6 +5339,10 @@ Torch is 6 years old and per his previous owner: "Torch tried to take down a new
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/VivaciousSingleSandwichNomNom-A8rKcpGOTkNKLE_x",
         caption: "Torch plays with Shaye and blankets",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/YummyAffluentCodCopyThis-5FhDWegc_VnBwdBu",
+        caption: "Torch soup",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AgreeableFaintBeeKappaWealth-OCw5ydzKb9d3VEVW",
