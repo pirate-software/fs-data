@@ -125,7 +125,8 @@
 
   --color-twitch: oklch(from #6441a5 l c h);
 
-  --color-highlight: oklch(from #2a0600 l c h);
+  --color-highlight: oklch(from #ff9f1c l c h);
+  --color-highlight-dark: oklch(from #2a0600 l c h);
 }
 
 @layer base {
