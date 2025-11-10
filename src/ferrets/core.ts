@@ -177,6 +177,10 @@ const ferrets = {
         url: "https://www.twitch.tv/ferretsoftware/clip/PluckySpeedyGiraffeMingLee-3ZBWrDBzgeeaBchI",
         caption: "Bagel wants to use Peanut 2 as a pillow",
       },
+      {
+        url: "Peanut_and_Bagel_Intro.mp4",
+        caption: "Bagel and Peanut 2 introduction",
+      },
     ],
     merch: null,
   },
@@ -460,6 +464,10 @@ During the first night in his temporary cage (quarantine), he proceeded to rip o
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AmazonianTriumphantMinkPanicBasket-jXI9sJFJgW_DzHOb",
         caption: "Pickle photobombs Beef asleep on the couch",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TallAmusedPeppermintFreakinStinkin-YqBWtt3cKSqaSf0l",
+        caption: "Pickle and Beef battle",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/StrongRelentlessAnacondaImGlitch-ocewAkTWn086f_7B",
@@ -908,6 +916,10 @@ Due to Chili being such a chill dude, he and Beans are typically part of the wel
         caption: "Cash sniffah Cowboy",
       },
       {
+        url: "Cowboy enjoys peanut butter.mp4",
+        caption: "Cowboy enjoying some peanut butter",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/AcceptableArborealPotatoShadyLulu-VOtolJJ9963U6iNX",
         caption: "Cowboy playing in the rice",
       },
@@ -1127,6 +1139,28 @@ Due to Chili being such a chill dude, he and Beans are typically part of the wel
         url: "https://www.twitch.tv/ferretsoftware/clip/GeniusResoluteKathyVoteYea-zhQRBXdC6jFxxFJq",
         caption:
           "Grandpa and Eddie nomming soup. Jinx investigates the tuna can",
+      },
+    ],
+    merch: null,
+  },
+  enoki: {
+    name: "Enoki",
+    wikipage: "Enoki",
+    aliases: ["Kiki"],
+    commands: ["enoki"],
+    sex: "Female",
+    birth: null,
+    birthday: null,
+    arrival: "2025-10-25",
+    valhalla: null,
+    playgroup: "k",
+    summary:
+      "Enoki is a ferret of snails house. She joined together with Nameko.",
+    lore: "",
+    clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/AnnoyingToughFoxBrainSlug-U0agCZml-X7wxSC7",
+        caption: "Enoki and Nameko debut",
       },
     ],
     merch: null,
@@ -1450,6 +1484,10 @@ Thor explaining Ghost's situation in short: Link`,
         caption: "Bagel sniffah Ghost",
       },
       {
+        url: "Ghost_cuddles.mp4",
+        caption: "Ghost cuddled by Shaye",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/AmericanBlatantYakDoubleRainbow-kVni7wPzAYyHdkBF",
         caption: "Ghost and Maddie cuddles",
       },
@@ -1625,7 +1663,7 @@ These days, Hazel can be seen bopping around playtime with her general populatio
   henry: {
     name: "Henry",
     wikipage: "Henry",
-    aliases: ["Henwy", "The nascar driver, Son of Shaye"],
+    aliases: ["Henwy", "Nascar Driver, Son of Shaye, Henny, The King"],
     commands: ["henry"],
     sex: "Male",
     birth: null,
@@ -1922,6 +1960,10 @@ These days, Hazel can be seen bopping around playtime with her general populatio
         caption: "Luna and Henry play chase",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ThoughtfulJoyousBaboonPJSugar-AXekr4jrVGe5gLKG",
+        caption: "Henry investigating Mouse",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/TiredFlirtyParrotDogFace-08fee4mbdjra1n3k",
         caption: "Peanut 2 cleaning Henry",
       },
@@ -1960,10 +2002,6 @@ These days, Hazel can be seen bopping around playtime with her general populatio
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/SpoopySplendidWeaselBlargNaut-veLrZT1gxhVHMXDS",
         caption: "Henry checking on Mocha",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/ThoughtfulJoyousBaboonPJSugar-AXekr4jrVGe5gLKG",
-        caption: "Henry investigating Mouse",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CaringPrettyWallabyPeanutButterJellyTime-vMFbr7Z-lmlwg5lM",
@@ -2052,6 +2090,10 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
       {
         url: "https://www.twitch.tv/piratesoftware/clip/BlueBlindingMooseDoubleRainbow-uOgixJ9JyGts2pe4",
         caption: "Jack hijacking the stream",
+      },
+      {
+        url: "Jack_kissies.mp4",
+        caption: "Jack kissies for Shaye",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlindingSarcasticSpaghettiJebaited-gC6mWEvclQkpKivz",
@@ -2154,7 +2196,8 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
     playgroup: "genpop",
     summary:
       "Kahlua is a rescue ferret of Snail's House. He is a very chill ferret that is often used for new ferret introductions. He is also a reformed ear criminal.",
-    lore: "Came to the rescue together with Mai Tai, Mimosa, Scotch and Whiskey. Due to their names, they are also known as the alcohol crew.",
+    lore: `Kahlua came to the rescue together with Mai Tai, Mimosa, Scotch and Whiskey. Due to their names, they are also known as the alcohol or Booze crew.
+Kahlua, like Beans spent time in ear crime jail, with the two sharing a cell for a short period before getting separate accommodations. Eventually Kahlua was returned to the general population group after proving he could be a good boy.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CoyCourageousBaguetteVoHiYo-OXqPuULNZ8RQYAEp",
@@ -2182,7 +2225,9 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
   kitty: {
     name: "Kitty",
     wikipage: "Kitty",
-    aliases: ["Baseboard Roomba, Excitement Incarnate, Destroyer of Lambchops"],
+    aliases: [
+      "Baseboard Roomba, Excitement Incarnate, Destroyer of Lambchops, La Creatura",
+    ],
     commands: ["kitty"],
     sex: "Female",
     birth: null,
@@ -2249,6 +2294,10 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/PatientAssiduousGalagoDxCat-9f7HCN26Su_15Yrn",
         caption: "Loki cleaning Kitty and Peanut 2",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/OutstandingFamousNigiriCoolCat-SutvhO8wgElVao4s",
+        caption: "Lucas weighing down toob. Kitty can't reach stikk!",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CooperativePolishedOwlKippa-niOIsg5TczIENeoo",
@@ -2328,7 +2377,7 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
     playgroup: "kyosai",
     summary:
       "Kyo is a rescue ferret of Snail's House. She is an all white ferret. Kyo really enjoys her playtime with her friend Sai.",
-    lore: "Kyo came to the rescue together with Sai. During their first playtime(s) it was determined they didn't merge well with the big group of gen pop. Currently they are mostly Shaye's gaming buddies and they play in their office.",
+    lore: "Kyo came to the rescue together with Sai. During their first playtime(s) it was determined they didn't mesh well with the big group of gen pop, preferring each other's company. They get ample time in the big play room, as well as being Shaye's gaming buddies in Shaye's office. Kyo often seems to have an endless amount of energy, often times seen running around long after Sai has found a place to sleep.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BumblingPricklyWaffleRalpherZ-mEvJ2WSHdRY4ZR-a",
@@ -2359,6 +2408,10 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
         caption: "Shaye gives return uppies to Kyo and Sai",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PlumpWildChoughBudBlast-YT_YeNUseiyw0guq",
+        caption: "Vinny after a shower with Kyo zooming by",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlazingPeacefulChickpeaPhilosoraptor-UdmGva-W3TAXxgSZ",
         caption: "Shaye being double teamed by Kyo and Sai",
       },
@@ -2373,10 +2426,6 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/WanderingArtsyWaspNotLikeThis-4RWHgZfwtZiWrbZG",
         caption: "Kyo & Sai are introduced",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/PlumpWildChoughBudBlast-YT_YeNUseiyw0guq",
-        caption: "Vinny after a shower with Kyo zooming by",
       },
     ],
     merch: null,
@@ -2563,8 +2612,20 @@ Loki loved to stash toys, regardless of their size.`,
     lore: "Lucas came to the rescue from a loving home. His playmates had passed and the owner wanted him to have ferret friends so he wouldn't be lonely.",
     clips: [
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/OutstandingFamousNigiriCoolCat-SutvhO8wgElVao4s",
+        caption: "Lucas weighing down toob. Kitty can't reach stikk!",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/AnnoyingUglyWrenGivePLZ-6HgSVva2Q2ouf_wv",
+        caption: "10/10 dismount Lucas",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlazingSaltyEyeballRickroll-SPQ12aw68OJIDxUA",
         caption: "Lucas digging the tubes",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/CalmCuteTermiteDuDudu-5PQ8DUA1dC1AmHSa",
+        caption: "Lucas hunting for comfy spot!",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CorrectExuberantSashimiOSkomodo-rU7t7THkrsAajdvo",
@@ -2573,6 +2634,14 @@ Loki loved to stash toys, regardless of their size.`,
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/HomelySullenGrouseHotPokket-MYU1yZU_CJmzdcz7",
         caption: "Lucas gets uppies and kisses!",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/MotionlessHorribleTrollWOOP-TNoXDfkh9Q60T7NJ",
+        caption: "Lucas is grace",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/NiceHilariousStorkPRChase-WK_E6ZCluLEPaCY5",
+        caption: "Lucas paper diggah!",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/TiredEntertainingOctopusBigBrother-0NOqeUSnPySna-Ht",
@@ -2793,6 +2862,10 @@ Maisy is a HUGE serial stasher of toys, and loves to chase her friends through t
         caption: "Chili and Maisy bouncy time",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SparklingBlueAmazonFrankerZ-HikFnlg_WMcwyaN_",
+        caption: "Maisy and Milo want to stash the worm",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/GloriousRoundPotatoSmoocherZ-7LDkQUiHz4fiV8aK",
         caption: "Milo playing with Mike and Maisy",
       },
@@ -2862,6 +2935,10 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FrozenPreciousPeanutTheTarFu-FwsgIXfcTAKDm4SM",
         caption: "Big Mike and Milo being menaces",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SparklingBlueAmazonFrankerZ-HikFnlg_WMcwyaN_",
+        caption: "Maisy and Milo want to stash the worm",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/KitschyFairWheelBrokeBack-gEF0X7Fs9TsRLfgR",
@@ -2937,7 +3014,7 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
     playgroup: "valhalla",
     summary:
       "Mishka was a rescue ferret of Snail's House. She was super energetic and loves to play with other ferrets. She also really enjoyed stashing toys.",
-    lore: "Mishka was surrendered by a loving family at about 2 years old. She is spunky, likes to bite, and has a big personality.",
+    lore: "Mishka was surrendered by a loving family at about 2 years old. She was spunky, liked to bite, and had a big personality.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ChillyOddChimpanzeeDendiFace-XXjhTQo9YS039HAr",
@@ -2973,7 +3050,7 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
   mistoffelees: {
     name: "Mistoffelees",
     wikipage: "Mistoffelees",
-    aliases: ["destroyer of food bowls, enjoyer of floor kibble"],
+    aliases: ["Misto, Destroyer of food bowls, Enjoyer of floor kibble"],
     commands: ["mistoffelees", "mistoffelee"],
     sex: "Male",
     birth: null,
@@ -3038,6 +3115,10 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
         caption: "Mouse: Misto are you done?",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BloodyBlindingTireTheRinger-1LH-J9nCPLGgqyft",
+        caption: "Vinny and Mistoff playing",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/SmokySecretiveIcecreamKappaPride-l3pLQmt_R4UfNvdh",
         caption: "Peanut vs. Mistoff. Peanut takes the high ground",
       },
@@ -3048,10 +3129,6 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ClumsySlickKoalaAMPTropPunch-VWhe5UxkU-e5VhSn",
         caption: "Scotch and Mistoff in a scuffle",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/BloodyBlindingTireTheRinger-1LH-J9nCPLGgqyft",
-        caption: "Vinny and Mistoff playing",
       },
     ],
     merch: null,
@@ -3075,7 +3152,7 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
       "Mocha is a rescue ferret of Snail's House. He's one of the business's most flexible and chill ferrets as he can be out with the oldies and the rambunctious babies. His stealth skills have far surpassed everyone in the rescue.",
     lore: `Mocha is currently one of the largest ferrets at Snail's House 
 
-Mocha sleeps in the cage with the oldies. During playtimes Mocha frequently sleeps in various parts of the room, however he tends to be active and play with the younger ferret groups when they're out at the same time. One of his frequent playtime tactics is to crawl into a tube and stop in the middle of it, then attempt to defend the path and block other ferrets from getting in.`,
+While mocha primarly bunks with genpop, he will visit his oldie friends from time to time for a sleepover due to his calm personality but primarly sleeps with genpop acting as a pillow for the cuddle piles that form. During playtimes Mocha frequently sleeps in various parts of the room, however he tends to be active and play with the younger ferret groups when they're out at the same time. One of his frequent playtime tactics is to crawl into a tube and stop in the middle or the ends of it, then attempt to defend the path and block other ferrets from getting in.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/DignifiedCulturedPhoneBigBrother-w55-MScAZNBbF7wa",
@@ -3242,24 +3319,24 @@ Mocha sleeps in the cage with the oldies. During playtimes Mocha frequently slee
         caption: "Henry checking on Mocha",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TacitSparklyWebOMGScoots-2q6Z2H04cZaKTgCG",
+        caption: "Mocha, Mouse and the Mango",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/SpunkyDeafLeopardLitty-k-QPAJaZcVNaVTnZ",
         caption: "Mocha, the reverse Onion",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/AffluentConsiderateBaguetteNinjaGrumpy-fH7qnxUC2el06LDz",
+        caption: "Pickle and Mocha battle in the mango",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ClearFlaccidGuanacoOSsloth-QMGQJYlNkARldIkN",
         caption: "Pickle and his mighty steed... Mocha!",
       },
       {
-        url: "https://www.twitch.tv/ferretsoftware/clip/TacitSparklyWebOMGScoots-2q6Z2H04cZaKTgCG",
-        caption: "Mocha, Mouse and the Mango",
-      },
-      {
         url: "https://www.twitch.tv/ferretsoftware/clip/FunnySilkyTeaHumbleLife-6HLigtv1h08WuwX3",
         caption: "Tiny Peepo, chonky Mocha",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/AffluentConsiderateBaguetteNinjaGrumpy-fH7qnxUC2el06LDz",
-        caption: "Pickle and Mocha battle in the mango",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AdventurousInexpensiveAsteriskMau5-s0en0kqlUPGZjnax",
@@ -3340,6 +3417,18 @@ Thor is Mouse's favorite, and Thor has admitted that Mouse is his favorite.`,
         caption: "Mouse and Hazel playing with purple ball",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ThoughtfulJoyousBaboonPJSugar-AXekr4jrVGe5gLKG",
+        caption: "Henry investigating Mouse",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/GenerousFrigidDragonfruitThisIsSparta-gps7iDtdGn01gFfv",
+        caption: "Mouse: Misto are you done?",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TacitSparklyWebOMGScoots-2q6Z2H04cZaKTgCG",
+        caption: "Mocha, Mouse and the Mango",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/AmazonianSpicyRadicchioOSkomodo-jBJMC1hGY6zDuL4m",
         caption: "Mouse angy wardancing",
       },
@@ -3354,6 +3443,10 @@ Thor is Mouse's favorite, and Thor has admitted that Mouse is his favorite.`,
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ClumsyBusyPanPeoplesChamp-u8urJDVBKPgkGPA_",
         caption: "Air Mouse taking flight",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/CrackyPunchyOstrichOSkomodo-8ziDFZ987iUeoeRW",
+        caption: "peace and love on mouse earth",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/DignifiedFineAlfalfaTooSpicy-w0i_NR7BgZDnvt8t",
@@ -3436,24 +3529,16 @@ Thor is Mouse's favorite, and Thor has admitted that Mouse is his favorite.`,
         caption: "Mouse and her rocket",
       },
       {
-        url: "https://www.twitch.tv/ferretsoftware/clip/ThoughtfulJoyousBaboonPJSugar-AXekr4jrVGe5gLKG",
-        caption: "Henry investigating Mouse",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/GenerousFrigidDragonfruitThisIsSparta-gps7iDtdGn01gFfv",
-        caption: "Mouse: Misto are you done?",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/TacitSparklyWebOMGScoots-2q6Z2H04cZaKTgCG",
-        caption: "Mocha, Mouse and the Mango",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/GeniusDrabToothOSfrog-CTCt1igvEzWZo50w",
-        caption: "Pickle yeets Mouse off of the box",
+        url: "Mouse_cuddles.mp4",
+        caption: "Mouse need cuddles by Thor",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/EasyPreciousArugulaKAPOW-NBQWiEaW1u12CYCN",
         caption: "Mouse and Pickle kissies",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/GeniusDrabToothOSfrog-CTCt1igvEzWZo50w",
+        caption: "Pickle yeets Mouse off of the box",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/PunchyAnnoyingClipsmomYouWHY-sfuTNCLSzYCH84h-",
@@ -3479,8 +3564,8 @@ Thor is Mouse's favorite, and Thor has admitted that Mouse is his favorite.`,
     playgroup: "valhalla",
     summary:
       "Moxie was a rescue ferret of Snail's House. She was a low key and chill oldie who could be identified during playtime by her bottle brush tail.",
-    lore: `After the passing of her crewmate, Bandit, she is frequently seen with Eddie. (Per Shaye during playtime).
-She also has taken a liking to Henry and loves being his cuddle buddy.
+    lore: `After the passing of her crewmate, Bandit, she was frequently seen with Eddie. (Per Shaye during playtime).
+She had also taken a liking to Henry and loved being his cuddle buddy.
 
 Moxie had a blood sugar crash and the community watching the stream helped her by alerting the caretakers.`,
     clips: [
@@ -3585,6 +3670,36 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/SuspiciousTriangularNigiriWOOP-N5OZtFHsFBKxrRNs",
         caption: "Vinny and Nacho play in the rice bin",
+      },
+    ],
+    merch: null,
+  },
+  nameko: {
+    name: "Nameko",
+    wikipage: "Nameko",
+    aliases: ["Koko"],
+    commands: ["nameko"],
+    sex: "Female",
+    birth: null,
+    birthday: null,
+    arrival: "2025-10-25",
+    valhalla: null,
+    playgroup: "k",
+    summary:
+      "Nameko is a ferret of snails house. She joined together with Enoki.",
+    lore: "Nameko is a very chatty lady and dooks quite a lot. Being very curious, she likes to climb and explore everywhere she can.",
+    clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/AnnoyingToughFoxBrainSlug-U0agCZml-X7wxSC7",
+        caption: "Enoki and Nameko debut",
+      },
+      {
+        url: "Nameko_dooking.mp4",
+        caption: "Nameko Dooking",
+      },
+      {
+        url: "Nameko_tube_dooking.mp4",
+        caption: "Nameko amplified Dooking",
       },
     ],
     merch: null,
@@ -3792,6 +3907,10 @@ When Onion first came to the rescue, she was obsessed and imprinted on Beans. Th
         caption: "Wardance foot soop",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/DifferentEnjoyableRamenBleedPurple-KxAHV23sewbLCf5J",
+        caption: "Peanut can't believe Maddie made her ball disappear",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/EnergeticAgileLarkBlargNaut-SJn97BMLopw2u8RY",
         caption: "Peanut worms in the cloud bed",
       },
@@ -3914,6 +4033,10 @@ She came to the rescue with her favourite toy rabbit and loved stashing it not v
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/PluckySpeedyGiraffeMingLee-3ZBWrDBzgeeaBchI",
         caption: "Bagel wants to use Peanut 2 as a pillow",
+      },
+      {
+        url: "Peanut_and_Bagel_Intro.mp4",
+        caption: "Bagel and Peanut 2 introduction",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/TiredFlirtyParrotDogFace-08fee4mbdjra1n3k",
@@ -4172,6 +4295,10 @@ She came to the rescue with her favourite toy rabbit and loved stashing it not v
         caption: "Pepper, Moose and Salt nomming soop",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/MistyCrispyHeronStoneLightning-B0YfgP5Znv6NkiVg",
+        caption: "Pickle and Pepper bullying Shaye",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/CloudyFrigidTeaTBCheesePull-h885BiPXsBGW4_tW",
         caption: "Pepper and Salt working together",
       },
@@ -4182,10 +4309,6 @@ She came to the rescue with her favourite toy rabbit and loved stashing it not v
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/PhilanthropicHealthyCheddarMrDestructoid-NgwyDTIL5BHOwyjV",
         caption: "Salt and Pepper doing a dig!",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/MistyCrispyHeronStoneLightning-B0YfgP5Znv6NkiVg",
-        caption: "Pickle and Pepper bullying Shaye",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlightedDifferentSquirrelTooSpicy-LQmU-aWZaN0a_t0M",
@@ -4260,6 +4383,14 @@ After the passing of some of his fellow cagemates, he has been spending time wit
         caption: "Beans and Pickle wilding after visiting wet world",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/AmazonianTriumphantMinkPanicBasket-jXI9sJFJgW_DzHOb",
+        caption: "Pickle photobombs Beef asleep on the couch",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TallAmusedPeppermintFreakinStinkin-YqBWtt3cKSqaSf0l",
+        caption: "Pickle and Beef battle",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/SecretiveHardChinchillaTwitchRPG-lgEe9cFhsRf7B8pI",
         caption: "Pickle and Cashew toobing",
       },
@@ -4276,12 +4407,28 @@ After the passing of some of his fellow cagemates, he has been spending time wit
         caption: "Latte and Lucky match! Pickle fights himself",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FaintRealWolfYouDontSay-wSpfwmbZpXXgnf2A",
+        caption: "Pickle and Lucky wrestling",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/AffluentConsiderateBaguetteNinjaGrumpy-fH7qnxUC2el06LDz",
+        caption: "Pickle and Mocha battle in the mango",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/ClearFlaccidGuanacoOSsloth-QMGQJYlNkARldIkN",
         caption: "Pickle and his mighty steed... Mocha!",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/EasyPreciousArugulaKAPOW-NBQWiEaW1u12CYCN",
+        caption: "Mouse and Pickle kissies",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/GeniusDrabToothOSfrog-CTCt1igvEzWZo50w",
         caption: "Pickle yeets Mouse off of the box",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/MistyCrispyHeronStoneLightning-B0YfgP5Znv6NkiVg",
+        caption: "Pickle and Pepper bullying Shaye",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AbstruseComfortableMagpieKappa-m-XKrWnbCrWLFAVs",
@@ -4338,6 +4485,10 @@ After the passing of some of his fellow cagemates, he has been spending time wit
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FreezingBlightedLeopardTheTarFu-fTqrhGWAKdjtxM_A",
         caption: "Pickle faceplants into water dish",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/GenerousSilkyOrangeCurseLit-CoLGVJiQt6TT5LCw",
+        caption: "Pickle basket shenanigans",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/GlamorousArborealWalletHassaanChop-HWMBCCNZ0e_0YcZs",
@@ -4404,6 +4555,10 @@ After the passing of some of his fellow cagemates, he has been spending time wit
         caption: "Pickle deadsleeping",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ProudCoyCakeStinkyCheese-HkBX8p13kYccsrcQ",
+        caption: "Pickle, climbing is hard",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/PuzzledDarkMochaTriHard-Crj2vhmo4Dr8TQda",
         caption: "Pickle soup tail wiggle",
       },
@@ -4468,24 +4623,8 @@ After the passing of some of his fellow cagemates, he has been spending time wit
         caption: "Thor explaining Pickle Bongos",
       },
       {
-        url: "https://www.twitch.tv/ferretsoftware/clip/AmazonianTriumphantMinkPanicBasket-jXI9sJFJgW_DzHOb",
-        caption: "Pickle photobombs Beef asleep on the couch",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/FaintRealWolfYouDontSay-wSpfwmbZpXXgnf2A",
-        caption: "Pickle and Lucky wrestling",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/AffluentConsiderateBaguetteNinjaGrumpy-fH7qnxUC2el06LDz",
-        caption: "Pickle and Mocha battle in the mango",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/EasyPreciousArugulaKAPOW-NBQWiEaW1u12CYCN",
-        caption: "Mouse and Pickle kissies",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/MistyCrispyHeronStoneLightning-B0YfgP5Znv6NkiVg",
-        caption: "Pickle and Pepper bullying Shaye",
+        url: "Pickle_Bongos.mp4",
+        caption: "Pickle does bongos on water fountain",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AgreeableDignifiedSrirachaFunRun-EE9jsN8KuQJo_J4k",
@@ -4671,8 +4810,8 @@ That is not a weakness. That is life.`,
     valhalla: null,
     playgroup: "kyosai",
     summary:
-      "Sai is a rescue ferret of Snail's House. She came to the rescue with her cagemate Kyo.",
-    lore: "Sai came to the rescue together with Kyo. During their first playtime(s) it was determined they didn't merge well with the big group of gen pop. Currently they are mostly Shaye's gaming buddies and they play in their office.",
+      "Sai is a rescue ferret of Snail's House. She came to the rescue with her cage mate Kyo.",
+    lore: "Sai came to the rescue together with Kyo. During their first playtime(s) it was determined they didn't mesh well with the big group of gen pop, preferring each other's company. They get ample time in the big play room, as well as being Shaye's gaming buddies in Shaye's office.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FaintNurturingAubergineUnSane-70apOYHNHAS1gqw6",
@@ -5419,6 +5558,18 @@ He was the 7th ferret to join the rescue (yarr7).`,
     lore: "Vinny's origin story is quite grim and caused Thor to consume a pumpkin pie with his bare hands in the middle of the night at a USPS parking lot. * He is missing one of his ears, which caused Shaye to name him after Vincent Van Gogh. This is also because he is bonded to Shaye because of his Waardenburg Syndrome.",
     clips: [
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PlumpWildChoughBudBlast-YT_YeNUseiyw0guq",
+        caption: "Vinny after a shower with Kyo zooming by",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BloodyBlindingTireTheRinger-1LH-J9nCPLGgqyft",
+        caption: "Vinny and Mistoff playing",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SuspiciousTriangularNigiriWOOP-N5OZtFHsFBKxrRNs",
+        caption: "Vinny and Nacho play in the rice bin",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/BoredCleanHummingbirdFailFish-iJXk9ZgrvQQ5uOAt",
         caption: "Dancing with Shaye",
       },
@@ -5429,6 +5580,10 @@ He was the 7th ferret to join the rescue (yarr7).`,
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ColdbloodedZealousElkOSsloth-T12t0zzPB19ChUKT",
         caption: "Playing with Maddie",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FriendlyAstuteNewtOSkomodo-LhO6RVcQq7BGylg8",
+        caption: "Diggy time with Vinny",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/GentleFuriousSwanFutureMan--NkdNnJZRTzCg2Mq",
@@ -5467,16 +5622,8 @@ He was the 7th ferret to join the rescue (yarr7).`,
         caption: "Wardance drive-by",
       },
       {
-        url: "https://www.twitch.tv/ferretsoftware/clip/PlumpWildChoughBudBlast-YT_YeNUseiyw0guq",
-        caption: "Vinny after a shower with Kyo zooming by",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/BloodyBlindingTireTheRinger-1LH-J9nCPLGgqyft",
-        caption: "Vinny and Mistoff playing",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/SuspiciousTriangularNigiriWOOP-N5OZtFHsFBKxrRNs",
-        caption: "Vinny and Nacho play in the rice bin",
+        url: "Vincent_playtime_qt.mp4",
+        caption: "Vincent solo playtime during Quarantine",
       },
     ],
     merch: null,
@@ -5496,6 +5643,10 @@ He was the 7th ferret to join the rescue (yarr7).`,
       "Whiskey is a rescue ferret of Snail's House. He came to the rescue with his friends Kahlua, Mai Tai, Mimosa and Scotch. He is a super active ferret who loves the play toys and enjoys stashing them.",
     lore: "Came to the rescue together with Kahlua, Mai Tai, Mimosa and Scotch from a loving home. Their owner had to give them up due to life circumstances. Due to their names, they are also known as the alcohol crew.",
     clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ArtisticComfortableYakinikuTheThing-wU4aeXcA7RZkFXR5",
+        caption: "Whiskey close up",
+      },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ConsiderateSmallDunlinPanicBasket-x3oZLZCYBaiQcEWi",
         caption: "Hiding more toys!",
@@ -5601,6 +5752,10 @@ He was the 7th ferret to join the rescue (yarr7).`,
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/TentativeEnchantingTapirSoonerLater-JkF_sbKruuhBqcYW",
         caption: "This is my sleeping spot now",
+      },
+      {
+        url: "Zero_Ricepit.mp4",
+        caption: "Zero playing in Rice-Box",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/SteamyAntsyClamHumbleLife-8v2n-0eNYc44pNpp",

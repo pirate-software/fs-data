@@ -154,6 +154,7 @@ VALID_PLAYGROUPS = [
     "bepeepo",
     "genpop",
     "kyosai",
+    "k",
     "m",
     "oldies",
     "pms",
@@ -386,7 +387,7 @@ def generate_core_json(ferrets: list[dict]) -> None:
                 print(f"Unrecognised month in birthday for {name}: {birthday_text}")
                 birthday = None
         elif birthday_text == "":
-            print(f"No birthday listed for {name}")
+            # print(f"No birthday listed for {name}")
             birthday = None
         else:
             print(f"Unrecognised birthday format for {name}: {birthday_text}")
