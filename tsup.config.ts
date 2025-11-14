@@ -24,7 +24,9 @@ const logFiles = (files: (string | [string, string])[]) => {
 export default defineConfig(async () => ({
   // Every .ts file should be accessible from the outside
   // Don't include .d.ts files as they throw errors
-  entry: await Array.fromAsync(glob("src/**/*.ts", { exclude: ["**/*.d.ts"] })),
+  entry: (
+    await Array.fromAsync(glob("src/**/*.ts", { exclude: ["**/*.d.ts"] }))
+  ).map((file) => file.replace(/\\/g, "/")),
 
   // Output to the build directory, making sure it is empty
   outDir: "build",

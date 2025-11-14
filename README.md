@@ -43,7 +43,7 @@ To test changes locally across related projects, update the version in this repo
 `prerelease` for repeat testing), run `npm run build` and install this repository as a file-based
 dependency:
 
-- Extension: `pnpm remove @pirate-software/fs-data && pnpm add file:../data`
+- Extension: `pnpm remove @pirate-software/fs-data && pnpm add file:../fs-data`
 
 Alternatively for maintainers with write access to the repository, with the version updated, push
 the pre-release branch to GitHub and install the version reported by the `publish/publish` action:
