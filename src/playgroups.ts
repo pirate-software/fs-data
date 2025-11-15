@@ -17,6 +17,10 @@ const playgroups = {
     description:
       "The biggest playgroup of ferrets in the rescue consisting of 20+ ferrets.",
   },
+  k: {
+    name: "K2",
+    description: "Koko (Nameko) and Kiki (Enoki)'s playgroup.",
+  },
   kyosai: {
     name: "Kyo & Sai",
     description: "Kyo and Sai's playgroup.",

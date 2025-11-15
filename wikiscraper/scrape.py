@@ -394,12 +394,12 @@ def generate_core_json(ferrets: list[dict]) -> None:
             birthday = None
 
         arrival = ferret["arrivaldate"].strip().replace("/", "-")
-        if not re.match(r"^[0-9]{4}-[0-9]{2}-[0-9]{2}$", arrival):
+        if not re.match(r"^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}$", arrival):
             print(f"Unrecognised arrival date format for {name}: {arrival}")
             arrival = None
 
         valhalla = ferret["valhalla"].strip().replace("/", "-")
-        if not re.match(r"^[0-9]{4}-[0-9]{2}-[0-9]{2}$", valhalla):
+        if not re.match(r"^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}$", valhalla):
             if valhalla != "":
                 print(f"Unrecognised valhalla date format for {name}: {valhalla}")
             valhalla = None

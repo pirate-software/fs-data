@@ -68,6 +68,7 @@ import scotchMugshot from "../assets/ferrets/scotch/mugshot.png";
 import skyeMugshot from "../assets/ferrets/skye/mugshot.png";
 import snailsMugshot from "../assets/ferrets/snails/mugshot.png";
 import snowballMugshot from "../assets/ferrets/snowball/mugshot.png";
+import snowberryMugshot from "../assets/ferrets/snowberry/mugshot.png";
 import spudMugshot from "../assets/ferrets/spud/mugshot.png";
 import teepMugshot from "../assets/ferrets/teep/mugshot.png";
 import thelmaMugshot from "../assets/ferrets/thelma/mugshot.png";
@@ -395,6 +396,10 @@ const ferretMugshots: {
   snowball: {
     src: snowballMugshot,
     alt: "Mugshot of Snowball",
+  },
+  snowberry: {
+    src: snowberryMugshot,
+    alt: "Mugshot of Snowberry",
   },
   spud: {
     src: spudMugshot,

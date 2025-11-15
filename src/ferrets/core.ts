@@ -50,7 +50,7 @@ const ferrets = {
     birthday: "02-26",
     arrival: "2024-02-26",
     valhalla: null,
-    playgroup: "bepeepo",
+    playgroup: "solo",
     summary:
       "Badger is a rescue ferret of Snail's House. He typically enjoys playing in the toobs and rice bin. His favorite playmate is Peepo.",
     lore: "Badger is a part of the 5 ferrets who were found abandoned in an unlocked shed by the Humane Society. They then reached out to the rescue for assistance. Badger came to the rescue with Moose, Peepo, Pepper, and Salt",
@@ -874,6 +874,14 @@ Due to Chili being such a chill dude, he and Beans are typically part of the wel
         caption: "Comparing sizes, Hazel and Chili",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PoliteDifficultTeaWTRuck-auGfMN8AN2wFsTEC",
+        caption: "Snowberry and Chili exploring",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/WonderfulElegantPeafowlMcaT-PnUm2Gtl1nxBA4wz",
+        caption: "Chili and Snowberry meet and greet",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/PlumpRichMonkeyTriHard-Pv7ikDUJSGTqp9Gh",
         caption: "Finn has tail wiggles with Chili",
       },
@@ -1153,7 +1161,7 @@ Due to Chili being such a chill dude, he and Beans are typically part of the wel
     birthday: null,
     arrival: "2025-10-25",
     valhalla: null,
-    playgroup: "solo",
+    playgroup: "k",
     summary:
       "Enoki is a ferret of snails house. She joined together with Nameko.",
     lore: "",
@@ -2983,6 +2991,10 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
     lore: "Came to the rescue together with Kahlua, Mai Tai, Scotch and Whiskey. Due to their names also known as the alcohol crew. She is classified as a champagne colored ferret.",
     clips: [
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BigSpinelessPelicanFUNgineer-UvcJ7jiWLnFGYRWJ",
+        caption: "Mimi getting cuddles",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/DullSavageKiwiJebaited-FG5kuzfwjh_RSD2f",
         caption: "Mimosa noseballs circle toy ball",
       },
@@ -3684,7 +3696,7 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
     birthday: null,
     arrival: "2025-10-25",
     valhalla: null,
-    playgroup: "solo",
+    playgroup: "k",
     summary:
       "Nameko is a ferret of snails house. She joined together with Enoki.",
     lore: "Nameko is a very chatty lady and dooks quite a lot. Being very curious, she likes to climb and explore everywhere she can.",
@@ -4078,8 +4090,8 @@ She came to the rescue with her favourite toy rabbit and loved stashing it not v
     birth: null,
     birthday: "02-26",
     arrival: "2024-02-26",
-    valhalla: null,
-    playgroup: "bepeepo",
+    valhalla: "2025-10-31",
+    playgroup: "valhalla",
     summary:
       "Peepo is a rescue ferret of Snail's House. She is a sweet older lady who came to the rescue with Badger, Moose, Pepper, and Salt. She enjoys finding hiding spots in the playroom to hide from the caretakers and is easily identified during playtime by her shorter tail and small size.",
     lore: "Peepo is a part of the 5 ferrets who were found abandoned in an unlocked shed by the Humane Society. They then reached out to the rescue for assistance. Peepo came to the rescue with Badger,Moose, Pepper, and Salt",
@@ -4327,7 +4339,7 @@ She came to the rescue with her favourite toy rabbit and loved stashing it not v
     birthday: null,
     arrival: "2024-10-20",
     valhalla: null,
-    playgroup: "oldies",
+    playgroup: "valhalla",
     summary:
       "Pepper 2 is a rescue ferret of Snail's House. He came from a loving home who could no longer care for him and his mates Skye, Snowball and Salt 2.",
     lore: `Pepper 2 joined the rescue together with Skye, Snowball and Salt 2. 
@@ -4493,6 +4505,10 @@ After the passing of some of his fellow cagemates, he has been spending time wit
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/GlamorousArborealWalletHassaanChop-HWMBCCNZ0e_0YcZs",
         caption: "Pickle staring into your soul",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/GracefulConsiderateRhinocerosShazBotstix-URUa7-quCQTTnLjL",
+        caption: "Pickle - No time for cuddles, must stash!",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/HilariousElatedSmoothieBigBrother-X2eZh3opbazXrMtT",
@@ -5158,6 +5174,49 @@ Snowball is an Albino`,
     ],
     merch: null,
   },
+  snowberry: {
+    name: "Snowberry",
+    wikipage: "Snowberry",
+    aliases: [],
+    commands: ["snowberry"],
+    sex: "Female",
+    birth: null,
+    birthday: null,
+    arrival: "2025-10-04",
+    valhalla: null,
+    playgroup: "solo",
+    summary:
+      "Snowberry is a rescue ferret of snails house. She came to the rescue with a leg injury, and despite this injury and ongoing recovery, she has proved to be an avid explorer who enjoys making new friends.",
+    lore: `Snowberry came to the rescue after being found at a remote park with a leg injury by a concerned couple who also gave her the name she now carries. Upon examination by the vet it was It was determined that her leg itself was fine but the right side of her pelvis had suffered a compound fracture, the cause of which is unknown.
+She was prescribed 6-8 weeks of rest and pain management and is making good strides in her recovery. She's very active and loves to explore the big room, she also seems very fond Henry and Teep.`,
+    clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PoliteDifficultTeaWTRuck-auGfMN8AN2wFsTEC",
+        caption: "Snowberry and Chili exploring",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/WonderfulElegantPeafowlMcaT-PnUm2Gtl1nxBA4wz",
+        caption: "Chili and Snowberry meet and greet",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/GrossConsideratePuddingShazBotstix-MLYLKAxjZ9IrgP2c",
+        caption: "Snowberry coming for snuggles!",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ResoluteAdventurousEggplantRuleFive-Vfjm9ga5jJcrJCAC",
+        caption: "Snowberry water dig",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/NimbleTubularUdonPunchTrees-EkdZW9YxpFWWnIEY",
+        caption: "Snowberry meets Teep",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ToughCrackyPidgeonShadyLulu-H0Z-I_EbAVSonhMj",
+        caption: "Snowberry grooming Teep",
+      },
+    ],
+    merch: null,
+  },
   spud: {
     name: "Spud",
     wikipage: "Spud",
@@ -5208,6 +5267,14 @@ Teep affectionately earned the nickname "Officer Teep" when she chose to ride He
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/WealthyGoodMeerkatResidentSleeper-BaYdeH91eODLxE9H",
         caption: "Luna and Teep stretchy time",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/NimbleTubularUdonPunchTrees-EkdZW9YxpFWWnIEY",
+        caption: "Snowberry meets Teep",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ToughCrackyPidgeonShadyLulu-H0Z-I_EbAVSonhMj",
+        caption: "Snowberry grooming Teep",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/EnthusiasticPopularCoyotePMSTwin-Fq5cQqmopKeW1IxR",
@@ -5339,8 +5406,8 @@ Teep affectionately earned the nickname "Officer Teep" when she chose to ride He
     birth: null,
     birthday: null,
     arrival: "2024-08-25",
-    valhalla: null,
-    playgroup: "solo",
+    valhalla: "2025-10-31",
+    playgroup: "valhalla",
     summary:
       "Torch is a rescue ferret of Snail's House. He was surrendered to the rescue from a loving home in Montana. While he is a super playful and bouncy ferret, he truly loves getting snuggles with his human caretakers.",
     lore: `Torch was adopted from Montana and looks like a healthy and well looked after ferret. 
