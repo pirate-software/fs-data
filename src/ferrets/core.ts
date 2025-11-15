@@ -1161,7 +1161,7 @@ Due to Chili being such a chill dude, he and Beans are typically part of the wel
     birthday: null,
     arrival: "2025-10-25",
     valhalla: null,
-    playgroup: "k",
+    playgroup: "solo",
     summary:
       "Enoki is a ferret of snails house. She joined together with Nameko.",
     lore: "",
@@ -3696,7 +3696,7 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
     birthday: null,
     arrival: "2025-10-25",
     valhalla: null,
-    playgroup: "k",
+    playgroup: "solo",
     summary:
       "Nameko is a ferret of snails house. She joined together with Enoki.",
     lore: "Nameko is a very chatty lady and dooks quite a lot. Being very curious, she likes to climb and explore everywhere she can.",
