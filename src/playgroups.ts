@@ -17,10 +17,10 @@ const playgroups = {
     description:
       "The biggest playgroup of ferrets in the rescue consisting of 20+ ferrets.",
   },
-  // k: {
-  //   name: "K2",
-  //   description: "Koko (Nameko) and Kiki (Enoki)'s playgroup.",
-  // },
+  k: {
+    name: "K2",
+    description: "Koko (Nameko) and Kiki (Enoki)'s playgroup.",
+  },
   kyosai: {
     name: "Kyo & Sai",
     description: "Kyo and Sai's playgroup.",
@@ -37,6 +37,11 @@ const playgroups = {
   pms: {
     name: "PMS",
     description: "Pepper, Moose, and Salt's playgroup.",
+  },
+  quarantine: {
+    name: "Quarantine",
+    description:
+      "A group for incoming ferrets that either need observation time for medical needs or have not yet been placed into a permanent group.",
   },
   rb: {
     name: "R&B",

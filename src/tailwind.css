@@ -18,7 +18,9 @@
   --color-textcol: oklch(from #2a0600 l c h);
   --color-textcol-dark: oklch(from #ffffff l c h);
   --color-titlecol: oklch(from #cc7600 l c h);
+  --color-titlecol-dark: oklch(from #ffbbbb l c h);
   --color-subtitlecol: oklch(from #ff7c66 l c h);
+  --color-subtitlecol-dark: oklch(from #ffbbbb l c h);
 
   --color-red: oklch(from #fe8484 l c h);
   --color-green: oklch(from #b0d94e l c h);
@@ -40,7 +42,7 @@
   --color-twitch: oklch(from #6441a5 l c h);
 
   --color-highlight: oklch(from #e8972a l c h);
-  --color-highlight-dark: oklch(from #2a0600 l c h);
+  --color-highlight-dark: oklch(from #ff9505 l c h);
 }
 
 @layer base {

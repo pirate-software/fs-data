@@ -1,5 +1,6 @@
 from requests import get
 import regex as re
+from regex import Match
 import os
 import sys
 import json
@@ -164,14 +165,40 @@ VALID_PLAYGROUPS = [
     "vons",
 ]
 
-def de_wikitext(s: str) -> str: # Wikitext to plain text
+def replace_link(match: Match[str], ferrets:List) -> str:
+    link_target = match.group(1)
+    link_text = match.group(2)[1:] if match.group(2) else link_target  # use link text if present
+    page_name = link_target.replace("_", " ")
+    if len(ferrets) == 0: #TEMP
+        return link_text  # simplify link if no ferret data
+    
+    for ferret in ferrets:
+        if ferret["name"].strip().lower() == page_name.strip().lower():
+            return f"[[{page_name}|{link_text}]]" if page_name != link_text else f"[[{page_name}]]"  # keep link
+        
+    if "pswiki" not in link_target.lower() and "category:" not in link_target.lower(): #TEMP
+        print("\n")
+        print("Simplifying link to non-ferret page:", match.group(0), link_target, link_text, page_name)
+        print(len(ferrets))
+        print(ferrets[-1]["name"].strip().lower(), "=?=", page_name.strip().lower(), "->", ferret["name"].strip().lower() == page_name.strip().lower())
+    return link_text  # simplify link
+
+
+def de_wikitext(s: str, ferrets: List) -> str: # Wikitext to plain text
     s = re.sub(r"\[\[File:.*?\]\]", "", s)  # Remove file links
-    s = re.sub(r"\[\[(?:[^\|\]]*\|)?([^\]]+)\]\]", r"\1", s)  # Simplify links
     s = re.sub(r"\[http[^\s]* ([^\]]+)\]", r"\1", s)  # Simplify external links
     s = re.sub(r"''+", "", s)  # Remove italics/bold
     s = re.sub(r"<ref.*?>.*?</ref>", "", s)  # Remove references
     s = re.sub(r"<.*?>", "", s)  # Remove other HTML tags
     s = re.sub(r"\{\{.*?\}\}", "", s)  # Remove templates
+
+    if False:
+        s = re.sub(r"\[\[([^\|\]]+)(\|[^\]]+)?\]\]", r"\2", s)  # Simplify links
+        return s.strip()
+
+    # for each link, check if it is to the page of another ferret, if so, leave it be, otherwise simplify
+    
+    s = re.sub(r"\[\[([^\|\]]*)(\|[^\]]+)?\]\]", lambda x: replace_link(x, ferrets), s)  # Simplify links conditionally
     return s.strip() 
 
 
@@ -333,7 +360,7 @@ def generate_core_json(ferrets: list[dict]) -> None:
             print(f"Could not find summary for {name}")
             summary = ""
         else:
-            summary = de_wikitext(summary_search.group(1))
+            summary = de_wikitext(summary_search.group(1), ferrets)
 
         # lore
         lore_search = PAGE_LORE_REGEX.search(page)
@@ -341,7 +368,7 @@ def generate_core_json(ferrets: list[dict]) -> None:
             print(f"Could not find lore for {name}")
             lore = ""
         else:    
-            lore = de_wikitext(lore_search.group(1))
+            lore = de_wikitext(lore_search.group(1), ferrets)
 
         # infobox
         infobox_search = INFOBOX_REGEX.search(page)
@@ -403,6 +430,9 @@ def generate_core_json(ferrets: list[dict]) -> None:
             if valhalla != "":
                 print(f"Unrecognised valhalla date format for {name}: {valhalla}")
             valhalla = None
+        else:
+            y, m, d = valhalla.split("-")
+            valhalla = f"{int(y):04d}-{int(m):02d}-{int(d):02d}"
 
         commands = [name_nospace]
         if name_nospace[-1] == "s":
@@ -438,7 +468,7 @@ def generate_core_json(ferrets: list[dict]) -> None:
             if ferret_name in ferret_data:
                 ferret_data[ferret_name]["clips"].append({
                     "url": clip["Link"].strip(),
-                    "caption": de_wikitext(clip["Title"].strip())
+                    "caption": de_wikitext(clip["Title"].strip(), []) # don't allow links
                 })
             else:
                 print(f"Clip entry for unknown ferret: {ferret_name}")
