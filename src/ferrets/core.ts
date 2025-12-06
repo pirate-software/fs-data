@@ -282,8 +282,8 @@ After about five months in the care of Shaye and Thor he sadly passed away of ol
     ],
     commands: ["beans", "bean"],
     sex: "Male",
-    birth: null,
-    birthday: null,
+    birth: "2021-12-19",
+    birthday: "12-19",
     arrival: "2022-04-01",
     valhalla: null,
     playgroup: "genpop",
@@ -416,14 +416,14 @@ During the first night in his temporary cage (quarantine), he proceeded to rip o
     aliases: ["The Thief"],
     commands: ["beef"],
     sex: "Male",
-    birth: null,
-    birthday: null,
+    birth: "2021-02-20",
+    birthday: "02-20",
     arrival: "2021-07-02",
     valhalla: null,
     playgroup: "oldies",
     summary:
       "Beef is a ferret of Snail's House. He enjoys stealing food from other ferrets' mouths and desires the freshest of water from the bottom of the water bowl.  [[Cheese]] is his sister.",
-    lore: "Originally a pet of Thor and Shaye, Beef came to Snail's House from the pet store with his sister [[Cheese]]. He has quite the personality. He will stick his head into the water dish, all the way to the bottom and then panic as if he's drowning. Beef used to be very interested in [[Mouse]] but she was indifferent. He enjoys playing with [[Pepper]] when given the opportunity, but they are currently in different play groups. Beef now currently resides in the oldies cage so he and his sister's aging health can be monitored closely.",
+    lore: "Originally a pet of Thor and Shaye, Beef came to Snail's House from the pet store with his sister [[Cheese]]. He has quite the personality. He will stick his head into the water dish, all the way to the bottom and then panic, as if he's drowning. Beef used to be very interested in [[Mouse]], but she was indifferent. He enjoys playing with [[Pepper]] when given the opportunity, but they are currently in different play groups. Beef now currently resides in the oldies cage so that he and his sister's aging health can be monitored closely.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlightedInterestingNeanderthalMingLee-cXiqEcEzDzQ-OGCU",
@@ -605,7 +605,7 @@ When looking to identify him, Mike is a big boy with the total white paw chrome 
     playgroup: "rb",
     summary:
       "Bruce is a rescue ferret of Snail's House. He's a very chill and laid back dude who sometimes activates and crushes castles while wardancing. He enjoys leisure walks with his friend [[Teep]].",
-    lore: "Bruce came to the rescue with [[Teep]] from a loving home. They were surrendered due to needed senior care the rescue could provide. After some time and due to his very unshakable and calm demeanor, he made friends and was paired [[Rusty]] to form R&B.",
+    lore: "Bruce came to the rescue with [[Teep]] from a loving home. They were surrendered due to needed senior care in which the rescue could provide. After some time, and due to his very unshakable and calm demeanor, he made friends and was paired with [[Rusty]] to form R&B.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlitheThoughtfulDragonflyKappaPride-697a3MxrvJq282k0",
@@ -652,14 +652,14 @@ When looking to identify him, Mike is a big boy with the total white paw chrome 
     aliases: ["Cash, Speedy Muscle Boy"],
     commands: ["cashew"],
     sex: "Male",
-    birth: null,
-    birthday: null,
+    birth: "2024-04-13",
+    birthday: "04-13",
     arrival: "2024-08-03",
     valhalla: null,
     playgroup: "genpop",
     summary:
       "Cashew is a rescue ferret of Snail's House. While he plays well with everyone, he really enjoys playing with [[Pickle]]. He is easy to identify during playtime by his large size and nub tail.",
-    lore: `Cashew was adopted from the pet store with [[Hazelnut]] and [[Peanut]] as part of the "Nut Gang". Peanut and Hazel were rescued due to them having Waardenburg Syndrome  and multiple behavioral issues. Cashew developed similar behavioral issues due to living as cage mates with these others and had also bonded to them, causing the rescue to acquire him as well. These days, he really enjoys playtime with the general population playgroup.
+    lore: `Cashew was adopted from the pet store with [[Hazelnut]] and [[Peanut]] as part of the "Nut Gang". Peanut and Hazel were rescued due to them having Waardenburg Syndrome  and multiple behavioral issues. Cashew developed similar behavioral issues due to living as cage mates with these others which had also bonded to him, causing the rescue to acquire him as well. These days, he really enjoys playtime with the general population playgroup.
 
 *Please note, pet stores will return ferrets with behavioral issues to Marshalls for replacement ferrets.`,
     clips: [
@@ -732,14 +732,14 @@ When looking to identify him, Mike is a big boy with the total white paw chrome 
     aliases: ["The Final Boss"],
     commands: ["cheese"],
     sex: "Female",
-    birth: null,
-    birthday: null,
+    birth: "2021-02-20",
+    birthday: "02-20",
     arrival: "2021-07-02",
     valhalla: null,
     playgroup: "oldies",
     summary:
       "Cheese is a ferret of Snail's House. She is the professional photo model for the business and loves posing for the camera. She enjoys redecorating the playroom and climbing Shaye.",
-    lore: 'Cheese came from the pet store with her brother [[Beef]], they were both bought as pets before Thor and Shaye decided to start a ferret sanctuary. Cheese is a Roan/Silver ferret. With each shed she get more and more white hair (called "roaning out") and will probably be full white eventually. Cheese is a very sweet little lady who likes to chill and cuddle. She is mostly left alone by the rowdy youngins\' because she is actually the most vicious fighter of the business. She is incredibly photogenic. Recently she moved from general population to live with the oldies with her brother, [[Beef]], so that her health could be monitored more closely.',
+    lore: 'Cheese came from the pet store with her brother [[Beef]], they were both bought as pets before Thor and Shaye decided to start a ferret sanctuary. Cheese is a Roan/Silver ferret. With each shed she get more and more white hair (called "roaning out") and will probably be fully white eventually. Cheese is a very sweet little lady who likes to chill and cuddle. She is mostly left alone by the rowdy youngins\' because she is actually the most vicious fighter of the business. She is incredibly photogenic. Recently, she moved from general population to live with the oldies with her brother, [[Beef]], so that her health could be monitored more closely.',
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/NastyPeppyFishPicoMause-aR_cFP3m7ieaBBpd",
@@ -829,7 +829,7 @@ When looking to identify him, Mike is a big boy with the total white paw chrome 
     playgroup: "genpop",
     summary:
       "Chili is a rescue ferret of Snail's House. He has an affinity for climbing, gym workouts, and a strange obsession with trash cans. He currently holds the title of heaviest recorded ferret of the rescue at around 1960 grams.",
-    lore: `Chili came to the rescue with his fellow housemate [[Fig]]. He enjoys climbing often, and frequently finds himself in the trashcan of the playroom (as seen below) due to these shenanigans. 
+    lore: `Chili came to the rescue with his fellow housemate [[Fig]]. He enjoys climbing often, and frequently finds himself in the trashcan of the playroom, (as seen below), due to these shenanigans. 
 
 Due to Chili being such a chill dude, he and [[Beans]] are typically part of the welcome committee to introduce new ferrets to the business when they are ready to integrate.`,
     clips: [
@@ -1122,14 +1122,14 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
     aliases: [],
     commands: ["eddie"],
     sex: "Male",
-    birth: null,
-    birthday: null,
+    birth: "2017-12-16",
+    birthday: "12-16",
     arrival: "2023-08-18",
     valhalla: null,
     playgroup: "oldies",
     summary:
-      "Eddie is a rescue ferret of Snail's House. He came into the rescue as a solo ferret. Since he is so chill, he meshed really well with the oldies and enjoys snuggling with [[Zero]] and [[Banana]].",
-    lore: "Eddie came to the rescue from a pair of fantastic owners. His lifelong buddy had died and he needed other ferret friends as they are super social creatures.  Now he enjoys his leisure time among the oldies with lots of jaunts around the playroom, plenty of mango snuggles, and tasty soupies.",
+      "Eddie is a rescue ferret of Snail's House. He came into the rescue as a solo ferret. Since he is so chill, he meshed really well with the oldies, and enjoys snuggling with [[Zero]] and [[Banana]].",
+    lore: "Eddie came to the rescue from a pair of fantastic owners. His lifelong buddy died, and he needed other ferret friends because they are super social creatures.  Now he enjoys his leisure time among the oldies with lots of jaunts around the playroom, plenty of Mango snuggles, and tasty soupies.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CoyExquisiteFoxDatSheffy-cxLgwrpthHUuk8wi",
@@ -1163,7 +1163,7 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
     valhalla: null,
     playgroup: "k",
     summary:
-      "Enoki is a ferret of snails house. She joined together with [[Nameko]].",
+      "Enoki is a ferret of snails house. She joined together with [[Nameko]].  Also known as Kiki, by Ferret Chat and Shaye alike. Their names were inspired by mushrooms.",
     lore: "",
     clips: [
       {
@@ -1437,7 +1437,7 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
     playgroup: "solo",
     summary:
       "Finn is a rescue ferret of Snail's House. While he sometimes struggles to make ferret friends, he really enjoys human snuggles and scritches. He came to the rescue with his friend [[Felix]].",
-    lore: "Finn joined us together with his, at the time, naked friend [[Felix]]. They were in-state medical surrenders. For a while the best way to identify Finn, was to see Felix with him. Finn was very protective of his best friend [[Felix]]. Finn was there when his best friend passed away. These days, Finn enjoys the solo life with his gaming buddy, Shaye.",
+    lore: "Finn joined us together with his, at the time, naked friend [[Felix]]. They were in-state medical surrenders. For a while, the best way to identify Finn, was to see Felix with him. Finn was very protective of his best friend [[Felix]]. Finn was there when his best friend passed away. These days, Finn enjoys the solo life with his gaming buddy, Shaye.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/TubularWrongGuanacoGrammarKing-JmQjS9olX3LAjvZw",
@@ -1576,13 +1576,13 @@ Thor explaining Ghost's situation in short: Link`,
     aliases: ["Hazel", "Sock Tax Criminal"],
     commands: ["hazelnut"],
     sex: "Female",
-    birth: null,
-    birthday: null,
+    birth: "2024-04-13",
+    birthday: "04-13",
     arrival: "2024-08-03",
     valhalla: null,
     playgroup: "genpop",
     summary:
-      'Hazel is a rescue ferret of Snail\'s House. She enjoys fighting the "ghosts" she sees in the hammocks and has an obsession with biting socks of her human caretakers. She is identifiable by her mostly white coat and very energetic activity.',
+      'Hazel is a rescue ferret of Snail\'s House. She enjoys fighting the "ghosts" she sees in the hammocks, and she has an obsession with biting socks of her human caretakers. She is identifiable by her mostly white coat and very energetic activity.',
     lore: `Hazelnut was adopted from a pet store with [[Cashew]] and [[Peanut]] as part of the "Nut Gang". She has Waardenburg Syndrome  , is fully deaf, and has many behavioral issues. She was sold and returned multiple times due to these behavioral issues before the rescue acquired her.
 
 *Please note, pet stores will return ferrets with behavioral issues to Marshalls for replacement ferrets.
@@ -1692,8 +1692,8 @@ These days, Hazel can be seen bopping around playtime with her general populatio
     valhalla: null,
     playgroup: "solo",
     summary:
-      "Henry is a rescue ferret of Snail's House. Very wobbly. He's professionally trained as a NASCAR driver.  Additionally he enthusiastically enjoys soup, often making a good mess for his caretakers to clean up.",
-    lore: "Henry is our special boy. He runs in circles, wiggles his head and is generally the cutest. Henry was initially diagnosed with possible neurologic symptoms, this seemed to cause him to have very bad motor control and run in a circular motion. He only turned left, earning him the nickname: Nascar driver",
+      "Henry is a rescue ferret of Snail's House. Very wobbly. He's professionally trained as a NASCAR driver.  Additionally, he enthusiastically enjoys soup, often making a good mess for his caretakers to clean up.",
+    lore: "Henry is our special boy. He runs in circles, wiggles his head, and generally is the cutest. Henry was initially diagnosed with possible neurologic symptoms; this seemed to cause him to have very bad motor control and run in a circular motion. He only turned left, earning him the nickname: Nascar driver",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/KnottyDifficultFriseeDerp-UXULCt-XohLTXASA",
@@ -2079,9 +2079,9 @@ These days, Hazel can be seen bopping around playtime with her general populatio
     playgroup: "solo",
     summary:
       "Jack is a rescue ferret of Snail's House. He is a solo-play ferret who prefers to play by himself.",
-    lore: `Jack joined the rescue as an oldie (approximately 7-8 years old) intake due to blood sugar crashed from insulinoma. He comes from a loved rescue that also surrendered [[Kitty]] for similar reasons.
+    lore: `Jack joined the rescue as an oldie, (approximately 7-8 years old), due to blood sugar crash from insulinoma. He comes from a loved rescue that also surrendered [[Kitty]] for similar reasons.
 
-Jack is a Blaze ferret and roans out. With each shed he will get more white hair but also keeps some markings.`,
+Jack is a Blaze ferret and roans out. With each shed, he will get more white hair but also keeps some markings.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FitKindBubbleteaPermaSmug-gBqdI-tjnjL--70N",
@@ -2135,7 +2135,7 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
     playgroup: "oldies",
     summary:
       "Jasmine is a rescue ferret of Snail's House. While she resides with the oldies, she has quite the get-up and go! She is frequently seen promenading around the playroom during oldie playtime.",
-    lore: "Jasmine arrived at the rescue as a solo lady from a loving home. She was in need of friends and some senior medical care the rescue could provide. She is a super active old lady who seems to always want playtime. She likes chilling in the comfy beds and also occasionally likes to play with the balls available around the playroom. And like any active old lady, she demands to be involved in ALL playtimes.",
+    lore: "Jasmine arrived at the rescue as a solo lady from a loving home. She was in need of friends and some senior medical care the rescue could provide. She is a super active old lady who seems to always want playtime. She likes chilling in the comfy beds, and occasionally, likes to play with the balls available around the playroom. And like any active old lady, she demands to be involved in ALL playtimes.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/GoldenSecretiveQuailTheTarFu-wJ7iUZ_A8v4-Ul3X",
@@ -2173,7 +2173,7 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
     playgroup: "genpop",
     summary:
       "Jinx is a rescue ferret of Snail's House. She is a very playful girl who gets along with many of business. She is also a professional escape artist with a knowledge of both directions: up AND down!",
-    lore: "Jinx came to the rescue together with [[Henry]]. They are in different playgroups because of Henry requiring special treatment. Jinx is quite playful and gets along well with the other ferrets. Recently Jinx joined the crew of escape artists.",
+    lore: "Jinx came to the rescue together with [[Henry]]. They are in different playgroups because of Henry requiring special treatment. Jinx is quite playful and gets along well with the other ferrets. Recently, Jinx joined the crew of escape artists.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/GeniusResoluteKathyVoteYea-zhQRBXdC6jFxxFJq",
@@ -2217,7 +2217,7 @@ Jack is a Blaze ferret and roans out. With each shed he will get more white hair
     summary:
       "Kahlua is a rescue ferret of Snail's House. He is a very chill ferret that is often used for new ferret introductions. He is also a reformed ear criminal.",
     lore: `Kahlua came to the rescue together with [[Mai Tai]], [[Mimosa]], [[Scotch]] and [[Whiskey]]. Due to their names, they are also known as the alcohol or Booze crew.
-Kahlua, like [[Beans]] spent time in ear crime jail, with the two sharing a cell for a short period before getting separate accommodations. Eventually Kahlua was returned to the general population group after proving he could be a good boy.`,
+Kahlua, like [[Beans]], spent time in ear crime jail, with the two sharing a cell for a short period before getting separate accommodations. Eventually, Kahlua was returned to the general population group after proving he could be a good boy.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CoyCourageousBaguetteVoHiYo-OXqPuULNZ8RQYAEp",
@@ -2396,8 +2396,8 @@ Kahlua, like [[Beans]] spent time in ear crime jail, with the two sharing a cell
     valhalla: null,
     playgroup: "kyosai",
     summary:
-      "Kyo is a rescue ferret of Snail's House. She is an all white ferret. Kyo really enjoys her playtime with her friend [[Sai]].",
-    lore: "Kyo came to the rescue together with [[Sai]]. During their first playtime(s) it was determined they didn't mesh well with the big group of gen pop, preferring each other's company. They get ample time in the big play room, as well as being Shaye's gaming buddies in Shaye's office. Kyo often seems to have an endless amount of energy, often times seen running around long after [[Sai]] has found a place to sleep.",
+      "Kyo is a rescue ferret of Snail's House. She is an all-white ferret. Kyo really enjoys her playtime with her friend [[Sai]].",
+    lore: "Kyo came to the rescue together with [[Sai]]. During their first playtime(s), it was determined they didn't mesh well with the big group of gen pop, and instead preferring each other's company. They get ample time in the big play room, as well as being Shaye's gaming buddies in Shaye's office. Kyo often seems to have an endless amount of energy, often times seen running around long after [[Sai]] has found a place to sleep.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BumblingPricklyWaffleRalpherZ-mEvJ2WSHdRY4ZR-a",
@@ -2676,8 +2676,8 @@ Loki loved to stash toys, regardless of their size.`,
     aliases: [],
     commands: ["lucky"],
     sex: "Male",
-    birth: null,
-    birthday: null,
+    birth: "2022-12-21",
+    birthday: "12-21",
     arrival: "2023-07-07",
     valhalla: null,
     playgroup: "genpop",
@@ -3167,8 +3167,8 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
     ],
     commands: ["mocha"],
     sex: "Male",
-    birth: null,
-    birthday: null,
+    birth: "2022-12-25",
+    birthday: "12-25",
     arrival: "2023-11-03",
     valhalla: null,
     playgroup: "genpop",
@@ -3903,8 +3903,8 @@ When Onion first came to the rescue, she was obsessed and imprinted on [[Beans]]
     aliases: ["Duracell battery included - Meanut"],
     commands: ["peanut"],
     sex: "Female",
-    birth: null,
-    birthday: null,
+    birth: "2024-04-13",
+    birthday: "04-13",
     arrival: "2024-08-03",
     valhalla: null,
     playgroup: "genpop",
@@ -5363,8 +5363,8 @@ Teep affectionately earned the nickname "Officer Teep" when she chose to ride [[
     aliases: ["Grandson"],
     commands: ["toby"],
     sex: "Male",
-    birth: null,
-    birthday: null,
+    birth: "2024-04-13",
+    birthday: "04-13",
     arrival: "2024-10-16",
     valhalla: null,
     playgroup: "genpop",

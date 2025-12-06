@@ -96,7 +96,7 @@ def get_cargo_table(table_name: str, fields: str) -> list[dict]:
     return out
 
 def get_ferret_table() -> list[dict]:
-    return get_cargo_table("Ferret", "name,gender,arrivaldate,birthday,valhalla,playgroup")
+    return get_cargo_table("Ferrets", "name,gender,arrival_date,birth_date,valhalla_date,playgroup")
 
 def get_clips_table() -> list[dict]:
     return get_cargo_table("ClipEntries", "Ferrets,Link,Title")
@@ -392,40 +392,28 @@ def generate_core_json(ferrets: list[dict]) -> None:
             print(f"Unrecognised sex for {name}: {sex}")
             sex = None
 
-        birthday_text = ferret["birthday"].strip() # i.e. "Apr 3"
-        birthday = None
-        if birthday_text and re.match(r"^\s*[A-Za-z]{3,}\s+[0-9]{1,2}(\s+20[0-9]{2})?\s*$", birthday_text):
-            month_str, day_str = birthday_text.split(" ")[:2]
-            month_str = month_str.lower()
-            month_map = {
-                "jan": "01", "feb": "02", "mar": "03", "apr": "04",
-                "may": "05", "jun": "06", "jul": "07", "aug": "08",
-                "sep": "09", "oct": "10", "nov": "11", "dec": "12",
-                "january": "01", "february": "02", "march": "03", "april": "04",
-                "may": "05", "june": "06", "july": "07", "august": "08",
-                "september": "09", "october": "10", "november": "11", "december": "12",
-                "sept": "09"
-            }
-            if month_str in month_map:
-                month = month_map[month_str]
-                day = day_str.zfill(2)
-                birthday = f"{month}-{day}"
-            else:
-                print(f"Unrecognised month in birthday for {name}: {birthday_text}")
-                birthday = None
-        elif birthday_text == "":
-            # print(f"No birthday listed for {name}")
-            birthday = None
+        birth_date = ferret["birth date"].strip().replace("/", "-")
+        if birth_date and not re.match(r"^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}$", birth_date):
+            print(f"Unrecognised birth date format for {name}: {birth_date}")
+            birth_date = None
+        elif birth_date:
+            y, m, d = birth_date.split("-")
+            birthday = f"{int(m):02d}-{int(d):02d}"
+            if int(y) < 2000: # birthday only
+                birth_date = None
         else:
-            print(f"Unrecognised birthday format for {name}: {birthday_text}")
             birthday = None
+            birth_date = None
 
-        arrival = ferret["arrivaldate"].strip().replace("/", "-")
+        arrival = ferret["arrival date"].strip().replace("/", "-")
         if not re.match(r"^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}$", arrival):
             print(f"Unrecognised arrival date format for {name}: {arrival}")
             arrival = None
+        else:
+            y, m, d = arrival.split("-")
+            arrival = f"{int(y):04d}-{int(m):02d}-{int(d):02d}"
 
-        valhalla = ferret["valhalla"].strip().replace("/", "-")
+        valhalla = ferret["valhalla date"].strip().replace("/", "-")
         if not re.match(r"^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}$", valhalla):
             if valhalla != "":
                 print(f"Unrecognised valhalla date format for {name}: {valhalla}")
@@ -449,7 +437,7 @@ def generate_core_json(ferrets: list[dict]) -> None:
             "aliases": aliases,
             "commands": commands,
             "sex": sex,
-            "birth": None, #TODO - this data doesn't seem to exist in cargo/cards
+            "birth": birth_date,
             "birthday": birthday,
             "arrival": arrival,
             "valhalla": valhalla,
