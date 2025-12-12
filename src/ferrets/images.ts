@@ -35,6 +35,7 @@ import lokiMugshot from "../assets/ferrets/loki/mugshot.png";
 import louiseMugshot from "../assets/ferrets/louise/mugshot.png";
 import lucasMugshot from "../assets/ferrets/lucas/mugshot.png";
 import luckyMugshot from "../assets/ferrets/lucky/mugshot.png";
+import luluMugshot from "../assets/ferrets/lulu/mugshot.png";
 import lunaMugshot from "../assets/ferrets/luna/mugshot.png";
 import maisyMugshot from "../assets/ferrets/maisy/mugshot.png";
 import maitaiMugshot from "../assets/ferrets/maitai/mugshot.png";
@@ -49,6 +50,8 @@ import mouseMugshot from "../assets/ferrets/mouse/mugshot.png";
 import moxieMugshot from "../assets/ferrets/moxie/mugshot.png";
 import nachoMugshot from "../assets/ferrets/nacho/mugshot.png";
 import namekoMugshot from "../assets/ferrets/nameko/mugshot.png";
+import nemoMugshot from "../assets/ferrets/nemo/mugshot.png";
+import noodleMugshot from "../assets/ferrets/noodle/mugshot.png";
 import odinMugshot from "../assets/ferrets/odin/mugshot.png";
 import onionMugshot from "../assets/ferrets/onion/mugshot.png";
 import peanutMugshot from "../assets/ferrets/peanut/mugshot.png";
@@ -265,6 +268,10 @@ const ferretMugshots: {
     src: luckyMugshot,
     alt: "Mugshot of Lucky",
   },
+  lulu: {
+    src: luluMugshot,
+    alt: "Mugshot of Lulu",
+  },
   luna: {
     src: lunaMugshot,
     alt: "Mugshot of Luna",
@@ -320,6 +327,14 @@ const ferretMugshots: {
   nameko: {
     src: namekoMugshot,
     alt: "Mugshot of Nameko",
+  },
+  nemo: {
+    src: nemoMugshot,
+    alt: "Mugshot of Nemo",
+  },
+  noodle: {
+    src: noodleMugshot,
+    alt: "Mugshot of Noodle",
   },
   odin: {
     src: odinMugshot,

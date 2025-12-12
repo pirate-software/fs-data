@@ -429,7 +429,7 @@ def generate_core_json(ferrets: list[dict]) -> None:
         playgroup = re.sub(r"[^a-zA-Z]", "", ferret["playgroup"]).lower()
         if playgroup not in VALID_PLAYGROUPS:
             print(f"Unrecognised playgroup for {name}: {ferret['playgroup']}")
-            playgroup = None
+            playgroup = "solo"
 
         ferret_data[name_nospace] = {
             "name": name,

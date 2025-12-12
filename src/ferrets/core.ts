@@ -52,8 +52,8 @@ const ferrets = {
     valhalla: null,
     playgroup: "solo",
     summary:
-      "Badger is a rescue ferret of Snail's House. He typically enjoys playing in the toobs and rice bin. His favorite playmate is [[Peepo]].",
-    lore: "Badger is a part of the 5 ferrets who were found abandoned in an unlocked shed by the Humane Society. They then reached out to the rescue for assistance. Badger came to the rescue with [[Moose]], [[Peepo]], [[Pepper]], and [[Salt]]",
+      "Badger is a rescue ferret of Snails House. He typically enjoys playing in the toobs and rice bin. His favorite playmate is [[Peepo]].",
+    lore: "Badger is a part of the 5 ferrets who were found abandoned in an unlocked shed by the Humane Society. They then reached out to the rescue for assistance. Badger came to the rescue with [[Moose]], [[Peepo]], [[Pepper]], and [[Salt]]. He is known in chat to be a cute cranky grandpa.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ArborealDelightfulSushiNerfRedBlaster-FP76nZX4I72aySD0",
@@ -154,8 +154,8 @@ const ferrets = {
     valhalla: "2025-05-09",
     playgroup: "valhalla",
     summary:
-      "Bagel was a rescue ferret of Snail's House. She enjoyed the company of [[Peanut 2]] but she did not care much for the young males of the business.",
-    lore: "Bagel came to the rescue together with [[Peanut 2]]. They were surrendered in love by their owners due to age and existing health conditions.",
+      "Bagel was a rescue ferret of Snails House. She enjoyed the company of [[Peanut 2]], but she did not care much for the young males of the business.",
+    lore: "Bagel came to the rescue together with [[Peanut 2]]. They were surrendered by loving owners due to age and existing health conditions.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AffluentInnocentHumanHassaanChop-fhYb0XoQB3H36hOe",
@@ -196,8 +196,8 @@ const ferrets = {
     valhalla: "2025-08-09",
     playgroup: "valhalla",
     summary:
-      "Banana was a rescue ferret of Snail's House. She enjoyed a good supervised outdoor time and really enjoyed snuggling with [[Zero]] and [[Eddie]]. She was easily identifiable due to a crooked/lighting shaped tail.",
-    lore: `Banana was picked up after a facebook user posted about not being able to care for the ferret any more after her buddy passed away. They got in contact with them and picked her up not to long after.
+      "Banana was a rescue ferret of Snails House. She enjoyed good supervised outdoor time, and she really enjoyed snuggling with [[Zero]] and [[Eddie]]. She had a crooked/lightning shaped tail.",
+    lore: `Banana was picked up after a facebook user posted about not being able to care for the ferret any more after her buddy passed awa. They got in contact with them and picked her up not to long after.
 
 Banana's birthday was confirmed when owner sent over paperwork to Shaye.`,
     clips: [
@@ -244,10 +244,10 @@ Banana's birthday was confirmed when owner sent over paperwork to Shaye.`,
     valhalla: "2024-04-05",
     playgroup: "valhalla",
     summary:
-      "Bandit was a rescue ferret of Snail's House. He came to the rescue with advanced medical issues but enjoyed making new friends while going through treatment.",
-    lore: `Bandit came to the rescue with his friend [[Moxie]]. Bandit was rescued while he already was in the advanced stages of adrenal . Being mostly bald across his entire body he was still having a good time with his new friends. He loved to cruise through the tubes or be eaten by a crocodile.
+      "Bandit was a rescue ferret of Snails House. He came to the rescue with advanced medical issues, but he enjoyed making new friends while going through treatment.",
+    lore: `Bandit came to the rescue with his friend [[Moxie]]. Bandit was rescued while he already was in the advanced stages of adrenal . Being mostly bald across his entire body, he still had a good time with his new friends. He loved to cruise through the tubes or be eaten by a crocodile.
 
-After about five months in the care of Shaye and Thor he sadly passed away of old age.`,
+After about five months in the care of Shaye and Thor, he sadly passed away of old age.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BovineCrackyStrawberryDancingBaby-ceureRibKfU4G-x4",
@@ -288,14 +288,16 @@ After about five months in the care of Shaye and Thor he sadly passed away of ol
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Beans is a ferret of Snail's House. He is known for being very photogenic and causing chaos. He is famous for many reasons, one of which is his likeness as a plushie!",
-    lore: `As one of the original ferrets before Snail's House became a sanctuary, Beans came from a pet store. Thor and Shaye saw him alone in his enclosure and decided to bring him home to have friends, especially since ferrets are very social animals.
+      "Beans is a ferret of Snails House. He is known for being very photogenic and causing chaos. He is famous for many reasons, one of which is his likeness as a plushie!",
+    lore: `As one of the original ferrets before Snails House became a sanctuary, Beans came from a pet store. Thor and Shaye saw him alone in his enclosure and decided to bring him home to have friends, especially since ferrets are very social animals.
 
 Beans' birthday is December 19th, 2021. He also has a sweet tooth and craves Shaye's ice cream. Since the day he came home, he has held the number one spot in Zultralord's heart. 
 
 Due to Beans being such a chill dude, aside from ear crimes, he and [[Chili]] are typically part of the welcome committee to introduce new ferrets to the business when they are ready to integrate.
 
-During the first night in his temporary cage (quarantine), he proceeded to rip one of the bars off and escape. He started running around and doing a lot of dooking because he was very excited. He was running into the room where Thor was sleeping and woke him up. Because of the Meme Beans in Places they shouldn't be in they named him Beans.`,
+During the first night in his temporary cage (quarantine), he proceeded to rip one of the bars off and escape. He started running around and doing a lot of dooking because he was very excited. He was running into the room where Thor was sleeping and woke him up. Because of the Meme Beans in Places they shouldn't be in they named him Beans.
+
+For fun, Shaye allows the ferrets to impart wisdom upon the community. Beans typed "Dr" and "Bpq".`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AttractiveRefinedWalrusRuleFive-eWrjhIdakUnNbBnV",
@@ -422,8 +424,8 @@ During the first night in his temporary cage (quarantine), he proceeded to rip o
     valhalla: null,
     playgroup: "oldies",
     summary:
-      "Beef is a ferret of Snail's House. He enjoys stealing food from other ferrets' mouths and desires the freshest of water from the bottom of the water bowl.  [[Cheese]] is his sister.",
-    lore: "Originally a pet of Thor and Shaye, Beef came to Snail's House from the pet store with his sister [[Cheese]]. He has quite the personality. He will stick his head into the water dish, all the way to the bottom and then panic, as if he's drowning. Beef used to be very interested in [[Mouse]], but she was indifferent. He enjoys playing with [[Pepper]] when given the opportunity, but they are currently in different play groups. Beef now currently resides in the oldies cage so that he and his sister's aging health can be monitored closely.",
+      "Beef is a ferret of Snails House. He enjoys stealing food from other ferrets' mouths and desires the freshest of water from the bottom of the water bowl.  [[Cheese]] is his sister.",
+    lore: "Originally a pet of Thor and Shaye, Beef came to Snails House from the pet store with his sister [[Cheese]]. He has quite the personality. He will stick his head into the water dish, all the way to the bottom and then panic, as if he's drowning. Beef used to be very interested in [[Mouse]], but she was indifferent. He enjoys playing with [[Pepper]] when given the opportunity, but they are currently in different play groups. Beef now currently resides in the oldies cage so that he and his sister's aging health can be monitored closely.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlightedInterestingNeanderthalMingLee-cXiqEcEzDzQ-OGCU",
@@ -488,8 +490,8 @@ During the first night in his temporary cage (quarantine), he proceeded to rip o
     valhalla: null,
     playgroup: "m",
     summary:
-      "Big Mike is a rescue ferret of Snail's House. He was super ill when he first joined the sanctuary, but has since recovered. He is a big boy with big white paws!",
-    lore: `Big Mike was surrendered to Snail's House by a pet store due to having Covid, Influenza-A, and Influenza-B. Thanks to the rescue's knowledge and resources, he was able to recover. Now that he's feeling better, his big goober side has really started to show. After his treatment and quarantine, Mike played with the oldies at first since they treated him gently. Once he was feeling more confident, he started a new playgroup with his new friend [[Maisy]] to form M&M, which quickly included [[Milo]] and formed M3.
+      "Big Mike is a rescue ferret of Snails House. He was super ill when he first joined the sanctuary, but has since recovered. He is a big boy with big white paws!",
+    lore: `Big Mike was surrendered to Snails House by a pet store due to having Covid, Influenza-A, and Influenza-B. Thanks to the rescue's knowledge and resources, he was able to recover. Now that he's feeling better, his big goober side has really started to show. After his treatment and quarantine, Mike played with the oldies at first since they treated him gently. Once he was feeling more confident, he started a new playgroup with his new friend [[Maisy]] to form M&M, which quickly included [[Milo]] and formed M3.
 
 When looking to identify him, Mike is a big boy with the total white paw chrome package (that means all four feet)! He loves to play chase and especially enjoys playing with his buddy [[Milo]]. Mike also enjoys mingling with many different ferrets and playgroups, so be sure to keep an eye out for him.`,
     clips: [
@@ -604,8 +606,8 @@ When looking to identify him, Mike is a big boy with the total white paw chrome 
     valhalla: null,
     playgroup: "rb",
     summary:
-      "Bruce is a rescue ferret of Snail's House. He's a very chill and laid back dude who sometimes activates and crushes castles while wardancing. He enjoys leisure walks with his friend [[Teep]].",
-    lore: "Bruce came to the rescue with [[Teep]] from a loving home. They were surrendered due to needed senior care in which the rescue could provide. After some time, and due to his very unshakable and calm demeanor, he made friends and was paired with [[Rusty]] to form R&B.",
+      "Bruce is a rescue ferret of Snails House. He's a very chill and laid back dude who sometimes activates and crushes castles while wardancing. He enjoys leisure walks with his friend [[Teep]].",
+    lore: "Bruce came to the rescue with [[Teep]] from a loving home. They were surrendered because they needed senior care in which the rescue could provide. After some time, and due to his very unshakable and calm demeanor, he made friends and was paired with [[Rusty]] to form R&B.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlitheThoughtfulDragonflyKappaPride-697a3MxrvJq282k0",
@@ -658,10 +660,10 @@ When looking to identify him, Mike is a big boy with the total white paw chrome 
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Cashew is a rescue ferret of Snail's House. While he plays well with everyone, he really enjoys playing with [[Pickle]]. He is easy to identify during playtime by his large size and nub tail.",
-    lore: `Cashew was adopted from the pet store with [[Hazelnut]] and [[Peanut]] as part of the "Nut Gang". Peanut and Hazel were rescued due to them having Waardenburg Syndrome  and multiple behavioral issues. Cashew developed similar behavioral issues due to living as cage mates with these others which had also bonded to him, causing the rescue to acquire him as well. These days, he really enjoys playtime with the general population playgroup.
+      "Cashew is a rescue ferret of Snails House. While he plays well with everyone, he really enjoys playing with [[Pickle]]. He is easy to identify during playtime by his large size and nub tail.",
+    lore: `Cashew was adopted from the pet store with [[Hazelnut]] and [[Peanut]] as part of the "Nut Gang". Peanut and Hazel were rescued due to them having Waardenburg Syndrome  and multiple behavioral issues. Cashew developed "problematic" behavioral issues due to living with cage mates which had also bonded to him. These days, he really enjoys playtime with the general population playgroup.
 
-*Please note, pet stores will return ferrets with behavioral issues to Marshalls for replacement ferrets.`,
+For fun, Shaye allows the ferrets to impart wisdom upon the community. Cashew typed "K", "Km", "E4", "Me", and "Cash".`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AmorphousArborealSushiDAESuppy-U9GFhvBNEN3J2EHU",
@@ -738,8 +740,8 @@ When looking to identify him, Mike is a big boy with the total white paw chrome 
     valhalla: null,
     playgroup: "oldies",
     summary:
-      "Cheese is a ferret of Snail's House. She is the professional photo model for the business and loves posing for the camera. She enjoys redecorating the playroom and climbing Shaye.",
-    lore: 'Cheese came from the pet store with her brother [[Beef]], they were both bought as pets before Thor and Shaye decided to start a ferret sanctuary. Cheese is a Roan/Silver ferret. With each shed she get more and more white hair (called "roaning out") and will probably be fully white eventually. Cheese is a very sweet little lady who likes to chill and cuddle. She is mostly left alone by the rowdy youngins\' because she is actually the most vicious fighter of the business. She is incredibly photogenic. Recently, she moved from general population to live with the oldies with her brother, [[Beef]], so that her health could be monitored more closely.',
+      "Cheese is a ferret of Snails House. She is the professional photo model for the business and loves posing for the camera. She enjoys redecorating the playroom and climbing Shaye.",
+    lore: 'Cheese came from the pet store with her brother [[Beef]]. They were both bought as pets before Thor and Shaye decided to start a ferret sanctuary. Cheese is a Roan/Silver ferret. With each shed, she may get more and more white hair, (called "roaning out"), and will probably be fully white eventually. Cheese is a very sweet little lady who likes to chill and cuddle. She is mostly left alone by the rowdy youngins\' because she is actually the most vicious fighter of the business. She is incredibly photogenic. Recently, she moved from general population to live with the oldies with her brother, [[Beef]], so that her health could be monitored more closely.',
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/NastyPeppyFishPicoMause-aR_cFP3m7ieaBBpd",
@@ -828,7 +830,7 @@ When looking to identify him, Mike is a big boy with the total white paw chrome 
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Chili is a rescue ferret of Snail's House. He has an affinity for climbing, gym workouts, and a strange obsession with trash cans. He currently holds the title of heaviest recorded ferret of the rescue at around 1960 grams.",
+      "Chili is a rescue ferret of Snails House. He has an affinity for climbing, gym workouts, and a strange obsession with trash cans. He currently holds the title of heaviest recorded ferret of the rescue at around 1960 grams.",
     lore: `Chili came to the rescue with his fellow housemate [[Fig]]. He enjoys climbing often, and frequently finds himself in the trashcan of the playroom, (as seen below), due to these shenanigans. 
 
 Due to Chili being such a chill dude, he and [[Beans]] are typically part of the welcome committee to introduce new ferrets to the business when they are ready to integrate.`,
@@ -882,6 +884,10 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
         caption: "Chili and Snowberry meet and greet",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FitRelatedBaconCharlieBitMe-iNUpFLyr_radAF6q",
+        caption: "Tortilla and Chili Attempt Climb",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/PlumpRichMonkeyTriHard-Pv7ikDUJSGTqp9Gh",
         caption: "Finn has tail wiggles with Chili",
       },
@@ -892,10 +898,6 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CorrectBlindingKiwiDoritosChip-M8zlFLCsGKNK8s7f",
         caption: "Mocha: Battle of the titans (with Chili)",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/FitRelatedBaconCharlieBitMe-iNUpFLyr_radAF6q",
-        caption: "Tortilla and Chili Attempt Climb",
       },
     ],
     merch: null,
@@ -912,8 +914,8 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
     valhalla: "2025-08-19",
     playgroup: "valhalla",
     summary:
-      "Cowboy was a rescue ferret of Snail's House. He was easy to identify by his furry chaps. Despite his hairlessness, he refused to wear the sweaters Shaye gave him, but loved to cuddle in blankets, preferably by himself.",
-    lore: "Cowboy was an older ferret who was surrendered, by a pig rescue, to Snail's House with advanced adrenal disease.  He barely had hair remaining but still some action in him.",
+      "Cowboy was a rescue ferret of Snails House. He was known to have furry chaps. Despite his hairlessness, he refused to wear the sweaters Shaye gave him. Instead, he loved to cuddle in blankets, preferably by himself.",
+    lore: "Cowboy was an older ferret [who was surrendered by a pig rescue] to Snails House with advanced adrenal disease.  He barely had hair remaining, but he still had some action in him.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/LongAbnegateSproutKAPOW-T4MPnPOpDTTGRvNz",
@@ -1062,8 +1064,10 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Demeter is a rescue ferret of Snail's House. She is a classic ferret who truly enjoys the sport of noseball, and is the fastest of the business. Joining [[Chili]], she also has a strange obsession with trash cans.",
-    lore: "Demeter joined the rescue together with [[Mistoffelees]]. They were surrendered because the owners felt they could no longer provide adequate care. She is often seen running around the playroom at full speed with a ball at her nose, playing with the other ferrets of general population, and sometimes even attempting clever escapes.",
+      "Demeter is a rescue ferret of Snails House. She is a classic ferret who truly enjoys the sport of noseball, and is the fastest of the business. Joining [[Chili]], she also has a strange obsession with trash cans.",
+    lore: `Demeter joined the rescue together with [[Mistoffelees]]. They were surrendered from a loving home because the owners felt they could no longer provide adequate care. She is often seen running around the playroom at full speed with a ball at her nose, playing with the other ferrets of general population, and sometimes even attempting clever escapes.
+
+For fun, Shaye allows the ferrets to impart wisdom upon the community. Demeter typed "G" and "li8s".`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ClearUninterestedCrabMau5-kyu_ylbxZqK8nytu",
@@ -1128,7 +1132,7 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
     valhalla: null,
     playgroup: "oldies",
     summary:
-      "Eddie is a rescue ferret of Snail's House. He came into the rescue as a solo ferret. Since he is so chill, he meshed really well with the oldies, and enjoys snuggling with [[Zero]] and [[Banana]].",
+      "Eddie is a rescue ferret of Snails House. He came into the rescue as a solo ferret. Since he is so chill, he meshed really well with the oldies, and enjoys snuggling with [[Zero]] and [[Banana]].",
     lore: "Eddie came to the rescue from a pair of fantastic owners. His lifelong buddy died, and he needed other ferret friends because they are super social creatures.  Now he enjoys his leisure time among the oldies with lots of jaunts around the playroom, plenty of Mango snuggles, and tasty soupies.",
     clips: [
       {
@@ -1162,9 +1166,10 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
     arrival: "2025-10-25",
     valhalla: null,
     playgroup: "k",
-    summary:
-      "Enoki is a ferret of snails house. She joined together with [[Nameko]].  Also known as Kiki, by Ferret Chat and Shaye alike. Their names were inspired by mushrooms.",
-    lore: "",
+    summary: "Enoki is a ferret of Snails House.",
+    lore: `She joined together with [[Nameko]]. Her name is sourced from a kind of Mushroom. 
+
+She is a sassy old lady and dooks alot.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/RepleteFamousPlumCharlietheUnicorn-sigZHoNg9LJxWeRA",
@@ -1197,7 +1202,7 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
     valhalla: "2024-09-17",
     playgroup: "valhalla",
     summary: "Category:Ferrets lacking intro",
-    lore: "Felix joined us as a nekkid ferret and had a lot of fun with both [[Finn]] and his new friends. They were in-state medical surrenders. Sadly his age and illness caught up with him. He passed with his best friend Finn by his side. Link",
+    lore: "Felix joined us as a nekkid ferret and had a lot of fun with both [[Finn]] and his new friends. They were in-state medical surrenders. Sadly, his age and illness caught up with him. He passed with his best friend Finn by his side. Link",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/EmpathicArtsyFiddleheadsOMGScoots-FxT1RzlxsRVmXvs9",
@@ -1250,7 +1255,7 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
     valhalla: "2025-07-21",
     playgroup: "valhalla",
     summary:
-      "Fig was a rescue ferret of Snail's House. While he loved snuggling with the oldies, he was a great babysitter for [[Henry]]. He was easy to identify due to his balding tail.",
+      "Fig was a rescue ferret of Snails House. While he loved snuggling with the oldies, he was a great babysitter for [[Henry]]. He was easy to identify due to his balding tail.",
     lore: "Fig came to the rescue with his fellow housemate [[Chili]]. Figs birthday is January 10th.",
     clips: [
       {
@@ -1436,7 +1441,7 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
     valhalla: null,
     playgroup: "solo",
     summary:
-      "Finn is a rescue ferret of Snail's House. While he sometimes struggles to make ferret friends, he really enjoys human snuggles and scritches. He came to the rescue with his friend [[Felix]].",
+      "Finn is a rescue ferret of Snails House. While he sometimes struggles to make ferret friends, he really enjoys human snuggles and scritches. He came to the rescue with his friend [[Felix]].",
     lore: "Finn joined us together with his, at the time, naked friend [[Felix]]. They were in-state medical surrenders. For a while, the best way to identify Finn, was to see Felix with him. Finn was very protective of his best friend [[Felix]]. Finn was there when his best friend passed away. These days, Finn enjoys the solo life with his gaming buddy, Shaye.",
     clips: [
       {
@@ -1494,8 +1499,8 @@ Due to Chili being such a chill dude, he and [[Beans]] are typically part of the
     valhalla: "2025-04-26",
     playgroup: "valhalla",
     summary:
-      "Ghost was a rescue ferret of Snail's House. She was one of the few solo play time ferrets who prefers the company of her human caretakers.",
-    lore: `Ghost was rescued from a family which sadly hadn't taken care of her properly which cause her to be aggressive to other animals. Shaye has tried to integrate her a couple of times with other ferrets sadly without success. In the old house she had a seperate cage in the same room as the other ferrets, though in the new house she got a cage in Shaye's office. To make sure she gets enough interaction, she had solo playtime with either Shaye or Thor. It was revealed that Ghost's original name was Strawberry and has since been changed as the name did not fit.
+      "Ghost was a rescue ferret of Snails House. She was one of the few solo play time ferrets who prefers the company of her human caretakers.",
+    lore: `Ghost was rescued from a family, which sadly hadn't taken care of her properly, which caused her to be aggressive to other animals. Shaye tried to integrate her a couple of times with other ferrets; sadly, without success. In the old house, she had a seperate cage in the same room as the other ferrets. In the new house she got a cage in Shaye's office. To make sure she got enough interaction, she had solo playtime with either Shaye or Thor. It was revealed that Ghost's original name was Strawberry and has was changed, as the name did not fit.
 
 Thor explaining Ghost's situation in short: Link`,
     clips: [
@@ -1582,10 +1587,8 @@ Thor explaining Ghost's situation in short: Link`,
     valhalla: null,
     playgroup: "genpop",
     summary:
-      'Hazel is a rescue ferret of Snail\'s House. She enjoys fighting the "ghosts" she sees in the hammocks, and she has an obsession with biting socks of her human caretakers. She is identifiable by her mostly white coat and very energetic activity.',
+      'Hazel is a rescue ferret of Snails House. She enjoys fighting the "ghosts" she sees in the hammocks, and she has an obsession with biting socks of her human caretakers. She has a mostly white coat and very energetic activity.',
     lore: `Hazelnut was adopted from a pet store with [[Cashew]] and [[Peanut]] as part of the "Nut Gang". She has Waardenburg Syndrome  , is fully deaf, and has many behavioral issues. She was sold and returned multiple times due to these behavioral issues before the rescue acquired her.
-
-*Please note, pet stores will return ferrets with behavioral issues to Marshalls for replacement ferrets.
 
 These days, Hazel can be seen bopping around playtime with her general population friends, chasing her caretakers around the playroom, and playing with the wand toys.`,
     clips: [
@@ -1692,7 +1695,7 @@ These days, Hazel can be seen bopping around playtime with her general populatio
     valhalla: null,
     playgroup: "solo",
     summary:
-      "Henry is a rescue ferret of Snail's House. Very wobbly. He's professionally trained as a NASCAR driver.  Additionally, he enthusiastically enjoys soup, often making a good mess for his caretakers to clean up.",
+      "Henry is a rescue ferret of Snails House. Very wobbly. He's professionally trained as a NASCAR driver.  Additionally, he enthusiastically enjoys soup, often making a good mess for his caretakers to clean up.",
     lore: "Henry is our special boy. He runs in circles, wiggles his head, and generally is the cutest. Henry was initially diagnosed with possible neurologic symptoms; this seemed to cause him to have very bad motor control and run in a circular motion. He only turned left, earning him the nickname: Nascar driver",
     clips: [
       {
@@ -2078,10 +2081,10 @@ These days, Hazel can be seen bopping around playtime with her general populatio
     valhalla: null,
     playgroup: "solo",
     summary:
-      "Jack is a rescue ferret of Snail's House. He is a solo-play ferret who prefers to play by himself.",
+      "Jack is a rescue ferret of Snails House. He is a solo-play ferret who prefers to play by himself.",
     lore: `Jack joined the rescue as an oldie, (approximately 7-8 years old), due to blood sugar crash from insulinoma. He comes from a loved rescue that also surrendered [[Kitty]] for similar reasons.
 
-Jack is a Blaze ferret and roans out. With each shed, he will get more white hair but also keeps some markings.`,
+Jack is a Blaze ferret and roans out. Roaning out means that with each shed, he will get more white hair, but likely he may also keep some markings.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FitKindBubbleteaPermaSmug-gBqdI-tjnjL--70N",
@@ -2134,8 +2137,8 @@ Jack is a Blaze ferret and roans out. With each shed, he will get more white hai
     valhalla: null,
     playgroup: "oldies",
     summary:
-      "Jasmine is a rescue ferret of Snail's House. While she resides with the oldies, she has quite the get-up and go! She is frequently seen promenading around the playroom during oldie playtime.",
-    lore: "Jasmine arrived at the rescue as a solo lady from a loving home. She was in need of friends and some senior medical care the rescue could provide. She is a super active old lady who seems to always want playtime. She likes chilling in the comfy beds, and occasionally, likes to play with the balls available around the playroom. And like any active old lady, she demands to be involved in ALL playtimes.",
+      "Jasmine is a rescue ferret of Snails House. While she resides with the oldies, she has quite the get-up and go attitude! She is frequently seen promenading around the playroom during oldie playtime.",
+    lore: "Jasmine arrived at the rescue as a solo lady from a loving home. She was in need of friends and some senior medical care that the rescue could provide. She is a super active old lady who seems to always want playtime. She likes chilling in the comfy beds. Occasionally, likes to play with the balls available around the playroom. And like any active old lady, she demands to be involved in ALL playtimes.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/GoldenSecretiveQuailTheTarFu-wJ7iUZ_A8v4-Ul3X",
@@ -2172,8 +2175,10 @@ Jack is a Blaze ferret and roans out. With each shed, he will get more white hai
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Jinx is a rescue ferret of Snail's House. She is a very playful girl who gets along with many of business. She is also a professional escape artist with a knowledge of both directions: up AND down!",
-    lore: "Jinx came to the rescue together with [[Henry]]. They are in different playgroups because of Henry requiring special treatment. Jinx is quite playful and gets along well with the other ferrets. Recently, Jinx joined the crew of escape artists.",
+      "Jinx is a rescue ferret of Snails House. She is a very playful girl who gets along with many of business. She is also a professional escape artist with a knowledge of both directions: up AND down!",
+    lore: `Jinx came to the rescue together with [[Henry]]. They are in different playgroups because of Henry requiring special treatment. Jinx is quite playful and gets along well with the other ferrets. Recently, Jinx joined the crew of escape artists.
+
+For fun, Shaye allows the ferrets to impart wisdom upon the community. Jinx typed "2a 😅".`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/GeniusResoluteKathyVoteYea-zhQRBXdC6jFxxFJq",
@@ -2215,9 +2220,11 @@ Jack is a Blaze ferret and roans out. With each shed, he will get more white hai
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Kahlua is a rescue ferret of Snail's House. He is a very chill ferret that is often used for new ferret introductions. He is also a reformed ear criminal.",
+      "Kahlua is a rescue ferret of Snails House. He is a very chill ferret that is often used for new ferret introductions. He is also a reformed ear criminal.",
     lore: `Kahlua came to the rescue together with [[Mai Tai]], [[Mimosa]], [[Scotch]] and [[Whiskey]]. Due to their names, they are also known as the alcohol or Booze crew.
-Kahlua, like [[Beans]], spent time in ear crime jail, with the two sharing a cell for a short period before getting separate accommodations. Eventually, Kahlua was returned to the general population group after proving he could be a good boy.`,
+Kahlua, like [[Beans]], spent time in ear crime jail, with the two sharing a cell for a short period before getting separate accommodations. Eventually, Kahlua was returned to the general population group after proving he could be a good boy.
+
+For fun, Shaye allows the ferrets to impart wisdom upon the community. Kahlua typed "Need1iap".`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CoyCourageousBaguetteVoHiYo-OXqPuULNZ8RQYAEp",
@@ -2256,8 +2263,8 @@ Kahlua, like [[Beans]], spent time in ear crime jail, with the two sharing a cel
     valhalla: "2025-11-19",
     playgroup: "valhalla",
     summary:
-      "Kitty is a rescue ferret of Snail's House. She is a sweet little old white ferret. She gets really excited about food and enjoys fighting lambchop toys .",
-    lore: "Kitty came to the rescue on December 19th, 2024. Kitty has Lymphoma, and started Chemo on 1/17/2025. Kitty is also missing most of her tail due to a chordoma. Despite her condition, Kitty seems happy, healthy and has been gaining weight since joining the rescue.",
+      "Kitty was a rescue ferret of Snails House. She was a sweet little old white ferret. She got really excited about food and enjoyed fighting lambchop toys .",
+    lore: "Kitty came to the rescue on December 19th, 2024. Kitty had Lymphoma, and started Chemo on 1/17/2025. Kitty was also missing most of her tail due to a chordoma. Despite her condition, Kitty seemed happy, healthy and had been gaining weight during her time with the rescue.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ToughKitschyTitanBudStar-j71fIyaqXN5H7S1p",
@@ -2338,8 +2345,8 @@ Kahlua, like [[Beans]], spent time in ear crime jail, with the two sharing a cel
     valhalla: "2025-05-02",
     playgroup: "valhalla",
     summary:
-      "Kylo was a rescue ferret of Snail's House. He came to the rescue with his roommate [[Roxy]].",
-    lore: "Kylo was surrendered to Snail's House due to medical complications. He arrived at the rescue with [[Roxy]].",
+      "Kylo was a rescue ferret of Snails House. He came to the rescue with his roommate [[Roxy]].",
+    lore: "Kylo was surrendered to Snails House due to medical complications. He arrived at the rescue with [[Roxy]].",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BrightSquareCodSSSsss-UoQoIvslUUQm8tRw",
@@ -2396,7 +2403,7 @@ Kahlua, like [[Beans]], spent time in ear crime jail, with the two sharing a cel
     valhalla: null,
     playgroup: "kyosai",
     summary:
-      "Kyo is a rescue ferret of Snail's House. She is an all-white ferret. Kyo really enjoys her playtime with her friend [[Sai]].",
+      "Kyo is a rescue ferret of Snails House. She is an all-white ferret. Kyo really enjoys her playtime with her friend [[Sai]].",
     lore: "Kyo came to the rescue together with [[Sai]]. During their first playtime(s), it was determined they didn't mesh well with the big group of gen pop, and instead preferring each other's company. They get ample time in the big play room, as well as being Shaye's gaming buddies in Shaye's office. Kyo often seems to have an endless amount of energy, often times seen running around long after [[Sai]] has found a place to sleep.",
     clips: [
       {
@@ -2462,7 +2469,7 @@ Kahlua, like [[Beans]], spent time in ear crime jail, with the two sharing a cel
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Latte is a rescue ferret of Snail's House. He is super feisty and enjoys play fighting with many of the ferrets. He also enjoys stashing/playing with the biggest toys he can find.",
+      "Latte is a rescue ferret of Snails House. He is super feisty and enjoys play fighting with many of the ferrets. He also enjoys stashing/playing with the biggest toys he can find.",
     lore: "Latte joined the rescue not long after [[Mocha]] as the second ferret with DIM. At first he could barely move but over time and with the proper treatment he got back the ability to move like the others. Now that he's feeling better, he really likes to rile up Mocha during playtime.",
     clips: [
       {
@@ -2520,10 +2527,10 @@ Kahlua, like [[Beans]], spent time in ear crime jail, with the two sharing a cel
     valhalla: "2025-09-11",
     playgroup: "valhalla",
     summary:
-      "Loki was a rescue ferret of Snail's House. She was one of the very first ferrets rescued. She was a sweet older lady who really enjoys stashing toys.",
+      "Loki was a rescue ferret of Snails House. She was one of the very first ferrets rescued. She was a sweet older lady who really enjoys stashing toys.",
     lore: `Loki was a breeder lab animal for the University of Washington. She came to the rescue with her fellow lab friend, [[Snails]] back in 2019. Loki's birthday is 2018/06/19.
 
-Loki and [[Snails]] are the first two Ferrets Thor and Shaye rescued.
+Loki and [[Snails]] were the first two Ferrets Thor and Shaye rescued.
 
 Loki loved to stash toys, regardless of their size.`,
     clips: [
@@ -2586,8 +2593,10 @@ Loki loved to stash toys, regardless of their size.`,
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Louise is a rescue ferret of Snail's House. She is super playful with the business and loves climbing her caretakers. She also enjoys climbing a lot of the toys during playtime.",
-    lore: "Louise joined the rescue together with [[Thelma]]. They came to the rescue as surrenders from the state of California.",
+      "Louise is a rescue ferret of Snails House. She came to the rescue with her sister, [[Thelma]]. She also enjoys climbing both her caretakers and a lot of the toys during playtime.",
+    lore: `Louise joined the rescue together with her sister, [[Thelma]]. They came to the rescue as surrenders from the state of California.
+
+For fun, Shaye allows the ferrets to impart wisdom upon the community. Louise typed "B see" and "9un".`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AttractiveBusyWaterWholeWheat-Teqw1p9-q0AM7_Fz",
@@ -2622,14 +2631,14 @@ Loki loved to stash toys, regardless of their size.`,
     aliases: [],
     commands: ["lucas", "luca"],
     sex: "Male",
-    birth: null,
+    birth: "2019-12-08",
     birthday: "12-08",
     arrival: "2025-09-27",
     valhalla: null,
     playgroup: "oldies",
     summary:
-      "[[Lucas]] is a rescue ferret of Snail's House. He came from a loving home where he lost his friends to age. He enjoys playtime with his fellow oldies.",
-    lore: "[[Lucas]] came to the rescue from a loving home. His playmates had passed and the owner wanted him to have ferret friends so he wouldn't be lonely.",
+      "Lucas is a rescue ferret of Snails House. He came from a loving home, where he lost his friends to age. He enjoys playtime with his fellow oldies.",
+    lore: "Lucas came to the rescue from a loving home. His playmates had passed, and the owner wanted him to have ferret friends so he wouldn't be lonely. He is sweet and playfull.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/OutstandingFamousNigiriCoolCat-SutvhO8wgElVao4s",
@@ -2682,8 +2691,10 @@ Loki loved to stash toys, regardless of their size.`,
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Lucky is a rescue ferret of Snail's House. He is super playful, loves play fighting with everyone (even [[Henry]]!), and thoroughly enjoys digging in snow. The vacuum is his ultimate nemesis.",
-    lore: "Lucky was surrendered to the rescue by a pet store along with his fellow cage mates [[Pickle]] and [[Spud]] because the store was opting out of selling ferrets.",
+      "Lucky is a rescue ferret of Snails House. He is super playful, and he loves play fighting with everyone (even [[Henry]])! He thoroughly enjoys digging in snow. The vacuum is his ultimate nemesis.",
+    lore: `Lucky was surrendered to the rescue by a pet store, along with his fellow cage mates [[Pickle]] and [[Spud]] because the store was opting out of selling ferrets. 
+
+For fun, Shaye allows the ferrets to impart wisdom upon the community. Lucky typed "lin l0llll".`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CuriousRacyGoblinSoonerLater-cXzjjop9oYbObjlJ",
@@ -2708,6 +2719,23 @@ Loki loved to stash toys, regardless of their size.`,
     ],
     merch: null,
   },
+  lulu: {
+    name: "Lulu",
+    wikipage: "Lulu",
+    aliases: [],
+    commands: ["lulu"],
+    sex: "Female",
+    birth: null,
+    birthday: null,
+    arrival: "2025-11-16",
+    valhalla: null,
+    playgroup: "solo",
+    summary:
+      "Lulu is a rescue ferret of Snail's House. Noodle joined the rescue with [[Noodle]].",
+    lore: "Lulu came with [[Noodle]] from a loving home who could no longer take care of them.",
+    clips: [],
+    merch: null,
+  },
   luna: {
     name: "Luna",
     wikipage: "Luna",
@@ -2720,7 +2748,7 @@ Loki loved to stash toys, regardless of their size.`,
     valhalla: "2025-10-17",
     playgroup: "valhalla",
     summary:
-      "Luna was a rescue ferret of Snail's House. She frequently enjoyed the rice box and was a total sweetheart who enjoyed snuggling with all the ferrets, even [[Henry]]. While she came in with her cagemate [[Odin]], she went on to reside with the oldies.",
+      "Luna was a rescue ferret of Snails House. She frequently enjoyed the rice box and was a total sweetheart who enjoyed snuggling with all the ferrets, even [[Henry]]. While she came in with her cagemate [[Odin]], she went on to reside with the oldies.",
     lore: "Luna arrived by a local surrender at 7 years old with fellow cagemate [[Odin]]. She sometimes liked to have sleepovers in the babies cage.",
     clips: [
       {
@@ -2834,16 +2862,24 @@ Loki loved to stash toys, regardless of their size.`,
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Mai Tai is a rescue ferret of Snail's House. She is very playful with her fellow friends and loves snuggling and playing with her human caretakers. She is a champagne colored ferret with red eyes.",
-    lore: "Came to the rescue together with [[Kahlua]], [[Mimosa]], [[Scotch]] and [[Whiskey]]. Due to their names also known as the alcohol crew.",
+      "Mai Tai is a rescue ferret of Snails House. She is very playful with her fellow friends. She loves snuggling and playing with her human caretakers. She is a champagne-colored ferret with red eyes.",
+    lore: "Mai Tai came to the rescue together with [[Kahlua]], [[Mimosa]], [[Scotch]] and [[Whiskey]]. Due to their names, they are also known as the alcohol crew.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AntediluvianTsundereShallotNerfRedBlaster-CTBAt_SVlyoUxZuc",
         caption: "Nibbling Shaye",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ExpensiveTrappedWombatFeelsBadMan-KgP03MwYoVvyrB4C",
+        caption: "Mai Tai gets shaye cuddles",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/ObliqueSourMooseSwiftRage-l5iM317IyKVMkAK7",
         caption: "Mai Tai Introduction",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TawdryKindMoonArsonNoSexy-mzZXhK9lHH4jbT_n",
+        caption: "Nova presents: Mai Tai!",
       },
     ],
     merch: null,
@@ -2860,14 +2896,12 @@ Loki loved to stash toys, regardless of their size.`,
     valhalla: null,
     playgroup: "m",
     summary:
-      "Maisy is a rescue ferret of Snail's House. She loves to stash all the toys! She came to the rescue with behavioral issues.",
-    lore: `Maisy was surrendered by a pet store because she was biting the attendants. After about two months of training she is now a nice little lady.
+      "Maisy is a rescue ferret of Snails House. She loves to stash all the toys! She came to the rescue with behavioral issues.",
+    lore: `Maisy was surrendered by a pet store because she was biting the attendants. After about two months of training, she is now a nice little lady.
 
 When she was first introduced to the business, she did not mesh well with a few of the youngest ferrets and lived alone for a bit. After [[Big Mike]] cleared quarantine, the two of them became the best of buddies. After a while, [[Milo]] was then added to their playgroup, transforming M&M to M3.
 
-Maisy is a HUGE serial stasher of toys, and loves to chase her friends through the tubes.
-
-*Please note, pet stores will return ferrets with behavioral issues to Marshalls for replacement ferrets.`,
+Maisy is a HUGE serial stasher of toys, and loves to chase her friends through the tubes.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/YawningWonderfulDeerBCouch-JQre3JG_zj6SbpBL",
@@ -2917,8 +2951,8 @@ Maisy is a HUGE serial stasher of toys, and loves to chase her friends through t
     playgroup: "valhalla",
     summary: "Category:Ferrets lacking intro",
     lore: `Max was surrendered to Shaye through their work clinic. His owner couldn't manage medication around their schooling schedule, so the rescue took him in, giving him an extra 5-6 months of life. * Max is a great example of surrendering a pet for the pet's best interest.
-Even at his age he loved playing with the other ferrets
-At about the age of 10 his body started to fail him so he had to be let go.`,
+Even at an older age, he loved playing with the other ferrets
+At about the age of 10, his body started to fail him, so he had to be let go.`,
     clips: [
       {
         url: "https://www.twitch.tv/piratesoftware/clip/FairComfortableChickpeaSoBayed-pV92kmeiiPJ4rnBn",
@@ -2943,10 +2977,8 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
     valhalla: null,
     playgroup: "m",
     summary:
-      "Milo is a rescue ferret of Snail's House. He came to the rescue due to serious behavioral issues. After months of rehabilitation, he loves bouncing around the playroom with his buddies.",
-    lore: `Milo was originally surrendered from a pet store due to behavioral issues. Shaye spent lots of time rehabilitating these issues so he can have a good life with the rest of the rescue and workers.
-
-*Please note, pet stores will return ferrets with behavioral issues to Marshalls for replacement ferrets.`,
+      "Milo is a rescue ferret of Snails House. He came to the rescue due to serious behavioral issues. After months of rehabilitation, he loves bouncing around the playroom with his buddies.",
+    lore: "Milo was originally surrendered from a pet store due to behavioral issues. Shaye spent lots of time rehabilitating these issues so that he can have a good life with the rest of the rescue and workers.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlueHungryMeatloafGOWSkull-gV43d0yac8cOj47q",
@@ -2999,8 +3031,8 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Mimosa is a rescue ferret of Snail's House. She is super playful with the other ferrets and enjoys noseballing the circular ball toy. She is a champagne color.",
-    lore: "Came to the rescue together with [[Kahlua]], [[Mai Tai]], [[Scotch]] and [[Whiskey]]. Due to their names also known as the alcohol crew. She is classified as a champagne colored ferret.",
+      "Mimosa is a rescue ferret of Snails House. She is super playful with the other ferrets and enjoys noseballing the circular ball toy. She is classified as a champagne-colored ferret.",
+    lore: "Mimosa came to the rescue together with [[Kahlua]], [[Mai Tai]], [[Scotch]] and [[Whiskey]]. Due to their names, they are also known as the alcohol crew.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BigSpinelessPelicanFUNgineer-UvcJ7jiWLnFGYRWJ",
@@ -3037,7 +3069,7 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
     valhalla: "2025-09-14",
     playgroup: "valhalla",
     summary:
-      "Mishka was a rescue ferret of Snail's House. She was super energetic and loves to play with other ferrets. She also really enjoyed stashing toys.",
+      "Mishka was a rescue ferret of Snails House. She was super energetic and loved to play with other ferrets. She also really enjoyed stashing toys.",
     lore: "Mishka was surrendered by a loving family at about 2 years old. She was spunky, liked to bite, and had a big personality.",
     clips: [
       {
@@ -3083,7 +3115,7 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Mistoffelees is a rescue ferret of Snail's House. He came here with his roommate, [[Demeter]]. He enjoys making floor kibble by unscrewing the food dish. You can easily identify him due to his unique face mask and four white paws.",
+      "Mistoffelees is a rescue ferret of Snails House. He came here with his roommate, [[Demeter]]. He enjoys making floor kibble by unscrewing the food dish. He has a unique face mask and four white paws.",
     lore: "Mistoffelees joined the rescue together with [[Demeter]]. They were surrendered because the owners felt they could no longer provide adequate care.",
     clips: [
       {
@@ -3173,10 +3205,12 @@ At about the age of 10 his body started to fail him so he had to be let go.`,
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Mocha is a rescue ferret of Snail's House. He's one of the business's most flexible and chill ferrets as he can be out with the oldies and the rambunctious babies. His stealth skills have far surpassed everyone in the rescue.",
-    lore: `Mocha is currently one of the largest ferrets at Snail's House 
+      "Mocha is a rescue ferret of Snails House. He's one of the business's most flexible and chill ferrets because he can be out with the oldies and the rambunctious babies. His stealth skills have far surpassed everyone in the rescue.",
+    lore: `Mocha is currently one of the largest ferrets at Snails House 
 
-While mocha primarly bunks with genpop, he will visit his oldie friends from time to time for a sleepover due to his calm personality but primarly sleeps with genpop acting as a pillow for the cuddle piles that form. During playtimes Mocha frequently sleeps in various parts of the room, however he tends to be active and play with the younger ferret groups when they're out at the same time. One of his frequent playtime tactics is to crawl into a tube and stop in the middle or the ends of it, then attempt to defend the path and block other ferrets from getting in.`,
+While Mocha primarily bunks with genpop, he will visit his oldie friends from time to time for a sleepover due to his calm personality. He primarily sleeps with genpop, acting as a pillow for the cuddle puddles that form. During playtimes, Mocha frequently sleeps in various parts of the room. However, he tends to be active and play with the younger ferret groups when they're out at the same time. One of his frequent playtime tactics is to crawl into a tube and stop in the middle or the ends of it, then attempt to defend the path and block other ferrets from getting in.  Chat in the stream and discord have taken to calling this tunnel jousting or tunnel wars.
+
+Mocha recently won a photo ferret calendar contest. He featured as the cover photo to of the r/ferrets, (found on Discord and reddit), 4th Edition Calendar. The proceeds of this calendar reportedly went to a ferret shelter in need. Love to all ferrets.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/DignifiedCulturedPhoneBigBrother-w55-MScAZNBbF7wa",
@@ -3381,7 +3415,7 @@ While mocha primarly bunks with genpop, he will visit his oldie friends from tim
     valhalla: null,
     playgroup: "pms",
     summary:
-      "Moose is a rescue ferret of Snail's House. He enjoys the ball pit and loves to playfight with his friends, [[Salt]] and [[Pepper]].",
+      "Moose is a rescue ferret of Snails House. He enjoys the ball pit and loves to playfight with his friends, [[Salt]] and [[Pepper]].",
     lore: "Moose is a part of the 5 ferrets who were found abandoned in an unlocked shed by the Humane Society. They then reached out to the rescue for assistance. Moose came to the rescue with [[Badger]], [[Peepo]], [[Pepper]], and [[Salt]]",
     clips: [
       {
@@ -3431,10 +3465,12 @@ While mocha primarly bunks with genpop, he will visit his oldie friends from tim
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Mouse is a rescue ferret of Snail's House. She is easy to identify during babies playtime as she is all white. Her favorite thing is uppies from the human caretakers and she is the acting Queen of the business.",
-    lore: `Mouse was surrendered to the rescue by her previous owner because of "behavioral issues". She is as we call it a "Waardy". She is as the original ferretposting post said: "Deaf as a doornail". 
+      "Mouse is a rescue ferret of Snails House. She has a rarer all-white coat pattern. Her favorite thing is uppies from the human caretakers, and she is the acting Queen of the business.",
+    lore: `Mouse was surrendered to the rescue by her previous owner because of "behavioral issues". She is, as we call it, a "Waardy", (further explained below). She is, as the original ferretposting post said, "Deaf as a doornail". 
 
-Thor is Mouse's favorite, and Thor has admitted that Mouse is his favorite.`,
+Thor is Mouse's favorite, and Thor has admitted that Mouse is his favorite.   
+
+For fun, Shaye allows the ferrets to impart wisdom upon the community. Mouse typed "MLG" and "Phr60 CD or was rt t gn bkir".`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/TubularFunZucchiniVoteNay-yKO9WEtKZ_UkK0oE",
@@ -3587,7 +3623,7 @@ Thor is Mouse's favorite, and Thor has admitted that Mouse is his favorite.`,
     valhalla: "2025-10-08",
     playgroup: "valhalla",
     summary:
-      "Moxie was a rescue ferret of Snail's House. She was a low key and chill oldie who could be identified during playtime by her bottle brush tail.",
+      "Moxie was a rescue ferret of Snails House. She was a low key and chill oldie. She had a bottle brush tail.",
     lore: `After the passing of her crewmate, [[Bandit]], she was frequently seen with [[Eddie]]. (Per Shaye during playtime).
 She had also taken a liking to [[Henry]] and loved being his cuddle buddy.
 
@@ -3668,7 +3704,7 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
     valhalla: null,
     playgroup: "vons",
     summary:
-      "Nacho is a rescue ferret of Snail's House. He came to the rescue with his sister [[Salsa]] and enjoys playing with his friends [[Vincent]] and [[Onion]].",
+      "Nacho is a rescue ferret of Snails House. He came to the rescue with his sister [[Salsa]] and enjoys playing with his friends [[Vincent]] and [[Onion]].",
     lore: "Nacho came to the rescue with his sister [[Salsa]]. They were surrendered by their owners to the rescue.",
     clips: [
       {
@@ -3710,8 +3746,8 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
     valhalla: null,
     playgroup: "k",
     summary:
-      "Nameko is a ferret of snails house. She joined together with [[Enoki]].",
-    lore: "Nameko is a very chatty lady and dooks quite a lot. Being very curious, she likes to climb and explore everywhere she can.",
+      "Nameko is a ferret of Snails House. She joined together with [[Enoki]].",
+    lore: 'Nameko is a very chatty lady and dooks quite a lot. Being very curious, she likes to climb and explore everywhere she can. Nameko and Enoki\'s names were inspired by mushrooms.  Commonly and lovingly referred to by chat as "Boots with the Fur" because upon entry, she is bare except for her feet, neck, and head.',
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AnnoyingToughFoxBrainSlug-U0agCZml-X7wxSC7",
@@ -3726,6 +3762,10 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
         caption: "Enoki and Nameko playing in the toy basket",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BraveLittleJayDatBoi-SfCI8ao56HDqBfk_",
+        caption: "Nameko plays with the ball!",
+      },
+      {
         url: "Nameko_dooking.mp4",
         caption: "Nameko Dooking",
       },
@@ -3734,6 +3774,47 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
         caption: "Nameko amplified Dooking",
       },
     ],
+    merch: null,
+  },
+  nemo: {
+    name: "Nemo",
+    wikipage: "Nemo",
+    aliases: [],
+    commands: ["nemo"],
+    sex: "Male",
+    birth: "2025-08-30",
+    birthday: "08-30",
+    arrival: "2025-11-29",
+    valhalla: null,
+    playgroup: "solo",
+    summary:
+      "Nemo is a rescue ferret of Snail's House. He is a spunky, fast, rambunctious little guy who loves playtime. He came to the rescue as a medical surrender.",
+    lore: `Nemo came to Snails House at 2 months old after being found at a pet store with an injury. With the support and resources of the rescue, Nemo was able to receive life saving treatment, ultimately resulting in amputation.
+
+Now a three legged ferret, he isn't letting his missing limb slow him down. He's a wild and rambunctious baby who loves playtime, especially adventuring through tubes, and rough-and-tumble sessions with pals like [[Pickle]] and [[Snowberry]]. His bold energy and fearless spirit already makes him a beloved member of the rescue.`,
+    clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SincereMoldyPelicanEleGiggle-4OdgVS90V5CSjiVo",
+        caption: "Nemo's very first tube!!",
+      },
+    ],
+    merch: null,
+  },
+  noodle: {
+    name: "Noodle",
+    wikipage: "Noodle",
+    aliases: [],
+    commands: ["noodle"],
+    sex: "Female",
+    birth: null,
+    birthday: null,
+    arrival: "2025-11-16",
+    valhalla: null,
+    playgroup: "solo",
+    summary:
+      "Noodle is a rescue ferret of Snail's House. Noodle joined the rescue with [[Lulu]].",
+    lore: "Noodle came with [[Lulu]] from a loving home who could no longer take care of them.",
+    clips: [],
     merch: null,
   },
   odin: {
@@ -3748,7 +3829,7 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
     valhalla: null,
     playgroup: "oldies",
     summary:
-      "Odin is a rescue ferret of Snail's House. He is a grumpy old guy who enjoys the quiet side of life during playtime. He came to the rescue with his cagemate [[Luna]] at the time.",
+      "Odin is a rescue ferret of Snails House. He is a grumpy old guy who enjoys the quiet side of life during playtime. He came to the rescue with his cagemate [[Luna]].",
     lore: "Odin arrived as a local surrender at 7 years old with fellow cagemate [[Luna]].",
     clips: [
       {
@@ -3802,13 +3883,11 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
     valhalla: null,
     playgroup: "vons",
     summary:
-      "Onion is a ferret of Snail's House. She is known for her climbing skills and attempts to escape from the play area. She often pen-tests the Gate and finds new ways to climb over it.",
-    lore: `Onion was found on a rural road near where Thor and Shaye live by their neighbours.Their neighbours contacted them and she has been safe in Snails House ever since.
+      "Onion is a ferret of Snails House. Onion was found on a rural road near where Thor and Shaye live by their neighbors. Their neighbors contacted them, and she has been safe in Snails House ever since.",
+    lore: `She is best known for her escape attempts. She often tests the gates and boundaries, and often, she finds ways over them.  talking about Onions escape attempts.]]
+Onion is known for her high intelligence, she has managed to escape from the enclosed area on many occasions. Onion will not be contained! Even as a young ferret, she managed to escape her actual cage/enclosure through slats under the bottom pan.
 
- talking about Onions escape attempts.]]
-Onion is known for her high intelligence, she has managed to escape from the enclosed area on many occasion. Onion will not be contained! Even as a young ferret, she managed to escape her actual cage/enclosure through slats under the bottom pan.
-
-When Onion first came to the rescue, she was obsessed and imprinted on [[Beans]]. This eventually changed due to Beans' ear crimes and now she has playtime with [[Vincent|Vinny]], [[Nacho]], and [[Salsa]].`,
+When Onion first came to the rescue, she was obsessed and imprinted on [[Beans]]. This eventually changed due to Beans' ear crimes, and now she has playtime with [[Vincent|Vinny]], [[Nacho]], and [[Salsa]].`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/SpunkyDeafLeopardLitty-k-QPAJaZcVNaVTnZ",
@@ -3835,6 +3914,10 @@ When Onion first came to the rescue, she was obsessed and imprinted on [[Beans]]
         caption: "Onion escape via tv part 2 13/10/24",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/DarlingWiseParrotDeIlluminati-4W70U4YsSQ6AOGGX",
+        caption: "Nova presents: Onion!",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/DrabThankfulBoarStrawBeary-HLYbvro5E5DTRdGH",
         caption: "Frog pillow conveniently placed",
       },
@@ -3853,6 +3936,10 @@ When Onion first came to the rescue, she was obsessed and imprinted on [[Beans]]
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/GrossTiredPastaOptimizePrime-_oxWeeHUN-dL6_6Q",
         caption: "Onion escape via tv part 1 13/10/24",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/HandsomeDifferentWolfStoneLightning-bPjH1k1Xligfo77m",
+        caption: "Onion shows Nova some noseball tricks",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/PerfectTastyCockroachYouDontSay-LdUTNrY7RMLP0Yuu",
@@ -3909,10 +3996,8 @@ When Onion first came to the rescue, she was obsessed and imprinted on [[Beans]]
     valhalla: null,
     playgroup: "genpop",
     summary:
-      'Peanut is a rescue ferret of Snail\'s House. She came to the rescue with her siblings [[Cashew]] and [[Hazelnut]]. She is known for having a heart shaped white blaze on her head and lots of energy. She truly enjoys chasing her "Uncle" [[Beans]] during playtime.',
-    lore: `Peanut was adopted from a pet store with [[Cashew]] and [[Hazelnut]] as part of the "Nut Gang".  Peanut has Waardenburg Syndrome  and is partially deaf, as well as many behavioral issues. She was sold and returned multiple times due to these behavioral issues before the rescue acquired her.
-
-*Please note, pet stores will return ferrets with behavioral issues to Marshalls for replacement ferrets.`,
+      'Peanut is a rescue ferret of Snails House. She came to the rescue with her siblings [[Cashew]] and [[Hazelnut]]. She is known for having a heart shaped white blaze on her head and lots of energy. She truly enjoys chasing her "Uncle" [[Beans]] during playtime.',
+    lore: 'Peanut was adopted from a pet store with [[Cashew]] and [[Hazelnut]] as part of the "Nut Gang".  Peanut has Waardenburg Syndrome   causing her to be partially deaf, as well as many behavioral issues. She was sold and returned multiple times due to these behavioral issues before the rescue acquired her.',
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BitterWanderingKuduPraiseIt-5nLC6p4jAjXKpEfN",
@@ -4057,8 +4142,8 @@ When Onion first came to the rescue, she was obsessed and imprinted on [[Beans]]
     valhalla: "2025-09-12",
     playgroup: "valhalla",
     summary:
-      "Peanut 2 was a rescue ferret of Snail's House. She came to the rescue with her cagemate [[Bagel]] and really enjoys her company. She was an older and very chill ferret who really enjoyed snuggles.",
-    lore: `Peanut 2 came to the rescue together with [[Bagel]]. They were surrendered in love by their owners due to age and existing health conditions.
+      "Peanut 2 was a rescue ferret of Snails House. She came to the rescue with her cagemate [[Bagel]] and really enjoyed her company. She was an older and very chill ferret who really enjoyed snuggles.",
+    lore: `Peanut 2 came to the rescue together with [[Bagel]]. They were surrendered by loving owners due to age and existing health conditions.
 
 She came to the rescue with her favourite toy rabbit and loved stashing it not very well all around the room.`,
     clips: [
@@ -4113,7 +4198,7 @@ She came to the rescue with her favourite toy rabbit and loved stashing it not v
     valhalla: "2025-10-31",
     playgroup: "valhalla",
     summary:
-      "Peepo is a rescue ferret of Snail's House. She is a sweet older lady who came to the rescue with [[Badger]], [[Moose]], [[Pepper]], and [[Salt]]. She enjoys finding hiding spots in the playroom to hide from the caretakers and is easily identified during playtime by her shorter tail and small size.",
+      "Peepo is a rescue ferret of Snails House. She is a sweet older lady who came to the rescue with [[Badger]], [[Moose]], [[Pepper]], and [[Salt]]. She enjoyed finding hiding spots in the playroom to hide from the caretakers. She had a shorter tail and was small size.",
     lore: "Peepo is a part of the 5 ferrets who were found abandoned in an unlocked shed by the Humane Society. They then reached out to the rescue for assistance. Peepo came to the rescue with [[Badger]],[[Moose]], [[Pepper]], and [[Salt]]",
     clips: [
       {
@@ -4203,8 +4288,8 @@ She came to the rescue with her favourite toy rabbit and loved stashing it not v
     valhalla: null,
     playgroup: "pms",
     summary:
-      "Pepper is a rescue ferret of Snail's House. She came to the rescue with [[Badger]], [[Moose]], [[Peepo]], and [[Salt]]. She is a spunky ferret who enjoys playing noseball and loves doting on her human caretakers.",
-    lore: "Pepper is a part of the 5 ferrets who were found abandoned in an unlocked shed by the Humane Society. They then reached out to the rescue for assistance. Pepper came to the rescue with [[Badger]], [[Moose]], [[Peepo]], and [[Salt]]",
+      "Pepper is a rescue ferret of Snails House. She came to the rescue with [[Badger]], [[Moose]], [[Peepo]], and [[Salt]]. She is a spunky ferret who enjoys playing noseball and loves doting on her human caretakers.",
+    lore: "Pepper is a part of the 5 ferrets who were found abandoned in an unlocked shed by the Humane Society. They then reached out to the rescue for assistance. Pepper came to the rescue with [[Badger]], [[Moose]], [[Peepo]], and [[Salt]].",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CuteSneakyClipsmomUnSane-niQuMxtbWDa53NmP",
@@ -4361,10 +4446,10 @@ She came to the rescue with her favourite toy rabbit and loved stashing it not v
     valhalla: "2025-11-01",
     playgroup: "valhalla",
     summary:
-      "Pepper 2 is a rescue ferret of Snail's House. He came from a loving home who could no longer care for him and his mates [[Skye]], [[Snowball]] and [[Salt 2]].",
+      "Pepper 2 was a rescue ferret of Snails House. He came from a loving home [who could no longer care for him] with his mates [[Skye]], [[Snowball]] and [[Salt 2]].",
     lore: `Pepper 2 joined the rescue together with [[Skye]], [[Snowball]] and [[Salt 2]]. 
 
-After the passing of some of his fellow cagemates, he has been spending time with the oldies playgroup and enjoys [[Peanut 2]] and [[Bagel]]'s company.`,
+After the passing of some of his fellow cagemates, he had been spending time with the oldies playgroup and enjoyed [[Peanut 2]] and [[Bagel]]'s company.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CooperativePolishedOwlKippa-niOIsg5TczIENeoo",
@@ -4401,10 +4486,10 @@ After the passing of some of his fellow cagemates, he has been spending time wit
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Pickle is a rescue ferret of Snail's House. He is a super playful ferret of the babies and loves wardancing with everyone. He is the origin story for the yarrBongo and yarrGrass emotes.",
-    lore: `Pickle was surrendered to the rescue by a pet store along with his bonded friend [[Spud]] and fellow cage mate [[Lucky]] because the store was opting out of selling ferrets. He has Waardenburg and is completely deaf. Waardenburg syndrome can cause deafness and behavioral issues in ferrets. Cage mate ferrets can develop similar behavioral issues due to this style of play within their cage. 
+      "Pickle is a rescue ferret of Snails House. He is a super playful ferret of the babies and loves wardancing with everyone. He is the origin story for the yarrBongo and yarrGrass emotes.",
+    lore: `Pickle was surrendered to the rescue by a pet store,  along with his bonded friend [[Spud]] and fellow cage mate [[Lucky]] because the store was opting out of selling ferrets. He has Waardenburg and is completely deaf. Waardenburg syndrome can cause deafness and behavioral issues in ferrets. Cage mate ferrets can develop similar behavioral issues due to this style of play within their cage. 
 
-*Please note, pet stores can return ferrets with behavioral issues to Marshalls.`,
+For fun, Shaye allows the ferrets to impart wisdom upon the community. Pickle typed "3bf", and "Zfa".`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CoyVainGullRalpherZ-nSSyvQ1H9Wv7zVGx",
@@ -4750,8 +4835,8 @@ That is not a weakness. That is life.`,
     valhalla: null,
     playgroup: "solo",
     summary:
-      "Roxy is a rescue ferret of Snail's House. She came to the rescue with her roommate [[Kylo]].",
-    lore: "Roxy came to the rescue as a roommate surrender for her friend [[Kylo]].",
+      "Roxy is a rescue ferret of Snails House. She came to the rescue with her roommate [[Kylo]].",
+    lore: "Roxy came to the rescue as a roommate surrender with her friend [[Kylo]].",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BlightedTawdryEndiveBIRB-XdYmcdJcor23TrXy",
@@ -4780,8 +4865,8 @@ That is not a weakness. That is life.`,
     valhalla: null,
     playgroup: "rb",
     summary:
-      "Rusty is a rescue ferret of Snail's House. He is a spirited oldie who enjoys playing with others and loves stick chew treats.",
-    lore: "Rusty was alone and surrendered from the same owners as [[Mouse]]. While he's an oldie, he is still quite spirited and can tough it with some young ferrets as seen below.",
+      "Rusty is a rescue ferret of Snails House. He is a spirited oldie who enjoys playing with others and loves stick chew treats.",
+    lore: "Rusty was alone and surrendered from the same owners as [[Mouse]]. While he's an oldie, he is still quite spirited, playful, and can tough it with some young ferrets, as seen below in clips and photos.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/PoliteCleverKoalaRickroll-mAFUFm2XHUfI_XkK",
@@ -4846,8 +4931,8 @@ That is not a weakness. That is life.`,
     valhalla: null,
     playgroup: "kyosai",
     summary:
-      "Sai is a rescue ferret of Snail's House. She came to the rescue with her cage mate [[Kyo]].",
-    lore: "Sai came to the rescue together with [[Kyo]]. During their first playtime(s) it was determined they didn't mesh well with the big group of gen pop, preferring each other's company. They get ample time in the big play room, as well as being Shaye's gaming buddies in Shaye's office.",
+      "Sai is a rescue ferret of Snails House. She came to the rescue with her cage mate [[Kyo]].",
+    lore: "Sai came to the rescue together with [[Kyo]]. During their first playtime(s) it was determined they didn't mesh well with the big group of gen pop, preferring each other's company. They get ample time in the big play room, as well as being Shaye's gaming buddies in Shaye's office. Sai is more chill than Kyo, and normally, she falls asleep long before Kyo is out of energy.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FaintNurturingAubergineUnSane-70apOYHNHAS1gqw6",
@@ -4900,7 +4985,7 @@ That is not a weakness. That is life.`,
     valhalla: null,
     playgroup: "vons",
     summary:
-      "Salsa is a rescue ferret of Snail's House. She came to the rescue with her brother, [[Nacho]] and enjoys playtime with [[Vincent|Vinny]] and [[Onion]].",
+      "Salsa is a rescue ferret of Snails House. She came to the rescue with her brother, [[Nacho]] and enjoys playtime with [[Vincent|Vinny]] and [[Onion]].",
     lore: "Salsa came to the rescue with her brother, [[Nacho]]. They were surrendered by their owners to the rescue.",
     clips: [
       {
@@ -4930,7 +5015,7 @@ That is not a weakness. That is life.`,
     valhalla: null,
     playgroup: "pms",
     summary:
-      "Salt is a rescue ferret of Snail's House. She came from the local Humane Society with [[Badger]], [[Moose]], [[Peepo]], and [[Pepper]]. She is a very spirited and spicy ferret who loves to play with Moose and Pepper. She is most noticeable by her all white coat with a black-tipped tail.",
+      "Salt is a rescue ferret of Snails House. She came from the local Humane Society with [[Badger]], [[Moose]], [[Peepo]], and [[Pepper]]. She is a very spirited and spicy ferret who loves to play with Moose and Pepper. She has an interesting coat pattern of an all-white coat with a black-tipped tail.",
     lore: `Salt is a part of the 5 ferrets who were found abandoned in an unlocked shed by the Humane Society. They then reached out to the rescue for assistance. Salt came to the rescue with [[Badger]], [[Moose]], [[Peepo]], and [[Pepper]].
 
 Shaye has decided (in jest) that Salt's government name is actually Saltine, so at least then the color matches.`,
@@ -5047,8 +5132,8 @@ Shaye has decided (in jest) that Salt's government name is actually Saltine, so 
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Scotch is a rescue ferret of Snail's House. He came from a loving home who could no longer care for him with his cagemates [[Kahlua]], [[Mai Tai]], [[Mimosa]] and [[Whiskey]]. He loves to be super rowdy and playful.",
-    lore: "Came to the rescue together with [[Kahlua]], [[Mai Tai]], [[Mimosa]] and [[Whiskey]]. Due to their names also known as the alcohol crew.",
+      "Scotch is a rescue ferret of Snails House. He came from a loving home who could no longer care for him with his cagemates [[Kahlua]], [[Mai Tai]], [[Mimosa]] and [[Whiskey]]. He loves to be super rowdy and playful.",
+    lore: "Scotch came to the rescue together with [[Kahlua]], [[Mai Tai]], [[Mimosa]] and [[Whiskey]]. Due to their names, they are also known as the alcohol crew.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/DreamyUninterestedGarlicRedCoat-YIPRqYqCNoi75wPL",
@@ -5166,10 +5251,10 @@ Shaye has decided (in jest) that Salt's government name is actually Saltine, so 
     arrival: "2024-10-20",
     valhalla: "2025-04-05",
     playgroup: "valhalla",
-    summary: "Snowball was a rescue ferret of Snail's House.",
+    summary: "Snowball was a rescue ferret of Snails House.",
     lore: `Snowball joined the rescue together with [[Skye]], [[Salt 2]] and [[Pepper 2]].
 
-Snowball is an Albino`,
+Snowball was an Albino`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/OnerousStormyTurnipOSkomodo-jJ8KE_WL29cVc6yU",
@@ -5197,18 +5282,18 @@ Snowball is an Albino`,
   snowberry: {
     name: "Snowberry",
     wikipage: "Snowberry",
-    aliases: [],
+    aliases: ["Snooby, Snowbear"],
     commands: ["snowberry"],
     sex: "Female",
     birth: null,
     birthday: null,
     arrival: "2025-10-04",
     valhalla: null,
-    playgroup: "solo",
+    playgroup: "oldies",
     summary:
-      "Snowberry is a rescue ferret of snails house. She came to the rescue with a leg injury, and despite this injury and ongoing recovery, she has proved to be an avid explorer who enjoys making new friends.",
-    lore: `Snowberry came to the rescue after being found at a remote park with a leg injury by a concerned couple who also gave her the name she now carries. Upon examination by the vet it was It was determined that her leg itself was fine but the right side of her pelvis had suffered a compound fracture, the cause of which is unknown.
-She was prescribed 6-8 weeks of rest and pain management and is making good strides in her recovery. She's very active and loves to explore the big room, she also seems very fond [[Henry]] and [[Teep]].`,
+      "Snowberry is a rescue ferret of Snails House. She came to the rescue with a leg injury. Despite this injury and ongoing recovery, she is walking better and has proved to be an avid explorer who enjoys making new friends.",
+    lore: `Snowberry came to the rescue after being found at a remote park with a leg injury. She was found by a concerned couple, who also gave her the name she now carries. Upon examination by the vet, it was determined that her leg was fine, but the right side of her pelvis had suffered a compound fracture. The cause of the fracture is unknown.
+She was prescribed 6-8 weeks of rest and pain management, and is making good strides in her recovery. She's very active and loves to explore the big room. She also seems very fond of [[Henry]] and [[Teep]]. She recently has been spotted cuddling with Lucas, and enjoys time within the Oldies group. Cheese and Jaz are her main snuggle buddies.`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/PoliteDifficultTeaWTRuck-auGfMN8AN2wFsTEC",
@@ -5249,7 +5334,7 @@ She was prescribed 6-8 weeks of rest and pain management and is making good stri
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Spud is a rescue ferret of Snail's House. He came to the rescue with his bonded friend [[Pickle]] and fellow cage mate [[Lucky]]. He loves to wrestle with Pickle, who loves him too much to fight back.",
+      "Spud is a rescue ferret of Snails House. He came to the rescue with his bonded friend [[Pickle]] and fellow cage mate [[Lucky]]. He loves to wrestle with Pickle, who loves him too much to fight back.",
     lore: "Spud was surrendered to the rescue by a pet store along with his bonded friend [[Pickle]] and fellow cage mate [[Lucky]] because the store was opting out of selling ferrets.",
     clips: [
       {
@@ -5271,8 +5356,8 @@ She was prescribed 6-8 weeks of rest and pain management and is making good stri
     valhalla: null,
     playgroup: "oldies",
     summary:
-      "Teep is a rescue ferret of Snail's House. She came to the rescue with her cagemate [[Bruce]]. She enjoys enforcing the rules of the playroom, strongly. (Which is to have fun, of course!)",
-    lore: `Teep came to the rescue with [[Bruce]] from a loving home. They were surrendered due to needed senior care the rescue could provide.
+      "Teep is a rescue ferret of Snails House. She came to the rescue from a loving home with her cagemate [[Bruce]]. They were surrendered due to needed senior care the rescue could provide.",
+    lore: `She enjoys enforcing the rules of the playroom, strongly. (Which is to have fun, of course!)
 
 Teep affectionately earned the nickname "Officer Teep" when she chose to ride [[Henry]] like a horsey.`,
     clips: [
@@ -5347,8 +5432,8 @@ Teep affectionately earned the nickname "Officer Teep" when she chose to ride [[
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Thelma is a rescue ferret of Snail's House. She came to the rescue with her cagemate [[Louise]]. She is super playful and loves to climb her human caretakers for snuggles.",
-    lore: "Thelma joined the rescue together with [[Louise]]. They came to the rescue as surrenders from the state of California.",
+      "Thelma is a rescue ferret of Snails House. She came to the rescue with her sister [[Louise]]. She is super playful and loves to climb her human caretakers for snuggles.",
+    lore: "Thelma joined the rescue together with her sister, [[Louise]]. They came to the rescue as surrenders from the state of California.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AdventurousInexpensiveAsteriskMau5-s0en0kqlUPGZjnax",
@@ -5369,10 +5454,8 @@ Teep affectionately earned the nickname "Officer Teep" when she chose to ride [[
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Toby is a rescue ferret of Snail's House. He was a solo medical surrender from a pet store. He is very playful and loves to chase and be chased during playtime.",
-    lore: `Toby came to the rescue as a pet store surrender as an alternative to euthanasia due to medical attention that was needed. After a month of antibiotics and treatment, the rescue was able to avoid amputating an infected toe. 
-
-*Please note, pet stores will return ferrets with behavioral/medical issues to Marshalls for replacement ferrets.`,
+      "Toby is a rescue ferret of Snails House. He was a solo medical surrender from a pet store.",
+    lore: "He is very playful and loves to chase and be chased during playtime.",
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FastBeautifulPigeonLitFam-LBrwGMPzqTFicphq",
@@ -5389,6 +5472,10 @@ Teep affectionately earned the nickname "Officer Teep" when she chose to ride [[
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AnnoyingRamshackleHareItsBoshyTime-b_8wK8eV0Q2bM9gj",
         caption: "Wardancing",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/MoldyCuriousDragonMcaT-3-gk-8pvxDsQFsO1",
+        caption: "Nova presents: Toby",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/MuddyVainPuddingStoneLightning-4_kzeJl6_k923sCK",
@@ -5429,10 +5516,10 @@ Teep affectionately earned the nickname "Officer Teep" when she chose to ride [[
     valhalla: "2025-10-31",
     playgroup: "valhalla",
     summary:
-      "Torch is a rescue ferret of Snail's House. He was surrendered to the rescue from a loving home in Montana. While he is a super playful and bouncy ferret, he truly loves getting snuggles with his human caretakers.",
-    lore: `Torch was adopted from Montana and looks like a healthy and well looked after ferret. 
+      "Torch is a rescue ferret of Snails House. He was surrendered to the rescue from a loving home in Montana. While he was a super playful and bouncy ferret, he truly loved getting snuggles with his human caretakers.",
+    lore: `Torch was adopted from Montana and looked like a healthy and well looked after ferret. 
 
-Torch is 6 years old and per his previous owner: "Torch tried to take down a newborn baby goat once like an apex predator"`,
+Torch was 6 years old and per his previous owner: "Torch tried to take down a newborn baby goat once like an apex predator"`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/AgreeableFaintBeeKappaWealth-OCw5ydzKb9d3VEVW",
@@ -5593,18 +5680,20 @@ Torch is 6 years old and per his previous owner: "Torch tried to take down a new
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Tortilla is a rescue ferret of Snail's House. He was surrendered by a loving family as a solo ferret. He is a very clever ferret, who when left to his own devices will start climbing things for adventures!",
+      "Tortilla is a rescue ferret of Snails House. He was surrendered by a loving family as a solo ferret. He is a very clever ferret, who (when left to his own devices) will start climbing things for adventures!",
     lore: `Tortilla came to the rescue from a loving family as a surrender due to life circumstances beyond the owners control. Because he can sometimes get bored easily, he will often times try to climb things he shouldn't. He is always confused as to why his plans for adventure get foiled by the human caretakers.
 
-He was the 7th ferret to join the rescue (yarr7).`,
+He was the 7th ferret to join the rescue (yarr7).
+
+For fun, Shaye allows the ferrets to impart wisdom upon the community. Tortilla typed "All 😍".`,
     clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FitRelatedBaconCharlieBitMe-iNUpFLyr_radAF6q",
+        caption: "Tortilla and Chili Attempt Climb",
+      },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/BenevolentKnottyPancakeTheTarFu-aCO80-Q1vqTS27Tf",
         caption: "No climbing for you",
-      },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/BitterWittyNarwhalFloof-MKJ-yPrLEYvVyRBP",
-        caption: "Tito Climbs Babies Cage 8/24/2024",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/CrepuscularBreakableWebLitFam-hU54HDmLCgNErRqz",
@@ -5622,10 +5711,6 @@ He was the 7th ferret to join the rescue (yarr7).`,
         url: "https://www.twitch.tv/piratesoftware/clip/EphemeralOnerousLyrebirdBuddhaBar-pnQFxi8J62q6xwZW",
         caption: "Tortilla on Thor stream",
       },
-      {
-        url: "https://www.twitch.tv/ferretsoftware/clip/FitRelatedBaconCharlieBitMe-iNUpFLyr_radAF6q",
-        caption: "Tortilla and Chili Attempt Climb",
-      },
     ],
     merch: null,
   },
@@ -5641,7 +5726,7 @@ He was the 7th ferret to join the rescue (yarr7).`,
     valhalla: null,
     playgroup: "vons",
     summary:
-      "Vincent is a rescue ferret of Snail's House. He came to the rescue as an owner surrender due to medical needs. He now enjoys playtime with his friends [[Onion]], [[Nacho]], and [[Salsa]]. He is super active and playful with his friends. He is easy to identify during playtime by his small white blaze on his head, his white paws, and his dark red eyes.",
+      "Vincent is a rescue ferret of Snails House. He came to the rescue as an owner surrender due to medical needs. He now enjoys playtime with his friends [[Onion]], [[Nacho]], and [[Salsa]]. He is super active and playful with his friends. His coat pattern and eye color is a rarer combination of a white blaze on his head, white paws, and dark red eyes.",
     lore: "Vinny's origin story is quite grim and caused Thor to consume a pumpkin pie with his bare hands in the middle of the night at a USPS parking lot. * He is missing one of his ears, which caused Shaye to name him after Vincent Van Gogh. This is also because he is bonded to Shaye because of his Waardenburg Syndrome.",
     clips: [
       {
@@ -5727,8 +5812,10 @@ He was the 7th ferret to join the rescue (yarr7).`,
     valhalla: null,
     playgroup: "genpop",
     summary:
-      "Whiskey is a rescue ferret of Snail's House. He came to the rescue with his friends [[Kahlua]], [[Mai Tai]], [[Mimosa]] and [[Scotch]]. He is a super active ferret who loves the play toys and enjoys stashing them.",
-    lore: "Came to the rescue together with [[Kahlua]], [[Mai Tai]], [[Mimosa]] and [[Scotch]] from a loving home. Their owner had to give them up due to life circumstances. Due to their names, they are also known as the alcohol crew.",
+      "Whiskey is a rescue ferret of Snails House. He came to the rescue with his friends [[Kahlua]], [[Mai Tai]], [[Mimosa]] and [[Scotch]]. He is a super active ferret who loves to play with toys and enjoys stashing them.",
+    lore: `Came to the rescue together with [[Kahlua]], [[Mai Tai]], [[Mimosa]] and [[Scotch]] from a loving home. Their owner had to give them up due to life circumstances. Due to their names, they are also known as the alcohol crew.
+
+For fun, Shaye allows the ferrets to impart wisdom upon the ccommunity. Whiskey typed "((o.o)".`,
     clips: [
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ArtisticComfortableYakinikuTheThing-wU4aeXcA7RZkFXR5",
