@@ -2,6 +2,7 @@ import { z } from "zod";
 
 import { isFerretKey, type FerretKey } from "./core";
 
+import ashMugshot from "../assets/ferrets/ash/mugshot.png";
 import badgerMugshot from "../assets/ferrets/badger/mugshot.png";
 import bagelMugshot from "../assets/ferrets/bagel/mugshot.png";
 import bananaMugshot from "../assets/ferrets/banana/mugshot.png";
@@ -26,6 +27,7 @@ import henryMugshot from "../assets/ferrets/henry/mugshot.png";
 import jackMugshot from "../assets/ferrets/jack/mugshot.png";
 import jasmineMugshot from "../assets/ferrets/jasmine/mugshot.png";
 import jinxMugshot from "../assets/ferrets/jinx/mugshot.png";
+import juniperMugshot from "../assets/ferrets/juniper/mugshot.png";
 import kahluaMugshot from "../assets/ferrets/kahlua/mugshot.png";
 import kittyMugshot from "../assets/ferrets/kitty/mugshot.png";
 import kyloMugshot from "../assets/ferrets/kylo/mugshot.png";
@@ -61,8 +63,10 @@ import pepperMugshot from "../assets/ferrets/pepper/mugshot.png";
 import pepper2Mugshot from "../assets/ferrets/pepper2/mugshot.png";
 import pickleMugshot from "../assets/ferrets/pickle/mugshot.png";
 import roseMugshot from "../assets/ferrets/rose/mugshot.png";
+import rowanMugshot from "../assets/ferrets/rowan/mugshot.png";
 import roxyMugshot from "../assets/ferrets/roxy/mugshot.png";
 import rustyMugshot from "../assets/ferrets/rusty/mugshot.png";
+import ryeMugshot from "../assets/ferrets/rye/mugshot.png";
 import saiMugshot from "../assets/ferrets/sai/mugshot.png";
 import salsaMugshot from "../assets/ferrets/salsa/mugshot.png";
 import saltMugshot from "../assets/ferrets/salt/mugshot.png";
@@ -136,6 +140,10 @@ export const getFerretImages = ((ferret: FerretKey | string) => {
 const ferretMugshots: {
   [key in FerretKey]: FerretImage;
 } = {
+  ash: {
+    src: ashMugshot,
+    alt: "Mugshot of Ash",
+  },
   badger: {
     src: badgerMugshot,
     alt: "Mugshot of Badger",
@@ -231,6 +239,10 @@ const ferretMugshots: {
   jinx: {
     src: jinxMugshot,
     alt: "Mugshot of Jinx",
+  },
+  juniper: {
+    src: juniperMugshot,
+    alt: "Mugshot of Juniper",
   },
   kahlua: {
     src: kahluaMugshot,
@@ -372,6 +384,10 @@ const ferretMugshots: {
     src: roseMugshot,
     alt: "Mugshot of Rose",
   },
+  rowan: {
+    src: rowanMugshot,
+    alt: "Mugshot of Rowan",
+  },
   roxy: {
     src: roxyMugshot,
     alt: "Mugshot of Roxy",
@@ -379,6 +395,10 @@ const ferretMugshots: {
   rusty: {
     src: rustyMugshot,
     alt: "Mugshot of Rusty",
+  },
+  rye: {
+    src: ryeMugshot,
+    alt: "Mugshot of Rye",
   },
   sai: {
     src: saiMugshot,

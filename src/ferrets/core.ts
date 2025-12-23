@@ -40,6 +40,28 @@ export const ferretSchema = z.object({
 export type Ferret = z.infer<typeof ferretSchema>;
 
 const ferrets = {
+  ash: {
+    name: "Ash",
+    wikipage: "Ash",
+    aliases: [],
+    commands: ["ash"],
+    sex: "Female",
+    birth: null,
+    birthday: null,
+    arrival: "2025-12-01",
+    valhalla: null,
+    playgroup: "oldies",
+    summary:
+      "Ash is a rescue ferret of Snails House. Ash came to the rescue with [[Rowan]], [[Juniper]] and [[Rye]].",
+    lore: "Ash came with [[Rowan]], [[Juniper]] and [[Rye]] from a very loving home in which life circumstances had unfortunately changed, so they came to Snails House.",
+    clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FitArtisticKumquatPhilosoraptor-_MC-EB3wSCKcpbCe",
+        caption: "Rowan, Rye, Ash and Juniper explore the playroom",
+      },
+    ],
+    merch: null,
+  },
   badger: {
     name: "Badger",
     wikipage: "Badger",
@@ -1500,7 +1522,7 @@ She is a sassy old lady and dooks alot.`,
     playgroup: "valhalla",
     summary:
       "Ghost was a rescue ferret of Snails House. She was one of the few solo play time ferrets who prefers the company of her human caretakers.",
-    lore: `Ghost was rescued from a family, which sadly hadn't taken care of her properly, which caused her to be aggressive to other animals. Shaye tried to integrate her a couple of times with other ferrets; sadly, without success. In the old house, she had a seperate cage in the same room as the other ferrets. In the new house she got a cage in Shaye's office. To make sure she got enough interaction, she had solo playtime with either Shaye or Thor. It was revealed that Ghost's original name was Strawberry and has was changed, as the name did not fit.
+    lore: `Ghost was rescued from a family, which sadly hadn't taken care of her properly, this caused her to be aggressive towards other animals. Shaye tried to integrate her a couple of times with other ferrets; unfortunately, without success. In the old house, she had a seperate cage in the same room as the other ferrets. In the new house she got her own cage in Shaye's office. To ensure she got enough interaction, she had solo playtime with either Shaye or Thor. It was revealed that Ghost's original name was Strawberry, it was changed as the name did not fit.
 
 Thor explaining Ghost's situation in short: Link`,
     clips: [
@@ -2160,6 +2182,10 @@ Jack is a Blaze ferret and roans out. Roaning out means that with each shed, he 
         url: "https://www.twitch.tv/ferretsoftware/clip/ToughKitschyTitanBudStar-j71fIyaqXN5H7S1p",
         caption: "Kitty and Jasmine share a stikk",
       },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SmokyAnnoyingPandaYee-ZoqaD5XObZEOGcOd",
+        caption: "Rye says hi to Jasmine",
+      },
     ],
     merch: null,
   },
@@ -2204,6 +2230,36 @@ For fun, Shaye allows the ferrets to impart wisdom upon the community. Jinx type
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/TenderPluckyHornetBCWarrior-e6D6lQ1pgOHlvM8S",
         caption: "Jinx wants to play with Grandpa",
+      },
+    ],
+    merch: null,
+  },
+  juniper: {
+    name: "Juniper",
+    wikipage: "Juniper",
+    aliases: [],
+    commands: ["juniper"],
+    sex: "Female",
+    birth: null,
+    birthday: null,
+    arrival: "2025-12-01",
+    valhalla: null,
+    playgroup: "oldies",
+    summary:
+      "Juniper is a rescue ferret of Snails House. Juniper came to the rescue with [[Ash]], [[Rowan]] and [[Rye]].",
+    lore: "Juniper came with [[Ash]], [[Rowan]] and [[Rye]] from a very loving home in which life circumstances had unfortunately changed, so they came to Snails House.",
+    clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FitArtisticKumquatPhilosoraptor-_MC-EB3wSCKcpbCe",
+        caption: "Rowan, Rye, Ash and Juniper explore the playroom",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/AwkwardWimpyLardCopyThis-P82auEx3-ad_0UZS",
+        caption: "Juniper blends into the ball pit",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SpotlessDepressedFriesTBTacoLeft-pfz0dEkiddoXJMjM",
+        caption: "Rowan and Juniper play in the ball pit",
       },
     ],
     merch: null,
@@ -2731,7 +2787,7 @@ For fun, Shaye allows the ferrets to impart wisdom upon the community. Lucky typ
     valhalla: null,
     playgroup: "solo",
     summary:
-      "Lulu is a rescue ferret of Snail's House. Noodle joined the rescue with [[Noodle]].",
+      "Lulu is a rescue ferret of Snail's House. Lulu joined the rescue with [[Noodle]].",
     lore: "Lulu came with [[Noodle]] from a loving home who could no longer take care of them.",
     clips: [],
     merch: null,
@@ -2870,12 +2926,24 @@ For fun, Shaye allows the ferrets to impart wisdom upon the community. Lucky typ
         caption: "Nibbling Shaye",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/BrainyVastHerringVoteYea-dnYknSxxf7cYYH0L",
+        caption: "Mai Tai takes a dip in the ball pit!",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/ExpensiveTrappedWombatFeelsBadMan-KgP03MwYoVvyrB4C",
         caption: "Mai Tai gets shaye cuddles",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ObliqueSourMooseSwiftRage-l5iM317IyKVMkAK7",
         caption: "Mai Tai Introduction",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/PeacefulHilariousMonkeyPogChamp-AtN9wwGnl1o2BM1y",
+        caption: "Mai Tai shows us her moves",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SmallLivelyConsoleTheRinger-4BcU01_u2NHVwo1p",
+        caption: "Mai Tai conquers mt. Shaye",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/TawdryKindMoonArsonNoSexy-mzZXhK9lHH4jbT_n",
@@ -4823,6 +4891,40 @@ That is not a weakness. That is life.`,
     clips: [],
     merch: null,
   },
+  rowan: {
+    name: "Rowan",
+    wikipage: "Rowan",
+    aliases: [],
+    commands: ["rowan"],
+    sex: "Male",
+    birth: null,
+    birthday: null,
+    arrival: "2025-12-01",
+    valhalla: null,
+    playgroup: "oldies",
+    summary:
+      "Rowan is a rescue ferret of Snails House. Rowan came to the rescue with [[Ash]], [[Juniper]] and [[Rye]]",
+    lore: "Rowan came with [[Ash]], [[Juniper]] and [[Rye]] from a very loving home in which life circumstances had unfortunately changed, so they came to Snails House.",
+    clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FitArtisticKumquatPhilosoraptor-_MC-EB3wSCKcpbCe",
+        caption: "Rowan, Rye, Ash and Juniper explore the playroom",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SpotlessDepressedFriesTBTacoLeft-pfz0dEkiddoXJMjM",
+        caption: "Rowan and Juniper play in the ball pit",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/GeniusCreativeTurnipAsianGlow-VR2-0bIw0aYMqw5k",
+        caption: "Rowan says erm no photos thank you",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SuccessfulStylishCheetahGingerPower-u_TWhOQqEuZyPwHF",
+        caption: "Rowan big toobing",
+      },
+    ],
+    merch: null,
+  },
   roxy: {
     name: "Roxy",
     wikipage: "Roxy",
@@ -4915,6 +5017,32 @@ That is not a weakness. That is life.`,
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/DeliciousRelentlessNikudonTBTacoLeft-sjdUh0DlkDgCRCvi",
         caption: "Rusty and Latte Battle",
+      },
+    ],
+    merch: null,
+  },
+  rye: {
+    name: "Rye",
+    wikipage: "Rye",
+    aliases: [],
+    commands: ["rye"],
+    sex: "Male",
+    birth: null,
+    birthday: null,
+    arrival: "2025-12-01",
+    valhalla: null,
+    playgroup: "oldies",
+    summary:
+      "Rye is a rescue ferret of Snails House. Rye came to the rescue with [[Ash]], [[Rowan]] and [[Juniper]].",
+    lore: "Rye came with [[Ash]], [[Rowan]] and [[Juniper]] from a very loving home in which life circumstances had unfortunately changed, so they came to Snails House.",
+    clips: [
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/FitArtisticKumquatPhilosoraptor-_MC-EB3wSCKcpbCe",
+        caption: "Rowan, Rye, Ash and Juniper explore the playroom",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SmokyAnnoyingPandaYee-ZoqaD5XObZEOGcOd",
+        caption: "Rye says hi to Jasmine",
       },
     ],
     merch: null,
