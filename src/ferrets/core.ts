@@ -1166,6 +1166,10 @@ For fun, Shaye allows the ferrets to impart wisdom upon the community. Demeter t
         caption: "Eddie extremely excited!",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/ShyHelplessBorkDeIlluminati-VfPID5SBRCS_hIQb",
+        caption: "Eddie close up!",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/ViscousWonderfulPoxPoooound-JmRVm93g_buM72Su",
         caption: "Couch is the beddie for Eddie",
       },
@@ -1451,6 +1455,23 @@ She is a sassy old lady and dooks alot.`,
     ],
     merch: null,
   },
+  finch: {
+    name: "Finch",
+    wikipage: "Finch",
+    aliases: [],
+    commands: ["finch"],
+    sex: "Male",
+    birth: null,
+    birthday: null,
+    arrival: "2025-12-27",
+    valhalla: null,
+    playgroup: "solo",
+    summary:
+      "Finch is a rescue ferret of Snails House. He is a sweet old man who came to the rescue with his cagemate [[Stinky]].",
+    lore: "Finch came to Snails House with his cagemate, [[Stinky]], as a medical surrender due to a cyst on his head. He is super sweet and enjoys cuddles.",
+    clips: [],
+    merch: null,
+  },
   finn: {
     name: "Finn",
     wikipage: "Finn",
@@ -1460,8 +1481,8 @@ She is a sassy old lady and dooks alot.`,
     birth: null,
     birthday: null,
     arrival: "2024-05-23",
-    valhalla: null,
-    playgroup: "solo",
+    valhalla: "2025-12-22",
+    playgroup: "valhalla",
     summary:
       "Finn is a rescue ferret of Snails House. While he sometimes struggles to make ferret friends, he really enjoys human snuggles and scritches. He came to the rescue with his friend [[Felix]].",
     lore: "Finn joined us together with his, at the time, naked friend [[Felix]]. They were in-state medical surrenders. For a while, the best way to identify Finn, was to see Felix with him. Finn was very protective of his best friend [[Felix]]. Finn was there when his best friend passed away. These days, Finn enjoys the solo life with his gaming buddy, Shaye.",
@@ -2007,6 +2028,10 @@ These days, Hazel can be seen bopping around playtime with her general populatio
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/ThoughtfulJoyousBaboonPJSugar-AXekr4jrVGe5gLKG",
         caption: "Henry investigating Mouse",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SeductiveIcyLlamaRuleFive-x4Jy0gkHDVlN66gT",
+        caption: "Odin racing across the room. Henry cheering him on",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/TiredFlirtyParrotDogFace-08fee4mbdjra1n3k",
@@ -3649,6 +3674,10 @@ For fun, Shaye allows the ferrets to impart wisdom upon the community. Mouse typ
         caption: "Mouse demanding access to father",
       },
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/TriumphantSpineyCheddarRalpherZ-m6HX3ZkOodHOP9km",
+        caption: "Mouse is queen of the ballpit!",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/TubularAmazonianDunlinRitzMitz-xgbr0pZu3CI5wJ21",
         caption: "Its the circle of Mouse",
       },
@@ -3862,8 +3891,28 @@ Moxie had a blood sugar crash and the community watching the stream helped her b
 Now a three legged ferret, he isn't letting his missing limb slow him down. He's a wild and rambunctious baby who loves playtime, especially adventuring through tubes, and rough-and-tumble sessions with pals like [[Pickle]] and [[Snowberry]]. His bold energy and fearless spirit already makes him a beloved member of the rescue.`,
     clips: [
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/DoubtfulThoughtfulTortoiseNomNom-JltE2LSwEL4ZUIx5",
+        caption: "Nemo playing in the paperbin",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SeductiveLittleSushiPJSugar-G5wVuagNvUkBw2mO",
+        caption: "Nemo getting in and out of the ball pit",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/SincereMoldyPelicanEleGiggle-4OdgVS90V5CSjiVo",
         caption: "Nemo's very first tube!!",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SmellyOilyHerringJebaited-17-RjnT3EBury6uH",
+        caption: "Nemo being a paper monster",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SmokyFreezingTeaMrDestructoid-jjJBRPGKYNg24PTx",
+        caption: "Nemo close up",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/NaiveRespectfulWhaleNotLikeThis-gmdFmW7eV1J9tCjj",
+        caption: "Nemo bouncing around Pickle",
       },
     ],
     merch: null,
@@ -3901,6 +3950,10 @@ Now a three legged ferret, he isn't letting his missing limb slow him down. He's
     lore: "Odin arrived as a local surrender at 7 years old with fellow cagemate [[Luna]].",
     clips: [
       {
+        url: "https://www.twitch.tv/ferretsoftware/clip/SeductiveIcyLlamaRuleFive-x4Jy0gkHDVlN66gT",
+        caption: "Odin racing across the room. Henry cheering him on",
+      },
+      {
         url: "https://www.twitch.tv/ferretsoftware/clip/PlumpSingleLorisPicoMause-xvNnIw58hHr7_30v",
         caption: "Luna toob chase with Odin",
       },
@@ -3919,6 +3972,10 @@ Now a three legged ferret, he isn't letting his missing limb slow him down. He's
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/FlaccidKnottyCocoaBlargNaut-drzARLyfQizQogpv",
         caption: "Odin buldozering through the toys",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/HeartlessFriendlySharkItsBoshyTime-8XXgS1r_drZTB0f_",
+        caption: "Odin : This is my life now",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/InnocentKnottyLatteHoneyBadger-IFZM7WRnPUL0yHSe",
@@ -4610,6 +4667,10 @@ For fun, Shaye allows the ferrets to impart wisdom upon the community. Pickle ty
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/GeniusDrabToothOSfrog-CTCt1igvEzWZo50w",
         caption: "Pickle yeets Mouse off of the box",
+      },
+      {
+        url: "https://www.twitch.tv/ferretsoftware/clip/NaiveRespectfulWhaleNotLikeThis-gmdFmW7eV1J9tCjj",
+        caption: "Nemo bouncing around Pickle",
       },
       {
         url: "https://www.twitch.tv/ferretsoftware/clip/MistyCrispyHeronStoneLightning-B0YfgP5Znv6NkiVg",
@@ -5470,6 +5531,23 @@ She was prescribed 6-8 weeks of rest and pain management, and is making good str
         caption: "Spud yoinks Donut in Paper-Box",
       },
     ],
+    merch: null,
+  },
+  stinky: {
+    name: "Stinky",
+    wikipage: "Stinky",
+    aliases: [],
+    commands: ["stinky"],
+    sex: "Male",
+    birth: null,
+    birthday: null,
+    arrival: "2025-12-27",
+    valhalla: null,
+    playgroup: "solo",
+    summary:
+      "Stinky is a rescue ferret of Snails House. He is very sweet and came to the rescue with his friend [[Finch]].",
+    lore: "Stinky came to Snails House with his cagemate [[Finch]] as medical surrenders, He is super sweet and enjoy cuddles.",
+    clips: [],
     merch: null,
   },
   teep: {

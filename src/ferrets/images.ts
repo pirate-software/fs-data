@@ -20,6 +20,7 @@ import eddieMugshot from "../assets/ferrets/eddie/mugshot.png";
 import enokiMugshot from "../assets/ferrets/enoki/mugshot.png";
 import felixMugshot from "../assets/ferrets/felix/mugshot.png";
 import figMugshot from "../assets/ferrets/fig/mugshot.png";
+import finchMugshot from "../assets/ferrets/finch/mugshot.png";
 import finnMugshot from "../assets/ferrets/finn/mugshot.png";
 import ghostMugshot from "../assets/ferrets/ghost/mugshot.png";
 import hazelnutMugshot from "../assets/ferrets/hazelnut/mugshot.png";
@@ -77,6 +78,7 @@ import snailsMugshot from "../assets/ferrets/snails/mugshot.png";
 import snowballMugshot from "../assets/ferrets/snowball/mugshot.png";
 import snowberryMugshot from "../assets/ferrets/snowberry/mugshot.png";
 import spudMugshot from "../assets/ferrets/spud/mugshot.png";
+import stinkyMugshot from "../assets/ferrets/stinky/mugshot.png";
 import teepMugshot from "../assets/ferrets/teep/mugshot.png";
 import thelmaMugshot from "../assets/ferrets/thelma/mugshot.png";
 import tobyMugshot from "../assets/ferrets/toby/mugshot.png";
@@ -211,6 +213,10 @@ const ferretMugshots: {
   fig: {
     src: figMugshot,
     alt: "Mugshot of Fig",
+  },
+  finch: {
+    src: finchMugshot,
+    alt: "Mugshot of Finch",
   },
   finn: {
     src: finnMugshot,
@@ -439,6 +445,10 @@ const ferretMugshots: {
   spud: {
     src: spudMugshot,
     alt: "Mugshot of Spud",
+  },
+  stinky: {
+    src: stinkyMugshot,
+    alt: "Mugshot of Stinky",
   },
   teep: {
     src: teepMugshot,
