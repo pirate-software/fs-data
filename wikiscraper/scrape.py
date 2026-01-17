@@ -187,7 +187,7 @@ def replace_link(match: Match[str], ferrets:List) -> str:
 
 
 def de_wikitext(s: str, ferrets: List) -> str: # Wikitext to plain text
-    s = re.sub(r"\[\[File:.*?\]\]", "", s)  # Remove file links
+    s = re.sub(r"\[\[File:((\[\[((\[\[((\[\[.*?\]\])|.*?)*\]\])|.*?)*\]\])|.*?)*\]\]", "", s)  # Remove file links (support up to 3 tiers of nested links through a mega bs regex)
     s = re.sub(r"\[http[^\s]* ([^\]]+)\]", r"\1", s)  # Simplify external links
     s = re.sub(r"''+", "", s)  # Remove italics/bold
     s = re.sub(r"<ref.*?>.*?</ref>", "", s)  # Remove references

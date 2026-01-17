@@ -4009,7 +4009,7 @@ Now a three legged ferret, he isn't letting his missing limb slow him down. He's
     playgroup: "vons",
     summary:
       "Onion is a ferret of Snails House. Onion was found on a rural road near where Thor and Shaye live by their neighbors. Their neighbors contacted them, and she has been safe in Snails House ever since.",
-    lore: `She is best known for her escape attempts. She often tests the gates and boundaries, and often, she finds ways over them.  talking about Onions escape attempts.]]
+    lore: `She is best known for her escape attempts. She often tests the gates and boundaries, and often, she finds ways over them. 
 Onion is known for her high intelligence, she has managed to escape from the enclosed area on many occasions. Onion will not be contained! Even as a young ferret, she managed to escape her actual cage/enclosure through slats under the bottom pan.
 
 When Onion first came to the rescue, she was obsessed and imprinted on [[Beans]]. This eventually changed due to Beans' ear crimes, and now she has playtime with [[Vincent|Vinny]], [[Nacho]], and [[Salsa]].`,
