@@ -1227,7 +1227,7 @@ She is a sassy old lady and dooks alot.`,
     arrival: "2024-05-23",
     valhalla: "2024-09-17",
     playgroup: "valhalla",
-    summary: "Category:Ferrets lacking intro",
+    summary: "Felix was a rescue ferret of Snails House.",
     lore: "Felix joined us as a nekkid ferret and had a lot of fun with both [[Finn]] and his new friends. They were in-state medical surrenders. Sadly, his age and illness caught up with him. He passed with his best friend Finn by his side. Link",
     clips: [
       {
@@ -3042,7 +3042,7 @@ Maisy is a HUGE serial stasher of toys, and loves to chase her friends through t
     arrival: "2023-09-12",
     valhalla: "2023-12-26",
     playgroup: "valhalla",
-    summary: "Category:Ferrets lacking intro",
+    summary: "Max was a rescue ferret of Snails House.",
     lore: `Max was surrendered to Shaye through their work clinic. His owner couldn't manage medication around their schooling schedule, so the rescue took him in, giving him an extra 5-6 months of life. * Max is a great example of surrendering a pet for the pet's best interest.
 Even at an older age, he loved playing with the other ferrets
 At about the age of 10, his body started to fail him, so he had to be let go.`,
@@ -4898,7 +4898,7 @@ For fun, Shaye allows the ferrets to impart wisdom upon the community. Pickle ty
     arrival: "2024-01-07",
     valhalla: "2024-01-14",
     playgroup: "valhalla",
-    summary: "Category:Ferrets lacking intro",
+    summary: "Rose was a rescue ferret of Snails House.",
     lore: `Rose was one of the saddest cases the rescue had to deal with.
 
 
@@ -5291,7 +5291,7 @@ Shaye has decided (in jest) that Salt's government name is actually Saltine, so 
     arrival: "2024-10-20",
     valhalla: "2025-03-05",
     playgroup: "valhalla",
-    summary: "Category:Ferrets lacking intro",
+    summary: "Salt 2 was a rescue ferret of Snails House.",
     lore: "Salt 2 joined the rescue together with [[Skye]], [[Snowball]] and [[Pepper 2]]",
     clips: [
       {
@@ -5350,7 +5350,7 @@ Shaye has decided (in jest) that Salt's government name is actually Saltine, so 
     arrival: "2024-10-20",
     valhalla: "2025-01-28",
     playgroup: "valhalla",
-    summary: "Category:Ferrets lacking intro",
+    summary: "Skye was a rescue ferret of Snails House.",
     lore: "Skye joined the rescue together with [[Snowball]], [[Salt 2]] and [[Pepper 2]].",
     clips: [
       {
@@ -5399,7 +5399,7 @@ Shaye has decided (in jest) that Salt's government name is actually Saltine, so 
     arrival: "2019-07-31",
     valhalla: "2023-04-22",
     playgroup: "valhalla",
-    summary: "Category:Ferrets lacking intro",
+    summary: "Snails was a rescue ferret of Snails House.",
     lore: "Snails was a breeder lab animal for the University of Washington and had 2 litters of kits. She came to the rescue with [[Loki]] back in 2019. Her birthday was June 19th, 2018. She is the original first ferret of the business, along with Loki, and is who the rescue is aptly named after. She passed of a heart condition in her sleep.",
     clips: [
       {
@@ -6073,7 +6073,7 @@ For fun, Shaye allows the ferrets to impart wisdom upon the ccommunity. Whiskey 
     arrival: "2023-06-07",
     valhalla: "2024-07-02",
     playgroup: "valhalla",
-    summary: "Category:Ferrets lacking intro",
+    summary: "Zero was a rescue ferret of Snails House.",
     lore: "Zero was originally surrendered because his owner was unable to financially pursue treatment for his tumors, adrenal disease and insulinoma.",
     clips: [
       {

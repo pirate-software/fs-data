@@ -424,6 +424,9 @@ def generate_core_json(ferrets: list[dict]) -> None:
             y, m, d = valhalla.split("-")
             valhalla = f"{int(y):04d}-{int(m):02d}-{int(d):02d}"
 
+        if len(summary) < 100 and summary.endswith("lacking intro"):
+            summary = name + " " + ("is" if valhalla is None else "was") + " a rescue ferret of Snails House."
+
         commands = [name_nospace]
         if name_nospace[-1] == "s":
             commands.append(name_nospace[:-1]) # Allow mistakes of missing 's' at end
