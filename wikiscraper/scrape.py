@@ -153,9 +153,11 @@ PAGE_LORE_REGEX = re.compile(r"==\s*Lore\s*==\s*(.*?)\s*(?:==|$)", re.DOTALL)
 
 VALID_PLAYGROUPS = [
     "bepeepo",
+    "fs",
     "genpop",
     "kyosai",
     "k",
+    "luno",
     "m",
     "oldies",
     "pms",

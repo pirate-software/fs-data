@@ -12,6 +12,10 @@ const playgroups = {
     name: "BePeepo",
     description: "Badger and Peepo's playgroup.",
   },
+  fs: {
+    name: "F&S",
+    description: "Finch and Stinky's playgroup.",
+  },
   genpop: {
     name: "General Population",
     description:
@@ -24,6 +28,10 @@ const playgroups = {
   kyosai: {
     name: "Kyo & Sai",
     description: "Kyo and Sai's playgroup.",
+  },
+  luno: {
+    name: "LuNo",
+    description: "Lulu and Noodle's playgroup.",
   },
   m: {
     name: "M3",

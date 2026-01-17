@@ -1465,7 +1465,7 @@ She is a sassy old lady and dooks alot.`,
     birthday: null,
     arrival: "2025-12-27",
     valhalla: null,
-    playgroup: "solo",
+    playgroup: "fs",
     summary:
       "Finch is a rescue ferret of Snails House. He is a sweet old man who came to the rescue with his cagemate [[Stinky]].",
     lore: "Finch came to Snails House with his cagemate, [[Stinky]], as a medical surrender due to a cyst on his head. He is super sweet and enjoys cuddles.",
@@ -2810,7 +2810,7 @@ For fun, Shaye allows the ferrets to impart wisdom upon the community. Lucky typ
     birthday: null,
     arrival: "2025-11-16",
     valhalla: null,
-    playgroup: "solo",
+    playgroup: "luno",
     summary:
       "Lulu is a rescue ferret of Snail's House. Lulu joined the rescue with [[Noodle]].",
     lore: "Lulu came with [[Noodle]] from a loving home who could no longer take care of them.",
@@ -3927,7 +3927,7 @@ Now a three legged ferret, he isn't letting his missing limb slow him down. He's
     birthday: null,
     arrival: "2025-11-16",
     valhalla: null,
-    playgroup: "solo",
+    playgroup: "luno",
     summary:
       "Noodle is a rescue ferret of Snail's House. Noodle joined the rescue with [[Lulu]].",
     lore: "Noodle came with [[Lulu]] from a loving home who could no longer take care of them.",
@@ -5543,7 +5543,7 @@ She was prescribed 6-8 weeks of rest and pain management, and is making good str
     birthday: null,
     arrival: "2025-12-27",
     valhalla: null,
-    playgroup: "solo",
+    playgroup: "fs",
     summary:
       "Stinky is a rescue ferret of Snails House. He is very sweet and came to the rescue with his friend [[Finch]].",
     lore: "Stinky came to Snails House with his cagemate [[Finch]] as medical surrenders, He is super sweet and enjoy cuddles.",
