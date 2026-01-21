@@ -159,6 +159,7 @@ VALID_PLAYGROUPS = [
     "k",
     "luno",
     "m",
+    "ocarinaoftube",
     "oldies",
     "pms",
     "rb",

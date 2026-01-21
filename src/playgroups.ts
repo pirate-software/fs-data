@@ -37,6 +37,11 @@ const playgroups = {
     name: "M3",
     description: "Big Mike, Maisy, and Milo's playgroup.",
   },
+  ocarinaoftube: {
+    name: "Ocarina of Tube",
+    description:
+      "Group of seven Ferret sages who arrived together in January 2026.",
+  },
   oldies: {
     name: "Oldies",
     description:
