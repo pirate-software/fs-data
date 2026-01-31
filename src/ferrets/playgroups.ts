@@ -5,7 +5,7 @@ export const playgroupSchema = z.object({
   name: z.string(),
   tooltip: z.string(),
   description: z.string(),
-  image: imageSrcSchema.nullable(),
+  image: imageSrcSchema,
 });
 
 export type Playgroup = z.infer<typeof playgroupSchema>;
