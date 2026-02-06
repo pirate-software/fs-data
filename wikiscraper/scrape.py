@@ -437,6 +437,9 @@ def generate_core_json(ferrets: list[dict]) -> None:
             print(f"Unrecognised playgroup for {name}: {ferret['playgroup']}")
             playgroup = "solo"
 
+        if valhalla != None:
+            playgroup = "valhalla"
+
         ferret_data[name_nospace] = {
             "name": name,
             "wikipage": name_snake,

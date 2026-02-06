@@ -15,6 +15,7 @@ import cashewMugshot from "../assets/ferrets/cashew/mugshot.png";
 import cheeseMugshot from "../assets/ferrets/cheese/mugshot.png";
 import chiliMugshot from "../assets/ferrets/chili/mugshot.png";
 import cowboyMugshot from "../assets/ferrets/cowboy/mugshot.png";
+import daruniaMugshot from "../assets/ferrets/darunia/mugshot.png";
 import demeterMugshot from "../assets/ferrets/demeter/mugshot.png";
 import eddieMugshot from "../assets/ferrets/eddie/mugshot.png";
 import enokiMugshot from "../assets/ferrets/enoki/mugshot.png";
@@ -25,6 +26,7 @@ import finnMugshot from "../assets/ferrets/finn/mugshot.png";
 import ghostMugshot from "../assets/ferrets/ghost/mugshot.png";
 import hazelnutMugshot from "../assets/ferrets/hazelnut/mugshot.png";
 import henryMugshot from "../assets/ferrets/henry/mugshot.png";
+import impaMugshot from "../assets/ferrets/impa/mugshot.png";
 import jackMugshot from "../assets/ferrets/jack/mugshot.png";
 import jasmineMugshot from "../assets/ferrets/jasmine/mugshot.png";
 import jinxMugshot from "../assets/ferrets/jinx/mugshot.png";
@@ -51,6 +53,7 @@ import mochaMugshot from "../assets/ferrets/mocha/mugshot.png";
 import mooseMugshot from "../assets/ferrets/moose/mugshot.png";
 import mouseMugshot from "../assets/ferrets/mouse/mugshot.png";
 import moxieMugshot from "../assets/ferrets/moxie/mugshot.png";
+import nabooruMugshot from "../assets/ferrets/nabooru/mugshot.png";
 import nachoMugshot from "../assets/ferrets/nacho/mugshot.png";
 import namekoMugshot from "../assets/ferrets/nameko/mugshot.png";
 import nemoMugshot from "../assets/ferrets/nemo/mugshot.png";
@@ -63,15 +66,18 @@ import peepoMugshot from "../assets/ferrets/peepo/mugshot.png";
 import pepperMugshot from "../assets/ferrets/pepper/mugshot.png";
 import pepper2Mugshot from "../assets/ferrets/pepper2/mugshot.png";
 import pickleMugshot from "../assets/ferrets/pickle/mugshot.png";
+import rauruMugshot from "../assets/ferrets/rauru/mugshot.png";
 import roseMugshot from "../assets/ferrets/rose/mugshot.png";
 import rowanMugshot from "../assets/ferrets/rowan/mugshot.png";
 import roxyMugshot from "../assets/ferrets/roxy/mugshot.png";
 import rustyMugshot from "../assets/ferrets/rusty/mugshot.png";
+import rutoMugshot from "../assets/ferrets/ruto/mugshot.png";
 import ryeMugshot from "../assets/ferrets/rye/mugshot.png";
 import saiMugshot from "../assets/ferrets/sai/mugshot.png";
 import salsaMugshot from "../assets/ferrets/salsa/mugshot.png";
 import saltMugshot from "../assets/ferrets/salt/mugshot.png";
 import salt2Mugshot from "../assets/ferrets/salt2/mugshot.png";
+import sariaMugshot from "../assets/ferrets/saria/mugshot.png";
 import scotchMugshot from "../assets/ferrets/scotch/mugshot.png";
 import skyeMugshot from "../assets/ferrets/skye/mugshot.png";
 import snailsMugshot from "../assets/ferrets/snails/mugshot.png";
@@ -86,6 +92,7 @@ import torchMugshot from "../assets/ferrets/torch/mugshot.png";
 import tortillaMugshot from "../assets/ferrets/tortilla/mugshot.png";
 import vincentMugshot from "../assets/ferrets/vincent/mugshot.png";
 import whiskeyMugshot from "../assets/ferrets/whiskey/mugshot.png";
+import zeldaMugshot from "../assets/ferrets/zelda/mugshot.png";
 import zeroMugshot from "../assets/ferrets/zero/mugshot.png";
 
 type OneToNine = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
@@ -194,6 +201,10 @@ const ferretMugshots: {
     src: cowboyMugshot,
     alt: "Mugshot of Cowboy",
   },
+  darunia: {
+    src: daruniaMugshot,
+    alt: "Mugshot of Darunia",
+  },
   demeter: {
     src: demeterMugshot,
     alt: "Mugshot of Demeter",
@@ -233,6 +244,10 @@ const ferretMugshots: {
   henry: {
     src: henryMugshot,
     alt: "Mugshot of Henry",
+  },
+  impa: {
+    src: impaMugshot,
+    alt: "Mugshot of Impa",
   },
   jack: {
     src: jackMugshot,
@@ -338,6 +353,10 @@ const ferretMugshots: {
     src: moxieMugshot,
     alt: "Mugshot of Moxie",
   },
+  nabooru: {
+    src: nabooruMugshot,
+    alt: "Mugshot of Nabooru",
+  },
   nacho: {
     src: nachoMugshot,
     alt: "Mugshot of Nacho",
@@ -386,6 +405,10 @@ const ferretMugshots: {
     src: pickleMugshot,
     alt: "Mugshot of Pickle",
   },
+  rauru: {
+    src: rauruMugshot,
+    alt: "Mugshot of Rauru",
+  },
   rose: {
     src: roseMugshot,
     alt: "Mugshot of Rose",
@@ -401,6 +424,10 @@ const ferretMugshots: {
   rusty: {
     src: rustyMugshot,
     alt: "Mugshot of Rusty",
+  },
+  ruto: {
+    src: rutoMugshot,
+    alt: "Mugshot of Ruto",
   },
   rye: {
     src: ryeMugshot,
@@ -421,6 +448,10 @@ const ferretMugshots: {
   salt2: {
     src: salt2Mugshot,
     alt: "Mugshot of Salt 2",
+  },
+  saria: {
+    src: sariaMugshot,
+    alt: "Mugshot of Saria",
   },
   scotch: {
     src: scotchMugshot,
@@ -477,6 +508,10 @@ const ferretMugshots: {
   whiskey: {
     src: whiskeyMugshot,
     alt: "Mugshot of Whiskey",
+  },
+  zelda: {
+    src: zeldaMugshot,
+    alt: "Mugshot of Zelda",
   },
   zero: {
     src: zeroMugshot,
