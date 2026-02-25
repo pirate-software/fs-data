@@ -68,7 +68,8 @@ export default defineConfig(async () => ({
       .then((files) =>
         Promise.all(
           files.map(async (file) => {
-            const dest = file.replace(/^src\//, "build/");
+            const normalized = file.replace("\\", "/"); // fix for building on Windows
+            const dest = normalized.replace(/^src\//, "build/");
             await copyFile(file, dest);
             return dest;
           }),

@@ -24,7 +24,7 @@ export const ferretSchema = z.object({
       }),
     )
     .readonly(),
-  mugshot: imageSrcSchema.nullable(),
+  mugshot: imageSrcSchema.readonly(),
   images: z.array(imageSchema).readonly(),
   merch: z
     .array(
