@@ -42,4 +42,4 @@ export const birthdayStringSchema = z.custom<BirthdayString>(
   "must be a valid birthday string (MM-DD)",
 );
 
-export type Nullable<T> = T | null;
+export const pathSchema = z.string().regex(/^(\.{0,2}\/[a-z_\-\s0-9\.]+)+\/?$/);
