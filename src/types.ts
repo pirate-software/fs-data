@@ -43,3 +43,7 @@ export const birthdayStringSchema = z.custom<BirthdayString>(
 );
 
 export const pathSchema = z.string().regex(/^(\.{0,2}\/[a-z_\-\s0-9\.]+)+\/?$/);
+
+export const wikipageSchema = z
+  .string()
+  .regex(/^[a-zA-Z0-9\-._~:/?#\[\]@!$&'()*+,;=]+$/);

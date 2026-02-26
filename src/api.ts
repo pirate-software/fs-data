@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { ferretSchema } from "./ferrets/core";
+import { ferretSchema } from "./ferrets/ferrets";
 import { playgroupSchema } from "./ferrets/playgroups";
 
 export const SCHEMA_VERSION: number = 2 as const;

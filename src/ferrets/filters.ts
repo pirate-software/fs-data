@@ -1,4 +1,4 @@
-import { type Ferret } from "./core";
+import { type Ferret } from "./ferrets";
 
 export type FerretsData = Record<string, Ferret>;
 

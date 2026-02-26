@@ -1,8 +1,10 @@
 import { z } from "zod";
 import { imageSrcSchema } from "./images";
+import { wikipageSchema } from "../types";
 
 export const playgroupSchema = z.object({
   name: z.string(),
+  wikipage: wikipageSchema,
   tooltip: z.string(),
   description: z.string(),
   image: imageSrcSchema,

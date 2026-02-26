@@ -1,11 +1,15 @@
 import { z } from "zod";
 
-import { birthdayStringSchema, partialDateStringSchema } from "../types";
+import {
+  birthdayStringSchema,
+  partialDateStringSchema,
+  wikipageSchema,
+} from "../types";
 import { imageSchema, imageSrcSchema } from "./images";
 
 export const ferretSchema = z.object({
   name: z.string(),
-  wikipage: z.string().regex(/^[a-zA-Z0-9\-._~:/?#\[\]@!$&'()*+,;=]+$/),
+  wikipage: wikipageSchema,
   aliases: z.array(z.string()).readonly(),
   commands: z.array(z.string()).readonly(),
   sex: z.literal(["Male", "Female"]).nullable(),
