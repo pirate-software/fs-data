@@ -39,7 +39,7 @@ jobs:
 
     # We only tag on pushes to main, when the version has changed
     needs: check
-    if: ${{ github.ref == 'refs/heads/main' && needs.check.outputs.version != '' }}
+    if: ${{ ( github.ref == 'refs/heads/main' || github.ref == 'refs/heads/legacy' ) && needs.check.outputs.version != '' }}
 
     steps:
       - name: Checkout
@@ -96,7 +96,7 @@ jobs:
 
       # If this push wasn't to main, add the commit hash to the version
       - name: Update version
-        if: ${{ github.ref != 'refs/heads/main' }}
+        if: ${{ github.ref != 'refs/heads/main' && github.ref != 'refs/heads/legacy' }}
         run: |
           set -e -o pipefail
           CURRENT_VERSION=$(jq -r .version package.json)
@@ -107,7 +107,7 @@ jobs:
         run: npm run build
 
       - name: Publish package
-        run: npm publish --access public --tag ${{ github.ref == 'refs/heads/main' && 'latest' || 'pre' }}
+        run: npm publish --access public --tag ${{ (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/legacy' ) && 'latest' || 'pre' }}
 
       - name: Generate summary
         id: summary
@@ -137,7 +137,7 @@ jobs:
       
       - name: Get PR number
         id: pr
-        if: ${{ github.ref != 'refs/heads/main' }}
+        if: ${{ github.ref != 'refs/heads/main' && github.ref != 'refs/heads/legacy' }}
         run: |
           set -e -o pipefail
           PR_NUMBER=$(gh pr list --state open --json number,headRefName --jq ".[] | select(.headRefName == \"$REF_NAME\") | .number" || echo "")
