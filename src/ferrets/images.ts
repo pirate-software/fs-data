@@ -11,6 +11,8 @@ import beansMugshot from "../assets/ferrets/beans/mugshot.png";
 import beefMugshot from "../assets/ferrets/beef/mugshot.png";
 import bigmikeMugshot from "../assets/ferrets/bigmike/mugshot.png";
 import bruceMugshot from "../assets/ferrets/bruce/mugshot.png";
+import bubblesMugshot from "../assets/ferrets/bubbles/mugshot.png";
+import calypsoMugshot from "../assets/ferrets/calypso/mugshot.png";
 import cashewMugshot from "../assets/ferrets/cashew/mugshot.png";
 import cheeseMugshot from "../assets/ferrets/cheese/mugshot.png";
 import chiliMugshot from "../assets/ferrets/chili/mugshot.png";
@@ -19,12 +21,15 @@ import daruniaMugshot from "../assets/ferrets/darunia/mugshot.png";
 import demeterMugshot from "../assets/ferrets/demeter/mugshot.png";
 import eddieMugshot from "../assets/ferrets/eddie/mugshot.png";
 import enokiMugshot from "../assets/ferrets/enoki/mugshot.png";
+import evanderMugshot from "../assets/ferrets/evander/mugshot.png";
 import felixMugshot from "../assets/ferrets/felix/mugshot.png";
 import figMugshot from "../assets/ferrets/fig/mugshot.png";
 import finchMugshot from "../assets/ferrets/finch/mugshot.png";
 import finnMugshot from "../assets/ferrets/finn/mugshot.png";
+import georgeMugshot from "../assets/ferrets/george/mugshot.png";
 import ghostMugshot from "../assets/ferrets/ghost/mugshot.png";
 import hazelnutMugshot from "../assets/ferrets/hazelnut/mugshot.png";
+import hectorMugshot from "../assets/ferrets/hector/mugshot.png";
 import henryMugshot from "../assets/ferrets/henry/mugshot.png";
 import impaMugshot from "../assets/ferrets/impa/mugshot.png";
 import jackMugshot from "../assets/ferrets/jack/mugshot.png";
@@ -33,6 +38,7 @@ import jinxMugshot from "../assets/ferrets/jinx/mugshot.png";
 import juniperMugshot from "../assets/ferrets/juniper/mugshot.png";
 import kahluaMugshot from "../assets/ferrets/kahlua/mugshot.png";
 import kittyMugshot from "../assets/ferrets/kitty/mugshot.png";
+import kodaMugshot from "../assets/ferrets/koda/mugshot.png";
 import kyloMugshot from "../assets/ferrets/kylo/mugshot.png";
 import kyoMugshot from "../assets/ferrets/kyo/mugshot.png";
 import latteMugshot from "../assets/ferrets/latte/mugshot.png";
@@ -83,6 +89,7 @@ import skyeMugshot from "../assets/ferrets/skye/mugshot.png";
 import snailsMugshot from "../assets/ferrets/snails/mugshot.png";
 import snowballMugshot from "../assets/ferrets/snowball/mugshot.png";
 import snowberryMugshot from "../assets/ferrets/snowberry/mugshot.png";
+import sokkaMugshot from "../assets/ferrets/sokka/mugshot.png";
 import spudMugshot from "../assets/ferrets/spud/mugshot.png";
 import stinkyMugshot from "../assets/ferrets/stinky/mugshot.png";
 import teepMugshot from "../assets/ferrets/teep/mugshot.png";
@@ -90,6 +97,7 @@ import thelmaMugshot from "../assets/ferrets/thelma/mugshot.png";
 import tobyMugshot from "../assets/ferrets/toby/mugshot.png";
 import torchMugshot from "../assets/ferrets/torch/mugshot.png";
 import tortillaMugshot from "../assets/ferrets/tortilla/mugshot.png";
+import tuckerMugshot from "../assets/ferrets/tucker/mugshot.png";
 import vincentMugshot from "../assets/ferrets/vincent/mugshot.png";
 import whiskeyMugshot from "../assets/ferrets/whiskey/mugshot.png";
 import zeldaMugshot from "../assets/ferrets/zelda/mugshot.png";
@@ -185,6 +193,14 @@ const ferretMugshots: {
     src: bruceMugshot,
     alt: "Mugshot of Bruce",
   },
+  bubbles: {
+    src: bubblesMugshot,
+    alt: "Mugshot of Bubbles",
+  },
+  calypso: {
+    src: calypsoMugshot,
+    alt: "Mugshot of Calypso",
+  },
   cashew: {
     src: cashewMugshot,
     alt: "Mugshot of Cashew",
@@ -217,6 +233,10 @@ const ferretMugshots: {
     src: enokiMugshot,
     alt: "Mugshot of Enoki",
   },
+  evander: {
+    src: evanderMugshot,
+    alt: "Mugshot of Evander",
+  },
   felix: {
     src: felixMugshot,
     alt: "Mugshot of Felix",
@@ -233,6 +253,10 @@ const ferretMugshots: {
     src: finnMugshot,
     alt: "Mugshot of Finn",
   },
+  george: {
+    src: georgeMugshot,
+    alt: "Mugshot of George",
+  },
   ghost: {
     src: ghostMugshot,
     alt: "Mugshot of Ghost",
@@ -240,6 +264,10 @@ const ferretMugshots: {
   hazelnut: {
     src: hazelnutMugshot,
     alt: "Mugshot of Hazelnut",
+  },
+  hector: {
+    src: hectorMugshot,
+    alt: "Mugshot of Hector",
   },
   henry: {
     src: henryMugshot,
@@ -272,6 +300,10 @@ const ferretMugshots: {
   kitty: {
     src: kittyMugshot,
     alt: "Mugshot of Kitty",
+  },
+  koda: {
+    src: kodaMugshot,
+    alt: "Mugshot of Koda",
   },
   kylo: {
     src: kyloMugshot,
@@ -473,6 +505,10 @@ const ferretMugshots: {
     src: snowberryMugshot,
     alt: "Mugshot of Snowberry",
   },
+  sokka: {
+    src: sokkaMugshot,
+    alt: "Mugshot of Sokka",
+  },
   spud: {
     src: spudMugshot,
     alt: "Mugshot of Spud",
@@ -500,6 +536,10 @@ const ferretMugshots: {
   tortilla: {
     src: tortillaMugshot,
     alt: "Mugshot of Tortilla",
+  },
+  tucker: {
+    src: tuckerMugshot,
+    alt: "Mugshot of Tucker",
   },
   vincent: {
     src: vincentMugshot,

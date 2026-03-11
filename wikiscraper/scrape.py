@@ -458,17 +458,17 @@ def generate_core_json(ferrets: list[dict]) -> None:
         }
 
     # process clips
-    clips = get_clips_table()
-    for clip in clips:
-        ferret_names = [remove_spaces(f.strip()).lower() for f in clip["Ferrets"].strip().split(";")]
-        for ferret_name in ferret_names:
-            if ferret_name in ferret_data:
-                ferret_data[ferret_name]["clips"].append({
-                    "url": clip["Link"].strip(),
-                    "caption": de_wikitext(clip["Title"].strip(), []) # don't allow links
-                })
-            else:
-                print(f"Clip entry for unknown ferret: {ferret_name}")
+    # clips = get_clips_table()
+    # for clip in clips:
+    #     ferret_names = [remove_spaces(f.strip()).lower() for f in clip["Ferrets"].strip().split(";")]
+    #     for ferret_name in ferret_names:
+    #         if ferret_name in ferret_data:
+    #             ferret_data[ferret_name]["clips"].append({
+    #                 "url": clip["Link"].strip(),
+    #                 "caption": de_wikitext(clip["Title"].strip(), []) # don't allow links
+    #             })
+    #         else:
+    #             print(f"Clip entry for unknown ferret: {ferret_name}")
 
     # process merch
     with open("merch.json", "r", encoding="utf-8") as f:
