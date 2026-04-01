@@ -8,6 +8,7 @@ export const playgroupSchema = z.object({
   tooltip: z.string(),
   description: z.string(),
   image: imageSrcSchema,
+  commands: z.array(z.string()).readonly(),
 });
 
 export type Playgroup = z.infer<typeof playgroupSchema>;
